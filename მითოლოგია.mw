@@ -1,0 +1,812 @@
+<html>
+<head>
+<title>ქართული კარიბჭე Mamuli.Net</title>
+<meta name="copyright" content="Copyright (C) 2001-2004 Bruce Corkhill" />
+
+<!-- Web Wiz Forums ver. 7.9 is written and produced by Bruce Corkhill ©2001-2004
+     	If you want your own Forum then goto http://www.webwizforums.com -->
+
+<script language="JavaScript">
+function CheckForm() {
+	var errorMsg = '';
+
+	//Check for message
+	if (document.frmAddMessage.message.value==''){
+		errorMsg += '\n\tMessage \t\t- Enter a Message to post';
+	}
+
+	//If there is aproblem with the form then display an error
+	if (errorMsg != ''){
+		msg = '_______________________________________________________________\n\n';
+		msg += 'The form has not been submitted because there are problem(s) with the form.\n';
+		msg += 'Please correct the problem(s) and re-submit the form.\n';
+		msg += '_______________________________________________________________\n\n';
+		msg += 'The following field(s) need to be corrected: -\n';
+
+		errorMsg += alert(msg + errorMsg + '\n\n');
+		return false;
+	}
+
+	//Reset the submition action
+	document.frmAddMessage.action = 'post_message.asp?PN=1'
+	document.frmAddMessage.target = '_self';
+	return true;
+}
+</script><!-- ##### BPG -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<link rel="stylesheet" title="default_style" href="default1.css" type="text/css" />
+<script language="JavaScript" src="default1.js" type="text/javascript"></script>
+
+	<SCRIPT language=JavaScript src="milonic1.js" type=text/javascript></SCRIPT>
+	<script	language=JavaScript>
+	if(ns4)_d.write("<scr"+"ipt language=JavaScript src=http://chveni.mamuli.net:8989/portal/ge/forum/includes/soop/mmenuns4.js><\/scr"+"ipt>");		
+	  else _d.write("<scr"+"ipt language=JavaScript src=http://chveni.mamuli.net:8989/portal/ge/forum/includes/soop/mmenudom.js><\/scr"+"ipt>"); 
+	</script>
+	<script src="horizonv.js"></script>
+
+	<!-- ##### BPG -->
+	<script src="bpg_keyd.js"></script>
+
+	<SCRIPT language=JavaScript src="menu_dav.js" type=text/javascript></SCRIPT>
+
+<script>
+var myimages=new Array()
+function preloadimages(){
+	if (document.images){
+		for (i=0;i<preloadimages.arguments.length;i++){
+			myimages[i]=new Image()
+			myimages[i].src=preloadimages.arguments[i]
+		}
+	}
+}
+preloadimages("http://chveni.mamuli.net:8989/portal/ge/","http://chveni.mamuli.net:8989/portal/ge/","http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/table_bg_image.gif","http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/table_bg.gif","http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/logo.gif","http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/left-side-table-bg.gif","http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/right-side-table-bg.gif","http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/privatemessage.gif","http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/top-left.gif", "http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/top-right.gif","http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/top-bg.gif","http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/bottom-left.gif","http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/bottom-right.gif","http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/bottom-bg.gif")
+</script>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#EFF6DC" text="#000000" background="00000002.htm"> 
+<table width="98%" border="0" cellspacing="0" cellpadding="0" align="center" >
+<tr> 
+<td nowrap width="380" height="150"  style="background: url(http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/main-logo.jpg) no-repeat;" align="left"><a href="http://chveni.mamuli.net:8989/portal/ge/" target="_self"><img alt="]" src="spacer03.gif" border="0" height="150" width="100%" /></a></td>
+<td height="150" style="background: url(http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/header-bg.jpg);" ><img alt="]" src="header-e.jpg" height="150" /></td><td nowrap align="center" width="484" height="150" style="background: url(http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/add-logo.jpg ) no-repeat;"><script language="JavaScript" src="banner_u.js"></script></td>
+</tr>
+</table>
+<br /><div align="center">
+<script language="javascript" type="text/javascript">
+with(milonic=new menuname("Main Menu")){
+style=menuStyle;
+top=10;
+left=10;
+menualign="center";
+alwaysvisible=1;
+orientation="horizontal";
+position="relative";
+with(menuStyle){
+subimage="http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/arrow.gif";
+}
+aI("text=ႧႠႥႴႳႰႺႤႪႨ;url=http://chveni.mamuli.net:8989/portal/ge/default.asp;target=_self;");
+aI("text=ენა Language;showmenu=ენა Language;");
+aI("text=<b>ႱႠႨႧႤႡႨ</b>;showmenu=<b>ႱႠႨႧႤႡႨ</b>;");
+aI("text=<b>ႰႤႱႳႰႱႤႡႨ</b>;showmenu=<b>ႰႤႱႳႰႱႤႡႨ</b>;");
+aI("text=სტუმრების წიგნი;url=http://chveni.mamuli.net:8989/portal/ge/guestbook.asp;target=_self;");
+aI("text=რეგისტრირება;url=http://chveni.mamuli.net:8989/portal/ge/forum/registration_rules.asp;target=_self;");
+aI("text=შემოსვლა;url=http://chveni.mamuli.net:8989/portal/ge/forum/login_user.asp;target=_self;");
+}
+with(milonic=new menuname("<b>ႰႤႱႳႰႱႤႡႨ</b>")){
+style=menuStyle;
+aI("text=<b>ფორუმები<b>;url=http://chveni.mamuli.net:8989/portal/ge/forum/default.asp;target=_self;");
+aI("text=<b>ჩამოტვირთვები</b>;url=http://chveni.mamuli.net:8989/portal/ge/downloads.asp;target=_self;");
+aI("text=აქტიური თემები;url=http://chveni.mamuli.net:8989/portal/ge/forum/active_topics.asp?fid=0;target=_self;");
+aI("text=ძებნა;url=http://chveni.mamuli.net:8989/portal/ge/forum/search_form.asp?fid=0;target=_self;");
+aI("text=დახმარება;url=http://chveni.mamuli.net:8989/portal/ge/forum/help.asp?fid=0;target=_self;");
+aI("text=<b>კონვერტორები</b>;url=http://mamuli.net/edit/index.htm;target=_new;");
+}
+with(milonic=new menuname("ჩემი პორტალი")){
+style=menuStyle;
+}
+with(milonic=new menuname("Admin")){
+style=menuStyle;
+}
+with(milonic=new menuname("PageCreator")){
+style=menuStyle;
+}
+with(milonic=new menuname("ენა Language")){
+style=menuStyle;
+aI("text=ქართული;url=http://mamuli.net/portal/ge;target=_self;image=http://chveni.mamuli.net:8989/portal/ge//images/flags/ge.png;");
+aI("text=International (EN);url=http://bpg.sytes.net/portal/en;target=_self;image=http://chveni.mamuli.net:8989/portal/ge//images/flags/united_nations.gif;");
+}
+with(milonic=new menuname("<b>ႱႠႨႧႤႡႨ</b>")){
+style=menuStyle;
+aI("text=საითების შესახებ;url=http://chveni.mamuli.net:8989/portal/ge/page_display.asp?pid=4;target=_self;");
+aI("text=<b>BPG.Sytes.Net</b> სერვერი;url=http://bpg.sytes.net;target=_new;");
+aI("text=სახელოსნო „<b>ბპგ-ინფოტექ</b>“;url=http://bpg.sytes.net/bpg-infotech;target=_new;");
+aI("text=<b>ფონტები</b>ს საითი (1997);url=http://geocities.com/bpgfonts/;target=_new;");
+aI("text=სტუდია <b>„ექო“</b>;url=http://mamuli.net/echo/sppro/bpg/default.asp;target=_new;");
+aI("text=ქართული <b>სპორტი</b>;url=http://mamuli.net/sports/sppro/bpg/default.asp;target=_new;");
+aI("text=ქართული <b>მუსიკა</b>;url=http://mamuli.net/music/bpg/default.asp;target=_new;");
+aI("text=საითი <b>„შავლეგო“</b> (1996);url=http://geocities.com/shavlego/;target=_new;");
+aI("text=„ჩვენებურები“ <b>თურქეთი</b>დან;url=http://chveneburi.net/geoweb/;target=_new;");
+aI("text=„მაჭახელი“ <b>თურქეთი</b>დან ;url=http://macahel.net/sppro/bpg/default.asp;target=_new;");
+aI("text=ვიდეო არქივი „<b>სიმართლე</b>“;url=http://mamuli.net/simartle;target=_new;");
+aI("text=საითი „<b>ბახტრიონი</b>“;url=http://www.mamuli.net/bakhtrioni;target=_self;");
+aI("text=საითი „ჩვენი <b>აფხაზეთი</b>“;url=http://chveni.mamuli.net:8989/abkhazeti/bpg/default.asp;target=_new;");
+aI("text=ქართული ლექსიკონი;url=http://mamuli.net/lex/langutils/default.asp;target=_new;");
+aI("text=უფასო ვებ გვერდები;url=http://mamuli.net/hosting/default.asp;target=_new;");
+aI("text=უფასო განცხადებები;url=http://bpg.sytes.net/classifieds/bpg_classifieds.asp;target=_new;");
+aI("text=ფირმები, კომპანიები;url=http://bpg.sytes.net/classifieds/bpg_classifieds.asp?contract=5;target=_new;");
+aI("text=პირველი „კარიბჭე“ (2001);url=http://bpg.sytes.net/bpg/bpg_default.asp?catid=8;target=_new;");
+aI("text=პირველი პორტალი (2001);url=http://bpg.sytes.net/gecommerce/duhome/members.asp;target=_new;");
+}
+drawMenus();
+</script>
+</div>
+
+<a name="top"></a>
+<table width="100%" border="0" cellspacing="0" cellpadding="3" align="center"><tr>
+  <td align="left" class="heading">წერე, წერე, ჩემო ვარდენ</td>
+</tr>
+ <tr>
+  <td align="left" width="95%" class="bold"><img src="open_fom.gif" border="0" align="absmiddle">&nbsp;<a href="http://chveni.mamuli.net:8989/portal/ge/forum/default.asp" target="_self" class="boldLink">ქართული კარიბჭე Mamuli.Net</a> » <a href="http://chveni.mamuli.net:8989/portal/ge/forum/forum_topics.asp?FID=41&PN=1" target="_self" class="boldLink">წერე, წერე, ჩემო ვარდენ</a>
+</td>
+  <td align="right" width="5%">
+</td>
+ </tr>
+</table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="4" align="center">
+        <tr>
+         <td width="70%"><span class="lgText"><img src="subject0.gif" alt="თემა" align="absmiddle"> თემა: მითოლოგია</span>
+	</td>
+<td align="right"><a href="http://chveni.mamuli.net:8989/portal/ge/forum/edit_post.asp?M=R&FID=41"  target="_self"><img src="post_req.gif"  border="0" align="absmiddle" alt="ჩავწეროთ პასუხი"></a><a href="http://chveni.mamuli.net:8989/portal/ge/forum/post_message_form.asp?FID=41"  target="_self"><img src="new_posu.gif"  border="0" align="absmiddle" alt="ახალი თემა"></a>
+	</td>
+        </tr>
+      </table>
+    <table width="100%" border="0" cellspacing="0" cellpadding="4" align="center">
+      <tr>
+        <td>
+	<span class="text">ფორუმზე</span>
+	 <select onChange="ForumJump(this)" name="SelectJumpForum">
+           <option value="" selected>-- შეარჩიეთ --</option>
+		<option value="">კარიბჭის სიახლეები</option>
+		<option value="forum_topics.asp?FID=6">&nbsp;&nbsp;|&#8212;&nbsp;საითების სიახლეები</option>
+		<option value="">პოლიტიკა</option>
+		<option value="forum_topics.asp?FID=16">&nbsp;&nbsp;|&#8212;&nbsp;საქართველოს უახლესი ისტორია</option>
+		<option value="forum_topics.asp?FID=17">&nbsp;&nbsp;|&#8212;&nbsp;რუსეთი და კავკასია</option>
+		<option value="forum_topics.asp?FID=14">&nbsp;&nbsp;|&#8212;&nbsp;სიმართლე წარსულზე - საითი "სიმართლე"</option>
+		<option value="">ერი და ცხოვრება</option>
+		<option value="forum_topics.asp?FID=19">&nbsp;&nbsp;|&#8212;&nbsp;ქართული ენა და მისი პრობლემები</option>
+		<option value="forum_topics.asp?FID=30">&nbsp;&nbsp;|&#8212;&nbsp;ვეძებთ ნაცნობ-მეგობრებს</option>
+		<option value="">ხელოვნება და კულტურა</option>
+		<option value="forum_topics.asp?FID=50">&nbsp;&nbsp;|&#8212;&nbsp;სიმღერების გაზიარება და გაცვლა</option>
+		<option value="forum_topics.asp?FID=32">&nbsp;&nbsp;|&#8212;&nbsp;ყველაფერი მუსიკის შესახებ</option>
+		<option value="forum_topics.asp?FID=33">&nbsp;&nbsp;|&#8212;&nbsp;ჩანახატები და ნარკვევები</option>
+		<option value="forum_topics.asp?FID=52">&nbsp;&nbsp;|&#8212;&nbsp;ჩვენებურების ფორუმი</option>
+		<option value="">ოქროპირი</option>
+		<option value="forum_topics.asp?FID=48">&nbsp;&nbsp;|&#8212;&nbsp;მიყვარდი და მიყვარხარ კიდევაც მეყვარები</option>
+		<option value="forum_topics.asp?FID=47">&nbsp;&nbsp;|&#8212;&nbsp; მეზობელო კარისაო.</option>
+		<option value="forum_topics.asp?FID=46">&nbsp;&nbsp;|&#8212;&nbsp;უხ, რა კარგად გამოვძეხი</option>
+		<option value="forum_topics.asp?FID=45">&nbsp;&nbsp;|&#8212;&nbsp;როგორი ამინდი იქნება ?</option>
+		<option value="forum_topics.asp?FID=44">&nbsp;&nbsp;|&#8212;&nbsp; სუყველაფერს ვყიდულობ, სუყველაფერს ვყიდი მე</option>
+		<option value="forum_topics.asp?FID=43">&nbsp;&nbsp;|&#8212;&nbsp;კინო-ფოტო მანია</option>
+		<option value="forum_topics.asp?FID=42">&nbsp;&nbsp;|&#8212;&nbsp;გაიგებდით ალბათ</option>
+		<option value="forum_topics.asp?FID=41">&nbsp;&nbsp;|&#8212;&nbsp;წერე, წერე, ჩემო ვარდენ</option>
+		<option value="forum_topics.asp?FID=40">&nbsp;&nbsp;|&#8212;&nbsp;სწავლის ძირი მწარე არის</option>
+		<option value="forum_topics.asp?FID=39">&nbsp;&nbsp;|&#8212;&nbsp;იდეებს რა ვუყო?</option>
+		<option value="">ეკონომიკა და ბიზნესი</option>
+		<option value="">მეცნიერება და ტექნიკა</option>
+		<option value="forum_topics.asp?FID=53">&nbsp;&nbsp;|&#8212;&nbsp;ატლანტიდა</option>
+		<option value="">ფიზკულტურა და სპორტი</option>
+		<option value="forum_topics.asp?FID=18">&nbsp;&nbsp;|&#8212;&nbsp;ქართული ფეხბურთი</option>
+		<option value="forum_topics.asp?FID=49">&nbsp;&nbsp;|&#8212;&nbsp;ფალავანთა კლუბი</option>
+		<option value="forum_topics.asp?FID=31">&nbsp;&nbsp;|&#8212;&nbsp;სპორტული ფოტოგალერეა</option>
+		<option value="">კომპიუტერის გაქართულება</option>
+		<option value="forum_topics.asp?FID=8">&nbsp;&nbsp;|&#8212;&nbsp;ფონტები</option>
+		<option value="forum_topics.asp?FID=9">&nbsp;&nbsp;|&#8212;&nbsp;კლავიატურის დრაივერები</option>
+		<option value="forum_topics.asp?FID=10">&nbsp;&nbsp;|&#8212;&nbsp;ბრაუზერები</option>
+		<option value="forum_topics.asp?FID=11">&nbsp;&nbsp;|&#8212;&nbsp;უნიკოდი</option>
+		<option value="forum_topics.asp?FID=12">&nbsp;&nbsp;|&#8212;&nbsp;ვებში პუბლიკაცია</option>
+		<option value="forum_topics.asp?FID=13">&nbsp;&nbsp;|&#8212;&nbsp;ელფოსტა</option>
+		<option value="">ბპგ სხარტი გამომცემელი</option>
+		<option value="forum_topics.asp?FID=2">&nbsp;&nbsp;|&#8212;&nbsp;ტექნიკური მხარდაჭერა</option>
+		<option value="forum_topics.asp?FID=5">&nbsp;&nbsp;|&#8212;&#8212;&#8212;&nbsp;რჩევა დარიგებები</option>
+		<option value="">კენჭისყრები</option>
+		<option value="forum_topics.asp?FID=4">&nbsp;&nbsp;|&#8212;&nbsp;პოლიტიკა</option>
+	</select>
+        </td>
+        <td align="right">&nbsp;
+        </td>
+      </tr>
+    </table>
+<table cellspacing='0' cellpadding='0' width='100%' align='center'>
+<tr>
+<td><img alt="]" src='top-lefw.gif' /></td>
+<td width='100%' background='http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/top-bg.gif'>
+<img alt="]" src='spacer03.gif' width='1' height='1' /></td>
+<td><img alt="]" src='top-rigk.gif' /></td>
+</tr>
+</table>
+<table cellspacing='0' cellpadding='0' width='100%' align='center'>
+<tr>
+<td background='http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/left-side-table-bg.gif'>
+<img alt="]" src='left-sig.gif' /></td>
+<td width='100%'>
+      <table width="100%" border="0" cellspacing="1" cellpadding="3" bgcolor="#FFD700">
+       <tr>
+        <td bgcolor="#FFAD33" width="140" class="tHeading" background="http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/table_bg_image.gif" nowrap="nowrap">ავტორი</td>
+        <td bgcolor="#FFAD33" width="82%" class="tHeading" background="http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/table_bg_image.gif" nowrap="nowrap"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+           <td width="20%" class="tHeading">ცნობა</td>
+           <td width="80%" align="right" nowrap="nowrap"><a href="http://chveni.mamuli.net:8989/portal/ge/forum/get_topic.asp?FID=41&TID=102&DIR=P" target="_self" class="pageLink">წინა თემა</a> | <a  class="pageLink" href="http://chveni.mamuli.net:8989/portal/ge/forum/get_topic.asp?FID=41&TID=102&DIR=N" target="_self">შემდეგი თემა</a>&nbsp;</td>
+          </tr>
+         </table></td>
+         </tr>
+      <tr>
+        <td valign="top" background="http://chveni.mamuli.net:8989/portal/ge/" bgcolor="#FFE9A6" class="smText">
+         <a name="560"></a>
+<img src="icon_ofg.gif"> 
+         <span class="bold">August</span><br />დაწინაურებული<br /><img src="http://www.animati&#111;nlibrary.com/Animati&#111;n11/Nature/Sun/Sun_&#111;n_fire_2.gif" width="64" height="64" alt="ავატარი" vspace="5" OnError="this.src='http://chveni.mamuli.net:8989/portal/ge/images/blank.gif', height='0';"><br /><br />         <img src="3_star_s.gif" alt="დაწინაურებული"><br /><br />წევრობა: 17/ნოემბერი/2004<br /><img src="f-pl0001.gif" OnError="this.src='http://chveni.mamuli.net:8989/portal/ge/images/flags/icons/f-00.gif'" border="0" alt="National Flag of Poland" width="18" height="12" align="absmiddle" /> <a href="http://chveni.mamuli.net:8989/portal/ge/countryinfo.asp?ID=198" class="smLink">Poland</a><br />პასუხები: 236
+         </td>
+        <td valign="top" background="http://chveni.mamuli.net:8989/portal/ge/" bgcolor="#FFE9A6" class="text">
+         <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+           <td width="80%" class="smText">ჩაწერილია: 04/დეკემბერი/2004 დრო 18:45 | IP Logged
+		    </td>
+                    <td width="20%" align="right" nowrap="nowrap">
+            		 <a href="http://chveni.mamuli.net:8989/portal/ge/forum/edit_post.asp?M=Q&PID=560&TPN=1"><img src="quote_id.gif" align="absmiddle" border="0" alt="Quote&nbsp;August"></a>
+          </td>
+          </tr>
+          <tr>
+           <td colspan="2"><hr /></td>
+          </tr>
+         </table>
+<!-- Message body -->
+მსოფლიოს ხალხთა მითები ინტერნეტში
+<br />
+<br /><a href="http://geomythology.gol.ge/Links.htm" target="_blank">http://geomythology.gol.ge/Links.htm</a><!-- Signature --><br /><br />__________________<br />Cogito, ergo sum.<!-- Signature -->
+<!-- Message body ''"" -->
+        </td>
+       </tr>
+       <tr>
+        <td bgcolor="#FFE9A6" background="http://chveni.mamuli.net:8989/portal/ge/"><a href="#top" target="_self" class="npLink">გვერდის თავში</a>&nbsp;<a href="javascript:openWin('printer_friendly_messages.asp?TID=102&MID=560','printer_friendly','toolbar=0,location=0,status=0,menubar=1,scrollbars=1,resizable=1,width=640,height=390')"><img src="print_vf.gif" align="absmiddle" border="0" alt="საბეჭდი სახე"></a></td>
+        <td bgcolor="#FFE9A6" background="http://chveni.mamuli.net:8989/portal/ge/" class="text"><a href="javascript:openWin('pop_up_profile.asp?PF=84&FID=41','profile','toolbar=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=590,height=425')"><img src="profile0.gif" border="0" alt="View&nbsp;August's&nbsp;Profile" align="absmiddle"></a>
+         <a href="http://chveni.mamuli.net:8989/portal/ge/forum/search_form.asp?KW=August&SI=AR&FM=41&FID=41&TID=102&PN=1&TPN=1"><img src="search_t.gif" border="0" alt="Search for other posts by&nbsp;August" align="absmiddle"></a>
+        </td>
+       </tr>
+
+       <tr>
+        <td colspan="2" align="center" background="http://chveni.mamuli.net:8989/portal/ge/" bgcolor="#FFA500"><span style="font-size: 2px;">&nbsp;</span></td></tr>
+      <tr>
+        <td valign="top" background="http://chveni.mamuli.net:8989/portal/ge/" bgcolor="#FFFACD" class="smText">
+         <a name="561"></a>
+<img src="icon_ofg.gif"> 
+         <span class="bold">August</span><br />დაწინაურებული<br /><img src="http://www.animati&#111;nlibrary.com/Animati&#111;n11/Nature/Sun/Sun_&#111;n_fire_2.gif" width="64" height="64" alt="ავატარი" vspace="5" OnError="this.src='http://chveni.mamuli.net:8989/portal/ge/images/blank.gif', height='0';"><br /><br />         <img src="3_star_s.gif" alt="დაწინაურებული"><br /><br />წევრობა: 17/ნოემბერი/2004<br /><img src="f-pl0001.gif" OnError="this.src='http://chveni.mamuli.net:8989/portal/ge/images/flags/icons/f-00.gif'" border="0" alt="National Flag of Poland" width="18" height="12" align="absmiddle" /> <a href="http://chveni.mamuli.net:8989/portal/ge/countryinfo.asp?ID=198" class="smLink">Poland</a><br />პასუხები: 236
+         </td>
+        <td valign="top" background="http://chveni.mamuli.net:8989/portal/ge/" bgcolor="#FFFACD" class="text">
+         <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+           <td width="80%" class="smText">ჩაწერილია: 04/დეკემბერი/2004 დრო 19:02 | IP Logged
+		    </td>
+                    <td width="20%" align="right" nowrap="nowrap">
+            		 <a href="http://chveni.mamuli.net:8989/portal/ge/forum/edit_post.asp?M=Q&PID=561&TPN=1"><img src="quote_id.gif" align="absmiddle" border="0" alt="Quote&nbsp;August"></a>
+          </td>
+          </tr>
+          <tr>
+           <td colspan="2"><hr /></td>
+          </tr>
+         </table>
+<!-- Message body -->
+ქართული მითების პერსომაჟები
+<br /> 
+<br />ადგილის დედა
+<br />
+<br />ქართულ მითოლოგიაში ცალკეული ადგილის (სოფლის, მთის, ხეობის, კლდის, ველის და სხვ.) მფარველი ქალღმერთი. ხევსურებს წარმოდგენილი ჰყავდათ ვერცხლის სამკაულებიანი ლამაზი ქალის სახით, რომელიც ზრუნავდა სოფლის მშვიდობიან ცხოვრებაზე და მისი მფარველობის ქვეშ მყოფ ტერიტორიაზე მოხვედრილ უცხოებზე. შესაძლებელია, წარსულში ადგილის დედა ნაყოფიერების ქალღმერთიც იყო და მისი კულტი მთელ საქართველოში იყო გავრცელებული. ქრისტიანობის გავრცელებასთან ერთად მისი კულტი ღვთისმშობლის კულტს შეერწყა, აქედანაა მისი სახელებიც - ადგილის ღვთისმშობელი ან ღვთისმშობელი. აღმოსავლეთ საქართველოს მთიელები თაყვანს სცემდნენ, როგორც ქალების, ბავშვების, მონადირეთა და საქონლის მფარველს. 
+<br />
+<br />ალი
+<br />
+<br />ქართულ მითოლოგიაში ბოროტი სულები, რომლებიც ვნებენ მშობიარეებს, ახალშობილებს, მარტოხელა მგზავრებს და სხვებს. ალები შეიძლება როგორც მამრობითი, ასევე მდედრობითი სქესის ყოფილიყვნენ. მათ საშინელი შესახედაობა ჰქონდათ (სპილენძის კბილები, შუშის კვალი, დასვრილი თმები). გადმოცემის თანახმად, ალები ცხოვრობენ ტყეში, კლდეებში, ნანგრევებში, შედიან თავლებში, ზოგჯერ მსხვერპლს, რომელსაც ახლო ნათესავის სახით ეცხადებიან, წყალში იტყუებენ. ქალ ალებს (ალქალებს) იგივე ფუნქციები აქვთ, თუმცა ნაკლები ფიზიკური ძალა გააჩნიათ. ზოგჯერ მათ ქალღმერთ დალის ფუნქციები მიეწერებათ და მის მსგავსად, მშვენიერი ოქროსთმიანი ქალის სახით ეცხადებიან თეთრ კაბაში. ალი ერთგული მსახური ხდება ადამიანის, რომელიც მას თმას და ბრჭყალებს დააჭრის. ალის ბოროტ ძალას წინ აღუდგება მის წინააღმდეგ შელოცვა ან წმინდა გიორგის სახელი.  
+<br />
+<br />ამბრი
+<br />
+<br />ქართულ მითოლოგიაში გმირი, რომელიც გამოირჩევა უზარმაზარი ძალით, სიმაღლით და მასით. ამირანის შესახებ თქმულებათა ციკლში ამბრის უკავშირდება “ცოცხლად დამარხვის” მოტივი: ჯერ კიდევ ცოცხალი ამბრი დაკრძალვის ადგილისკენ თორმეტ წყვილ ხარს მიყავს, გზაში ურმიდან ჩამოვარდნილი მისი ფეხი გუთანივით ხნავს მიწას. ეს უკანასკნელი საშუალებას იძლევა ვივარაუდოთ, რომ ამბრის სახე მიწათმოქმედ მოსახლეობაშია წარმოშობილი.  
+<br />
+<br />ამირანი
+<br />
+<br />ქართულ მითოლოგიაში გმირი; “ამირანიანის” ეპოსის მთავარი გმირი. ამირანის შესახებ თქმულებები დაფიქსირებულია საქართველოს ყველა კუთხეში, ქართული ენის ყველა დიალექტზე, რაც მიუთითებს მათი ფორმირების შესახებ ქართველი ერის ეთნოგენეზის ადრეულ სტადიაზე (ვარიანტები არსებობს აგრეთვე კავკასიის ქართველებთან მონათესავე ხალხებში). ამირანის სახე მოსჩანს ძვ. წ. მე-3 ათასწლეულით დათარიღებულ არქეოლოგიურ ძეგლებში (მცხეთის ბრინჯაოს სარტყელი, ყაზბეგის განძი, თრიალეთის ვერცხლის თასი). ამირანი ნადირობის ქალღმერთ დალის და მოკვდავი უცნობი მონადირის შვილია ( ამირანის ქალწულებრივი ჩასახვის აფხაზურ ვარიანტს ალბათ მატრიარქატის ეპოქისკენ მივყავართ; ზოგიერთ გვიანდელ ვარიანტში ამირანის მამა მჭედელი ან გლეხია). ნაადრევად დაბადებულმა უმწიფარმა ამირანმა ხარის (ძროხის) კუჭში (ფაშვში) დაასრულა მომწიფება. ამირანის ღვთაებრივ წარმოშობას მიუთითებს მის მხრებზე მზის და მთვარის გამოსახულება, აგრეთვე ის, რომ მისი სხეულის ზოგიერთი ნაწილი ოქროსია. ამირანი უზარმაზარი ზომისაა, თვალები საცერის ტოლა აქვს და საავდროდ გამზადებულ შავ ღრუბელს ჰგავს. ამირანი მგელივით დაუღალავია, თორმეტი წყვილი ხარის ძალა აქვს და მთიდან დაცურებული მორის სისწრაფე; ის იმდენად ძლიერია, რომ დედამიწა ძლივს უძლებს მის სიმძიმეს (თუმცა ვერც კი მოვა ძალით და სიმაღლით ამბრისთან). ამირანის ძალა უხშირესად მის მონათვლას მიეწერება (უეჭველია, რომ ნათლობის მოტივმა ქრისტიანობის გავრცელების შემდეგ განდევნა უფრო ძველი ინიციაციის მოტივი), თუმცა ზოგჯერ დაკავშირებულია მის ბანაობასთან ჯადოსნურ წყაროში, რომლის მბრძანებელიც იგრი-ბატონია. ამირანის გმირობებში (დევებთან, ვეშაპთან ბრძოლა), რომლებსაც ის სჩადის მის ძმადნაფიცებთან, ბადრისთან და უსიპთან ერთად, ნათლად ჩანს კოსმოგონიურ მოტივებთან კავშირი. ვეშაპი გადაყლაპავს ამირანს, მაგრამ იგი ვეშაპს გვერდს გაუჭრის და განახლებული გარეთ გამოდის. ამასთანავე, ამირანი ნეკნებს შორის განაჭერში დაწნულ ბადეს დგამს, რათა ვეშაპის მიერ გადაყლაპულმა მზემ დაწვას იგი და შეძლოს გარეთ გამოსვლა. ამირანი იტაცებს ზეციურ ქალწულს - ყამარს, რომელიც ციურ ცეცხლს განასახიერებს და ცხოვრობს ზღვის გადაღმა ან ზღვის თავზე დაკიდებულ კოშკში. ამირანი ამარცხებს ყამარის მამას - ამინდის და საავდრო ღრუბლების მბრძანებელ ღვთაებას. ამირანი ასწავლის ადამიანებს მჭედლობას; იგი თვითონაც შესანიშნავი მჭედელია, რომელსაც ხმლის ჭედვაც შეუძლია (მძიმე ხმალი ამირანის აუცილებელი ატრიბუტია). ამირანის სახეში კულტურული გმირის სხვა თვისებებიც ვლინდება. დასავლეთ საქართველოს და აფხაზურ ვარიანტებში იგი მავნე მცენარეებსაც ანადგურებს.
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;   ღმერთთან ბრძოლის გამო ამირანი კავკასიის ქედზე გამოქვაბულშია მიჯაჭვული. მის ღვიძლს მუდმივად ძიძგნის არწივი, ხოლო ერთგული ძაღლი ჯაჭვს ლოკავს და ცდილობს გალიოს იგი. მაგრამ ყოველწლიურად ვნების ხუთშაბათს (თუშურ ვარიანტში შობის წინა ღამეს) ღმერთის მიერ მიჩენილი მჭედლები ანახლებენ ჯაჭვს. ძველი გადმოცემით შვიდ წელიწადში ერთხელ გამოქვაბული იხსნება და ამირანის დანახვა შეიძლება.
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;   ქრისტიანობის გავრცელებასთან ერთად ამირანი მოწამე გმირის თვისებებს იძენს და იესო ქრისტეს, გიორგის, ილიას და სხვ. ეცილება.
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;   ამირანის შესახებ თქმულებებმა ასახვა ჰპოვა შუასაუკუნოვან ქართულ ლიტერატურაში, კერძოდ შოთა რუსთაველის “ვეფხისტყაოსანში”.
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;   ამირანი ტიპოლოგიურად პრომეთესთან და აბრსკილთან ახლოს დგას.  
+<br />
+<br />არმაზი
+<br />
+<br />ქრისტიანობის გავრცელებამდე აღმოსავლეთ საქართველოს (ივერიის) პანთეონის მთავარი ღვთაება. არმაზის შესახებ ცნობები მხოლოდ ძველ ქართულ ხელნაწერებში და არმაზის ტოპონომშია შემორჩენილი. ტრადიციის მიხედვით, არმაზის კულტის შემოღება მეფე ფარნავაზს მიეწერება (ძვ. წ. მე- 3 ს.), რომელსაც გარედან უსესხია იგი. არმაზის კერპი წარმოადგენდა მეომარს სპილენძის ჯავშნით და ოქროს მუზარადით, შუბით ხელში და ხელნაწერთა თანახმად, მცხეთაში იდგა მთაზე. არმაზი სინკრეტული ღვთაება იყო, რომელიც უზენაესი ღმერთის (ცის, ჭექა-ქუხილის, წვიმის და მცენარეთა მბრძანებელი) და მეომარი ღმერთის ფუნქციებს ითავსებდა. სახელმწიფოებრიობის ჩამოყალიბების პერიოდში არმაზის კულტი ეწინააღმედგებოდა ადგილობრივ ტომობრივ ღვთაებათა კულტებს. არმაზის დღესასწაულის დღეებში, რომელიც ჩვეულებრივ ზაფხულში იმართებოდა, ფერადი ნაჭრებითა და ყვავილებით მორთულ მცხეთის ქუჩებში მრავალრიცხოვანი მსვლელობები იმართებოდა სამეფო ოჯახის მონაწილეობით. საქართველოში ქრისტიანობის სახელმწიფო რელიგიად გამოცხადების შემდეგ (მე-4 ს-ის 30-იანი წწ.) არმაზის კულტი გაუქმდა.  
+<br />
+<br />ბარბალე
+<br />
+<br />ქართულ მითოლოგიაში მზის განმასახიერებელი ქალღმერთი. ძირითადად თაყვანს სცემდნენ, როგორც ქალის ნაყოფიერების საწყისის მფარველ ღვთაებას. ხალხური წარმოდგენით, ბარბალე განაპირობებს მიწათმოქმედების და მესაქონლეობის პროდუქტების სიუხვეს, ხელს უწყობს როგორც მსხვილი რქოსანი საქონლის და შინაური ფრინველის, ისე ადამიანის განაყოფიერებას. ბარბალესადმი იყო მიძღვნილი სხვადასხვა დღესასწაული, რომელთაგან მთავარი ზამთრის მზებუდობას ემთხვეოდა. ბარბალესადმი მიძღვნილ რიტუალებსა და წეს-ჩვეულებებში გამოიყენებოდა საგნები, რომლებიც მზის სიმბოლოებს წარმოადგენდნენ. თვით ბარბალეს სახელიც (ცნობილია აგრეთვე მისი სხვა ვარიანტები - საერთო ქართული - ბარბარე/ბაბალე და სვანური - ბაბარი/ბარბალი/ბარბოლი) ჰპოვებს ლინგვისტურ პარალელებს წრის, ბორბლის, მოელვარე ალის ქართულ დასახელებებში; ბარბალეს სახელში ვლინდება აგრეთვე ფორმალური და სემანტიკური მსგავსება შუმერულ-აქადურ ეპითეტთან bibbirru - მოელვარე სხივი, ბრწყინვალება.
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;   ბარბალეს თაყვანს სცემდნენ, როგორც მკურნალს, რომელიც ადამიანებს თვალს უხელს და განკურნავს თავის ტკივილის, ყვავილის და სხვა დაავადებებისგან. ბარბალეს შეეძლო აგრეთვე ადამიანებზე უბედურებები, გასაჭირი და სიკვდილიც მოეწია.  
+<br />
+<br />ბატონები
+<br />
+<br />ქართულ მითოლოგიაში ინფექციური დაავადებების მომტანი სულების კრებითი სახელი. ცნობილია წითელას (წითელა ბატონები), ყივანახველას (ხველა ბატონები), ყვავილის (დიდი ბატონები) და სხვა დაავადებების მომტანი ბატონები. ბატონები ძველი ქართული ღვთაების, ნანას შვილებად ითვლებოდნენ. ოჯახში, რომლის ერთ-ერთი წევრიც ავადმყოფობს, ბატონების გასამასპინძლებლად ტკბილეულს ამზადებენ, დგამენ საჩუქრებით მორთულ ხეს, ანთებენ ზეთის კანდელს, ავადმყოფის ოთახში წითელ ნაჭრებს ჰკიდებენ, ასრულებენ რიტუალურ სიმღერა-ლოცვას “ბატონებო” (ან “იავ- ნანას”). სიტყვა ბატონები აგრეთვე ინფექციური დაავადებების ხალხური დასახელებაა. 
+<br />
+<br />ბაყბაყ-დევი
+<br />
+<br />ქართულ მითოლოგიაში ტყის კაცი, ერთ-ერთი დევი. ბაყბაყ-დევი, რომელიც ბოროტ საწყისს განასახიერებს (მაგრამ ყოველთვის მარცხდება დადებით გმირთან), წარმოგვიდგება მრავალთავიან არსებად, რომლის სიმძიმეს ძლივს უძლებს დედამიწა, კაციჭამიად, რომელიც თავის დამხმარეებთან ერთად ჭამს ადამიანებს. 
+<br />
+<br />ბედის მწერლები
+<br />
+<br />ქართულ მითოლოგიაში ღვთაება (ან რამდენიმე ღვთაება), რომელიც ადამიანის ბედს განაგებს. ბედის მწერლები გარდაცვლილთა სამეფოში ცხოვრობენ და მუდმივად იყურებიან “ბედის წიგნში”. მზის ქვეშ ადამიანის ცხოვრების ბედით განსაზღვრული ვადის გასვლის შემდეგ ბედის მწერლები ამის შესახებ გარდაცვლილთა სამეფოს მბრძანებელს (სულეთის ღმერთს) აცნობებენ, რომელიც გზავნის შემხვედრებს (მგრებრებს), რათა ადამიანს ამოაცალონ სული და ჩააბრძანონ გარდაცვლილთა სამეფოში (სულეთში). ზოგჯერ ბედის მწერლები შეცდომით იძახებდნენ სულეთში ადამიანის სულს, რომლის დედამიწაზე ცხოვრების ვადა ჯერ კიდევ არ იყო გასული. ასეთ შემთხვევაში ისინი სულს სხეულს უბრუნებდნენ და ადამიანი აგრძელებდა ცხოვრებას მისთვის განკუთვნილი ვადით. არსებობენ გადმოცემები ადამიანთა შესახებ, რომლებმაც მოინახულეს გარდაცვლილთა სამეფო (მკვდარში ჩართულები), რომლებიც მიწაზე დაბრუნების შემდეგ წინასწარმეტყველები ხდებოდნენ და სულეთის ამბებს ჰყვებოდნენ. ბედის მწერლების ფუნქციები ზოგჯერ თვითონ სულეთის ღმერთს მიეწერებოდა.  
+<br />
+<br />ბერი-ბერა
+<br />
+<br />ქართულ მითოლოგიაში აღმოსავლეთ საქართველოს მთიელებში (მთიულეთში, გუდამაყარში) ანთროპომორფული ღვთაება, რომელიც მოსავლის მფარველია და საქონლის ნაყოფიერებას და მოსახლეობის ზრდას უწყობს ხელს. ბერი-ბერა აგრარული კალენდარული დღესასწაულების ერთ-ერთი პერსონაჟია. წინასაახალწლო რიტუალის დროს მამაკაცთა შორის უფროსი, რომელიც ბერი-ბერას განასახიერებდა, სახლში ჯოხზე გადამჯდარი (ბერბერა) შედიოდა მისალმებებით და კეთილი სურვილებით.
+<br />
+<br />ბერიკა
+<br />
+<br />ქართულ მითოლოგიაში ნაყოფიერებასთან დაკავშირებული ღვთაება; უხშირესად თხის სახით წარმოიდგენდნენ. ბერიკა ნაყოფიერების და ბუნების აღორძინების საგაზაფხულო აგრარული დღესასწაულის - ბერიკაობის მთავარი პერსონაჟია, რომლის მონაწილენიც თხის და ცხვრის ტყავს იცვამდნენ, ჩლიქებს და რქებს იმაგრებდნენ და სახეს შავად იღებავდნენ. 
+<br />
+<br />ბოსელი
+<br />
+<br />ქართულ მითოლოგიაში შინაურ ცხოველთა და მიწათმოქმედების მფარველი ღვთაება. ქართული სამესაქონლეო და აგრარული დღესასწაულის - ბოსლობის, აგრეთვე ღვთაების სახელის და ეპითეტების ანალიზის საფუძველზე ბოსელის, როგორც ღვთაების თავდაპირველი სახე მწარმოებელი ხარის სახით წარმოგვიდგება.
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;   საახალწლო დღესასწაულთა ციკლში ბოსელს აგრეთვე ბერი და ბასილი ეწოდება. 
+<br />
+<br />ბოჩი
+<br />
+<br />ქართულ მითოლოგიაში ღვთაება, რომელიც კავკასიონის ქედის შვიდ მწვერვალზე სუფევს. ბოჩისქართულ მითოლოგიაში ღვთაება, რომელიც კავკასიონის ქედის შვიდ მწვერვალზე სუფევს. ბოჩის სახელს უკავშირდება გარეულ ცხოველთა ყოფა-ცხოვრებაში შემორჩენილი სახელები “ოჩი” და “ვოჩი”. რიგი მკვლევარებისა თვლის, რომ ბოჩი მესაქონლეობის და მიწის ნაყოფიერების უძველესი ღვთაების სახელია. 
+<br />
+<br />გაცი და გაიმი
+<br />
+<br />ქართულ მითოლოგიაში ღვთაებები, რომლებსაც ქრისტიანობის გავრცელებამდე სცემდნენ თაყვანს. გაცზე და გაიმზე ცნობები მხოლოდ ხელნაწერებშია შემონახული. ამ ხელნაწერების თანახმად, გაცის ოქროს კერპი და გაიმის (გას) ვერცხლის კერპი არმაზის და ქართული წარმართული პანთეონის სხვა ღვთაებების კერპების გვერდით იდგა და ქრისტიანობის გავრცელების შემდეგ განადგურდა. ხელნაწერ ტექსტებში გაცი და გაიმი “ყველაზე იდუმალის გამგეებად” მოიხსენიება. 
+<br />
+<br />გველისფერი
+<br />
+<br />ქართულ მითოლოგიაში ღვთაების დამხმარე, რომელიც ჯაჭვით დაბმული გველის ან გველეშაპის სახით გვევლინება. გველისფერი განგმირავს ღვთაების მტრებს, ხოლო მის ერთგულ მსახურებს გასაჭირში ეხმარება. ამასთან ერთად, ჯაჭვიდან აშვებული გველისფერი სჯის ღვთაების ურჩ თაყვანისმცემლებს. 
+<br />
+<br />გიორგი
+<br />
+<br />ქართულ მითოლოგიაში წმინდა გიორგისთან (ქრისტიანობის გავრცელების შემდეგ) იდენტიფიცირებული პერსონაჟი. რიგ მკვლევართა აზრით, გიორგის სახელი, ისევე როგორც მასთან დაკავშირებულ მოტივთა და სიუჟეტთა უმეტესობა, ქრისტიანობამდელი წარმოშობისაა. გიორგის ხალხურმა კულტმა თავის თავში გააერთიანა სხვადასხვა ძველი წარმოდგენა, რომელთა თანახმადაც იგი არის გარეულ ცხოველებზე მონადირე, მიწათმოქმედების მფარველი, ზეციური ცეცხლის და ჭექა- ქუხილის მბრძანებელი. მოტივმა ღვთაება-მხედარზე, მონადირეზე, რომელიც თავისი ყოველწლიური სიკვდილით და აღდგომით განასახიერებდა ბუნების ყოველწლიურ კვდომას და აღორძინებას, უკვე ქრისტიანულ ეპოქაში ტრანსფორმაცია განიცადა ლეგენდად წმინდა გიორგის წამებაზე. ამ ლეგენდის თანახმად, გიორგის სხეული ღმერთმა 360 ნაწილად დაყო და იმ ადგილებში, სადაც ისინი იქნა გაბნეული, აშენდა ტაძრები. მრავალ ისტორიულ წყაროში (კათოლიკე მისიონერების და რუსი ელჩების ჩანაწერები, ქართველ ისტორიკოსთა თხზულებები) დაფიქსირებულია წარმოდგენა სამსხვერპლო ცხოველთა შესახებ, რომლებიც თითქოს თავისი ნებით მიდიან დასაკლავად გიორგისადმი მიძღვნილ ტაძრებში; თავდაპირველად ირემი მოდიოდა, მაგრამ მას შემდეგ, რაც ქალებმა წაბილწეს იგი, გასინჯეს რა მისი სამსხვერპლო ხორცი, გიორგიმ ირემი ხარით შეცვალა. ამ სიუჟეტში ასახულია უძველესი მითოლოგიური წარმოდგენების ტრანსფორმაცია - ველური ბუნების სულის გარდაქმნა კულტურული მეურნეობის (მესაქონლეობის) მფარველად.
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;   ქრისტიანული წმინდა გიორგის კულტის გავრცელების შემდეგ ამ უკანასკნელთან იგივდებოდა მრავალი ძველი ღვთაება - ჯარგი, ჯგრაგი (სვანებთან), ჯეგე (მეგრელებთან), ქართველ მთიელთა ლოკალური ღვთაებები (ჯვარი). 
+<br />
+<br />დალი
+<br />
+<br />ქართულ მითოლოგიაში ნადირობის ქალღმერთი, ველური ცხოველების მფარველი. საქართველოს მთიანეთში (უმეტესად სვანეთში) გავრცელებული გადმოცემების თანახმად, დალის გარეგნობა მზეთუნახავის გარეგნობას წააგავს. დალი მიუვალ კლდეებზე ცხოვრობს, საიდანაც ეშვება მისი ოქროს თმები. დალი მაქციაა, მას შეუძლია ადამიანს გამოეცხადოს ცხოველის ან ფრინველის სახით. მის რჩეულ მონადირეს, რომელიც მასთან სიყვარულს გაიზიარებს, დალი ეხმარება ნადირობაში მანამ, სანამ მონადირე მათი სიყვარულის საიდუმლოს ინახავს. ამ პირობის დამრღვევი მონადირე აუცილებლად იღუპება. დალის და უცნობი მონადირის შვილად ითვლება ამირანი. 
+<br />
+<br />დედაბერი
+<br />
+<br />ქართულ მითოლოგიასა და ფოლკლორში მოხუცი ქალები. ზოგი მათგანი კაცთმოყვარეა, კეთილგანწყობილი და ეხმარება გმირებს, ზოგი კი პირიქით, ადამიანთა მიმართ მტრულად არის განწყობილი. ამ უკანასკნელთ ემორჩილებიან ბუნებრივი სტიქიები, რომელთაც ისინი იყენებენ, რათა ხელი შეუშალონ გმირს მიზნის განხორციელებაში. 
+<br />
+<br />დევი
+<br />
+<br />ქართულ მითოლოგიასა და ფოლკლორში ბოროტი სულები. დევები თმით დაფარული ზოომორფული არსებები არიან რქებით და მრავალი თავით (სამიდან ასამდე). თავების რიცხვის ზრდასთან ერთად მათი ძალაც მატულობს. მოკვეთილი თავის ადგილზე ახალი ამოდის. დევები მიწისქვეშეთში ცხოვრობენ, მაგრამ შეიძლება მიწაზეც ცხოვრობდნენ და სასახლეებსა და სიმდიდრესაც ფლობდნენ. ჩვეულებრივ, ერთად ცხოვრობს შვიდი-ცხრა ძმა დევი. დევები მესაქონლეობას და ნადირობას მისდევენ, იტაცებენ და ატყვევებენ ლამაზ ქალებს. საქართველოს მთიელებში დევი მჩაგვრელის და დამმონებლის სინონიმის როლში გვევლინება, მათ ებრძვიან ადგილობრივი ღვთაებები. დევების ქალური პერსონიფიკაციები ნაკლებად ბოროტები არიან, ისინი იფარებენ მომხდურებს და იცავენ მათ თავისი კაციჭამია შვილებისაგან. 
+<br />
+<br />დობილნი
+<br />
+<br />ქართულ მითოლოგიაში (აღმოსავლეთ საქართველოს მთიელებში) ღვთაებათა დამხმარე სულები. გადმოცემების თანახმად, დობილნი პატარა ბავშვების და ქალების სახეს იღებენ. მზის ამოსვლის და ჩასვლის დროს ისინი მოლზე გამოდიან ბურთის სათამაშოდ. შემთხვევით მათ შორის მოხვედრილ ადამიანს ისინი თელავენ, რის შედეგადაც იგი ავად ხდება. როდესაც მთის მწვერვალებიდან მზის პირველი სხივები გამოჩნდება ხოლმე, დობილნი სოფლებს შეესევიან და მათ მცხოვრებლებს ავადმყოფობებს უგზავნიან. დობილნი ძირითადად მხოლოდ ქალებს და ბავშვებს ვნებენ, რადგან მამაკაცებს ვერ უმკლავდებიან. სოფლებში მათდამი მიძღვნილი სპეციალური სამლოცველოები შენდებოდა ხოლმე. 
+<br />
+<br />ვეშაპი
+<br />
+<br />ქართულ მითოლოგიასა და ფოლკლორში ზოომორფული არსებები, ურჩხულები. ძველ კოლხეთში უზარმაზარი თევზის სახით გამოსახავდნენ. ხშირად ვეშაპი მრავალთავიანი არსების სახით გვევლინება. განარჩევენ თეთრ, წითელ და შავ (ყველაზე ძლიერ) ვეშაპებს. ვეშაპები წყლის სტიქიასთან არიან დაკავშირებული და იტაცებენ წყალს ჭებიან, მდინარეებიდან, ტბებიდან, წყლის სარგებლობისთვის ითხოვენ ქალწულის მსხვერპლად შეწირვას. ისინი შთანთქავენ მზეს, მტრობენ კეთილ გმირებს, თუმცა, საბოლოო ჯამში, მათთან მარცხდებიან. ვეშაპების ბოროტი ფუნქციები ხშირად დევებზე გადადის. ზოგ სიუჟეტში გმირების მფარველთა როლში გვევლინებიან, მაგრამ მათი საჩუქრები გმირებისთვის აკრძალვას შეიცავს. გმირის მიერ აკრძალვის დარღვევა მის სიკვდილს იწვევს. ჰაგიოგრაფიულ ძეგლებში ვეშაპი ურწმუნოების და კერპთაყვანისმცემლობის სიმბოლოა. 
+<br />
+<br />ზადენი
+<br />
+<br />ქართულ მითოლოგიაში ერთ-ერთი ღვთაება, რომელსაც თაყვანს სცემდნენ ქრისტიანობის გავრცელებამდე. ხელნაწერთა ტრადიციის მიხედვით ზადენის კულტი მეფე ფარნაჯომმა შემოიღო ძვ.წ. მე-2 ს-ის პირველ ნახევარში. ხელნაწერი ზადენის სახელს მცხეთის ახლოს ზადენის ციხის სახელწოდებასთან აკავშირებს. მეცნიერული ტრადიციის თანახმად, ზადენის სახელი კავშირშია ირანულ yazadan-თან (კეთილი სულების რანგი). ზადენს (არმაზთან ერთად) თაყვანს სცემდნენ, როგორც უხვი მოსავლის მომყვან ღმერთს და სამყაროს ერთმპყრობელს. ქრისტიანობის გავრცელების შემდეგ ზადენის კულტი გაუქმდა. 
+<br />
+<br /><span class="smText"><br /><br />Edited by August on 04/დეკემბერი/2004 დრო 19:28</span><!-- Signature --><br /><br />__________________<br />Cogito, ergo sum.<!-- Signature -->
+<!-- Message body ''"" -->
+        </td>
+       </tr>
+       <tr>
+        <td bgcolor="#FFFACD" background="http://chveni.mamuli.net:8989/portal/ge/"><a href="#top" target="_self" class="npLink">გვერდის თავში</a>&nbsp;<a href="javascript:openWin('printer_friendly_messages.asp?TID=102&MID=561','printer_friendly','toolbar=0,location=0,status=0,menubar=1,scrollbars=1,resizable=1,width=640,height=390')"><img src="print_vf.gif" align="absmiddle" border="0" alt="საბეჭდი სახე"></a></td>
+        <td bgcolor="#FFFACD" background="http://chveni.mamuli.net:8989/portal/ge/" class="text"><a href="javascript:openWin('pop_up_profile.asp?PF=84&FID=41','profile','toolbar=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=590,height=425')"><img src="profile0.gif" border="0" alt="View&nbsp;August's&nbsp;Profile" align="absmiddle"></a>
+         <a href="http://chveni.mamuli.net:8989/portal/ge/forum/search_form.asp?KW=August&SI=AR&FM=41&FID=41&TID=102&PN=1&TPN=1"><img src="search_t.gif" border="0" alt="Search for other posts by&nbsp;August" align="absmiddle"></a>
+        </td>
+       </tr>
+
+       <tr>
+        <td colspan="2" align="center" background="http://chveni.mamuli.net:8989/portal/ge/" bgcolor="#FFA500"><span style="font-size: 2px;">&nbsp;</span></td></tr>
+      <tr>
+        <td valign="top" background="http://chveni.mamuli.net:8989/portal/ge/" bgcolor="#FFE9A6" class="smText">
+         <a name="562"></a>
+<img src="icon_ofg.gif"> 
+         <span class="bold">August</span><br />დაწინაურებული<br /><img src="http://www.animati&#111;nlibrary.com/Animati&#111;n11/Nature/Sun/Sun_&#111;n_fire_2.gif" width="64" height="64" alt="ავატარი" vspace="5" OnError="this.src='http://chveni.mamuli.net:8989/portal/ge/images/blank.gif', height='0';"><br /><br />         <img src="3_star_s.gif" alt="დაწინაურებული"><br /><br />წევრობა: 17/ნოემბერი/2004<br /><img src="f-pl0001.gif" OnError="this.src='http://chveni.mamuli.net:8989/portal/ge/images/flags/icons/f-00.gif'" border="0" alt="National Flag of Poland" width="18" height="12" align="absmiddle" /> <a href="http://chveni.mamuli.net:8989/portal/ge/countryinfo.asp?ID=198" class="smLink">Poland</a><br />პასუხები: 236
+         </td>
+        <td valign="top" background="http://chveni.mamuli.net:8989/portal/ge/" bgcolor="#FFE9A6" class="text">
+         <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+           <td width="80%" class="smText">ჩაწერილია: 04/დეკემბერი/2004 დრო 19:04 | IP Logged
+		    </td>
+                    <td width="20%" align="right" nowrap="nowrap">
+            		 <a href="http://chveni.mamuli.net:8989/portal/ge/forum/edit_post.asp?M=Q&PID=562&TPN=1"><img src="quote_id.gif" align="absmiddle" border="0" alt="Quote&nbsp;August"></a>
+          </td>
+          </tr>
+          <tr>
+           <td colspan="2"><hr /></td>
+          </tr>
+         </table>
+<!-- Message body -->
+თედორე (თევდორე)
+<br />
+<br />ქართულ მითოლოგიაში აგრარული ღვთაება; თავდაპირველად თაყვანს სცემდნენ, როგორც მიწათმოქმედების მფარველს, მოგვიანებით კი, როგორც ცხენების მფარველსაც. ქრისტიანობის გავრცელების შემდეგ ღვთაების ხალხური კულტი თანამოსახელე ქრისტიანული წმინდანის (წმინდა თევდორეს) კულტს შეერწყა. თედორე ითვლება “დიდ მშრომელ-მიწათმოქმედად” და მოიხსენიება, როგორც “დიდი ბატონი”. თედორეს ეპითეტი “შავი”, “შავგვრემანი” მიწის შავ ფერს შეესაბამება. თედორეს ეძღვნება საგაზაფხულო კალენდარული დღესასწაული “თედორობა”, რომელიც დიდმარხვის პირველი კვირის შაბათს ემთხვევა. ამ დღეს აცხობდნენ სარიტუალო პურს სასოფლო-სამეურნეო იარაღების და ცხოველთა (ცხენების) გამოსახულებებით, აწყობდენ რიტუალურ თესვას. 
+<br />
+<br />იახსარი
+<br />
+<br />აღმოსავლეთ საქართველოს მთიელების (ფშავ-ხევსურეთი) მითოლოგიაში ღვთაება ხვთისშვილთა (ღმერთის შვილთა) რიგიდან. სხვა ხვთისშვილებისგან განსხვავებით, იახსარი ზეციურ მოციქულად ითვლებოდა, რომელიც სვეტის ან ჯვრის სახით წარმოსდგებოდა. იახსარს თაყვანს სცემდნენ, როგორც ბოროტ ძალებთან - დევებთან, ქაჯებთან, ეშმაკებთან და სხვ. მებრძოლ ღვთაებას, რომელიც იცავს როგორც მისი მფარველობის ქვეშ მყოფ ადგილს, ისე ყველა ადამიანს, ვინც შველას ითხოვს. ხალხური რწმენის მიხედვით, იახსარი განდევნის ბოროტ სულებს სულიერად დაავადებული ადამიანისგან და უბედური შემთხვევით (მეხის დაცემა, ზვავში მოყოლა და ა. შ.) გარდაცვლილთაგან. ამ ფუნქციების გამო და ასევე მოსახლეობის მიგრაციის შედეგად იახსარის კულტმა ფართო გავრცელება ჰპოვა აგრეთვე თუშეთში, მთიულეთში, გუდამაყარში, ერწო-თიანეთში და სხვა რაიონებში. იახსარს უკავშირდება გამარჯვება დევებზე, რომლებიც ავიწროებდნენ ფშავ-ხევსურეთის მოსახლეობას, ბილწავდნენ მათ სალოცავებს, პატივს ჰყრიდნენ მათ ქალებს, კლავდნენ ბავშვებს. ამით შეწუხებულმა მთიელებმა თავიანთ ღვთაებებს მიმართეს და სთხოვეს დახმარება დევების განდევნაში. ღმერთის კართან სათათბიროდ შეკრებილმა ხვთისშვილებმა უზენაეს ღმერთს დევების დასჯა სთხოვეს. წინამძღოლის ასარჩევად ღმერთმა ხვთისშვილთა ძალა გამოსცადა. შეჯიბრში იახსარმა და კოპალამ გაიმარჯვეს, რომლებიც ჩაუდგნენ კიდევაც ლაშქრობას სათავეში. მათ გაანადგურეს დევების ჯარი, მოკლეს მათი გოლიათები მუზა და ბეღელა. ამის შემდეგ დევები უხილავნი გახდნენ და სამუდამოდ მიატოვეს მათი მიწები. 
+<br />
+<br />კვირია
+<br />
+<br />ქართულ მითოლოგიაში ღვთაება. აღმოსავლეთ საქართველოს მთიელთა წარმოდგენით კვირია ლოკალური სათემო ღვთაებების - ხვთისშვილთა წინამძღოლია, უზენაეს ღმერთსა და ადამიანებს შორის შუამავალი და სამართლის შემოქმედი. მისი ეპითეტებია კარავიანი და ხმელთმოურავი. კვირიას საპატივცემულოდ ეწყობოდა დღესასწაულები კვირიცხოვლობა, ხალარჯობა ღამისთევით, მსხვერპლის შეწირვით და საკულტო ნადიმებით. დღესასწაულების დროს მწვანე ტოტებით ქოხებს აშენებდნენ.
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; დასავლეთ საქართველოს მთიელებში კვირია ბუნების ნაყოფიერების მამაკაცური ღვთაებაა. მას ეძღვნებოდა ადრეული საგაზაფხულო დღესასწაულები, რომლებიც რვა ცალკეულ რიტუალს შეიცავდა. დღესასწაულთა დროს აშენებდნენ თოვლის კოშკს, აწყობდნენ მეზობელ სოფლებს შორის შეჯიბრებებს, მღეროდნენ ჰიმნებს, თამაშდებოდა სცენები, რომლებშიც თვალნათლივ მოსჩანდა ღვთაების ფალოსური ბუნება. დასავლეთ საქართველოს მთიელთა ცალკეულ სიმღერებში კვირია აგრეთვე უზენაეს ღვთაებად გვევლინება, რომელიც ზეცას და ზეციურ წყალს განაგებს. კვირიას ჰიმნს გვალვის დროს მღეროდნენ, რომ წვიმა მოსულიყო. 
+<br />
+<br />კოპალა
+<br />
+<br />ქართულ მითოლოგიაში ხევსურთა ლოკალური ღვთაება ხვთისშვილთა რიგიდან. ხალხური ეტიმოლოგია მის სახელს კომბალიდან აწარმოებს. კოპალა იახსართან ერთად ებრძვის დევებს და ამარცხებს მათ. მითის ზოგ ვარიანტში კოპალა ერწყმის იახსარს ერთ პერსონაჟად ან მის ორეულად გვევლინება (ამ შემთხვევაში კოპალა ხევსურული, ხოლო იახსარი ფშავური ღვთაებაა). კოპალას მთავარი სალოცავი ლიკოკის ხეობაში, კარატის მთის მწვერვალზე დგას. ხევსურთა რწმენით, კარატის ჯვრის თაყვანისცემა იცავს წყალში დახრჩობისგან და ზვავში მოყოლისგან, მას უკავშირდება მოჯადოებულთა და სულიერად დაავადებულთა განკურნება და სხვ. 
+<br />
+<br />კუდიანი
+<br />
+<br />ქართველთა მითოლოგიურ წარმოდგენებსა და ფოლკლორში გრძნეული ქალები. კუდიანები მახინჯები და კუზიანები არიან, დიდი კბილები და ეშვები აქვთ, მიწამდე სიგრძის თმები და მხრებზე გადაკიდებული ძუძუები. კუდიანებს ნებისმიერი სახის მიღება და ადამიანის მოჯადოება შეუძლიათ. ისინი ბნელ გამოქვაბულებში ცხოვრობენ და გადაადგილდებიან კატაზე, მამალზე, მგელზე ან სხვა ცხოველებზე ამხედრებულები ან გადაადგილებისთვის საყოფაცხოვრებო საგნებს იყენებენ - ქოთანს, როდინს, ცოცხს და სხვ. მათი წინამძღოლის - როკაპის დაძახებაზე კუდიანები ტაბაკონის მთაზე იკრიბებიან. 
+<br />
+<br />მამბერი
+<br />
+<br />ქართულ მითოლოგიაში მგლების მბრძანებელი. თაყვანს სცემდნენ სვანები და დასავლეთ საქართველოს სხვა მთიელები. როდესაც მამბერი კმაყოფილი იყო ადამიანებით, იგი მგლებს პირს უკრავდა, ხოლო განრისხების ჟამს, პირიქით, საქონელზე მიუშვებდა ხოლმე მათ. 
+<br />
+<br />მაცილი
+<br />
+<br />ქართულ მითოლოგიაში ბოროტი სულები საიქიოდან. აშინებენ მგზავრებს და მონადირეებს, ააცდენენ მათ სწორი გზიდან, კლავენ ბავშვებს, აჯადოებენ ადამიანებს და საქონელს. მაცილებს მოსდევს კოპალა, რომელიც მათ კეტით და მშვილდ-ისრით კლავს. მაცილთა დედა ზოგჯერ დევების დედად მოიხსენიება; მას ეძღვნება სალოცავი სოფელ როშკაში, სადაც ქალები მსხვერპლად სწირავენ ცხოველებს. 
+<br />
+<br />მზეთუნახავი
+<br />
+<br />ქართულ მითოლოგიასა და ფოლკლორში ოქროსთმიანი მშვენიერი ქალი, რომელიც სასწაულებრივად იბადება მცენარეებიდან. მზეთუნახავი ჩაკეტილია ცხრა მთას იქით მიუვალ ციხე-კოშკში; გმირმა, რომ მოიპოვოს იგი, უნდა შეასრულოს ურთულესი დავალება ან გამოიცნოს მისი გამოცანები. ხშირად მზეთუნახავი მოჯადოებულია და გადაქცეულია ირმად, მტრედად, გველად. მისი მომაჯადოებელი ბოროტი არსების განადგურების შემდეგ მზეთუნახავი, ჯადოსნური სიტყვის ან მოქმედების შედეგად, თავის პირვანდელ სახეს იბრუნებს. მზეთუნახავი კეთილია და გამჭრიახი. ჯადოსნური საგნების მეშვეობით იგი ეხმარება გმირს, რომელსაც მიჰყვება ცოლად. 
+<br />
+<br />მინდორთ ბატონი
+<br />
+<br />ქართულ მითოლოგიაში მინდვრების და ველური ყვავილების მფარველი. მინდორთ ბატონს მშვენიერი ქალიშვილი ჰყავს (მინდორთ მბრძანებელი), რომელიც იმდენად მსუბუქია, რომ ყვავილებზე დადის; იგი მცენარის მტვრით იკვებება და მცენარის წვენს სვამს. ხალხური გადმოცემებით, მინდორთ ბატონის ქალიშვილი იღუპება, როდესაც მას ადამიანი დაიჭერს. 
+<br />
+<br />მიჭპა
+<br />
+<br />ქართულ მითოლოგიაში (სვანებში) ღვთაება - მსხვილი რქოსანი საქონლის მფარველი ზამთრის პერიოდში. 
+<br />
+<br />ნაწილიანი
+<br />
+<br />ქართულ მითოლოგიაში ადამიანი ან ცხოველი, რომელსაც ბოძებული აქვს ღვთაებათა წმინდა ნიშნები (ნაწილები). ცის ან მზის ღვთაება მას უბოძებს ჯვარს ან მზის გამოსახულებას, მთვარის ღვთაება - მთვარის ნიშანს და ა.შ. ნაწილიანებმა უნდა დამალონ მათი “წილები”, რომლებიც, როგორც ითვლებოდა, განლაგებულია მათ ბეჭებქვეშ მანათობელი ნიშნის ან სანთლის სახით. ნაწილიანის შესახებ წარმოდგენები, სავარაუდოდ უხსოვარ წარსულში წარმოიშვა; ეს დასტურდება არქეოლოგიური მასალით, რომელიც გვიანი ბრინჯაოს და ადრეული რკინის ხანას ეკუთვნის: ბრინჯაოს ქამრებზე ასახულ მითოლოგიურ სცენებში ფიგურირებენ ადამიანები ასტრალური ნიშნებით მხრებზე და ბარძაყებზე. ნაწილიანის კულტი ასახვას ჰპოვებდა ასტრალურ ღვთაებებთან ბავშვთა ზიარების რიტუალებში. სავარაუდოდ, ნაწილიანის შესახებ წარმოდგენებს უკავშირდება მეფეთა და დიდგვაროვანთა სამოსზე და აღჭურვილობაზე ასტრალური სიმბოლოების აღბეჭდვის ტრადიცია, რაც თითქოს მათაც ნაწილიანის კატეგორიას აკუთვნებდა. 
+<br />
+<br />ოჩოკოჩი
+<br />
+<br />ქართულ მითოლოგიაში ტყის ღვთაება. ოჩოკოჩს მეტყველება არ შეუძლია, მაგრამ მისი ხმა ადამიანებს თავზარს სცემს. ოჩოკოჩის სხეული ჟანგისფერი თმით არის დაფარული. მას გრძელი და ბასრი ბრჭყალები აქვს, მკერდზე კი ნაჯახის მსგავსი წანაზარდი, რომლითაც ოჩოკოჩი შუაზე სჭრის მის მოწინააღმდეგეს. ადამიანის მიერ მოკლული ოჩოკოჩი მეორე გასროლის შემდეგ ცოცხლდება. გავრცელებული სიუჟეტების თანახმად ოჩოკოჩი ელტვის ტყის დედოფლის ტყაში-მაფას სიყვარულს. 
+<br />
+<br />ოჩოპინტრე, ოჩოპინტე
+<br />
+<br />ქართულ მითოლოგიაში გარეულ ცხოველთა წინამძღოლი და მფარველი. მისი სახელის პირველი ნაწილი (ოჩო), ქართული პანთეონის სხვა ღვთაებას - ბოჩის უკავშირდება, ხოლო მეორე ნაწილი (პინტე, პინტრე) - ბერძნულ პანს. ოჩოპინტრე თითოეული ცხოველის სულს ფლობს. მონადირე სანადიროდ წასვლამდე (და ნადირობისას) ოჩოპინტრეს ევედრება იღბალს და ნადირის მოკვლის ნებართვას. 
+<br />
+<br />პირქუში
+<br />
+<br />ქართულ მითოლოგიაში ღვთაებრივი მჭედელი. სახელი და ეპითეტი (ცეცხლოვანი) პირქუშის ქტონურ ძალებთან (დევებთან, ქაჯებთან და სხვ.) კავშირზე მიუთითებს. დევების მიერ დატყვევებული პირქუში მათთვის იარაღს, ოქროს და ვერცხლის საგნებს ჭედავს. ტყვეობიდან პირქუშს იხსნის იახსარი მისთვის ზარის დამზადების პირობით. პირქუშს მიეწერება ფიალების, თასების, ქვაბების და სხვა საგნების დამზადება. 
+<br />
+<br /><span class="smText"><br /><br />Edited by August on 05/დეკემბერი/2004 დრო 10:30</span><!-- Signature --><br /><br />__________________<br />Cogito, ergo sum.<!-- Signature -->
+<!-- Message body ''"" -->
+        </td>
+       </tr>
+       <tr>
+        <td bgcolor="#FFE9A6" background="http://chveni.mamuli.net:8989/portal/ge/"><a href="#top" target="_self" class="npLink">გვერდის თავში</a>&nbsp;<a href="javascript:openWin('printer_friendly_messages.asp?TID=102&MID=562','printer_friendly','toolbar=0,location=0,status=0,menubar=1,scrollbars=1,resizable=1,width=640,height=390')"><img src="print_vf.gif" align="absmiddle" border="0" alt="საბეჭდი სახე"></a></td>
+        <td bgcolor="#FFE9A6" background="http://chveni.mamuli.net:8989/portal/ge/" class="text"><a href="javascript:openWin('pop_up_profile.asp?PF=84&FID=41','profile','toolbar=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=590,height=425')"><img src="profile0.gif" border="0" alt="View&nbsp;August's&nbsp;Profile" align="absmiddle"></a>
+         <a href="http://chveni.mamuli.net:8989/portal/ge/forum/search_form.asp?KW=August&SI=AR&FM=41&FID=41&TID=102&PN=1&TPN=1"><img src="search_t.gif" border="0" alt="Search for other posts by&nbsp;August" align="absmiddle"></a>
+        </td>
+       </tr>
+
+       <tr>
+        <td colspan="2" align="center" background="http://chveni.mamuli.net:8989/portal/ge/" bgcolor="#FFA500"><span style="font-size: 2px;">&nbsp;</span></td></tr>
+      <tr>
+        <td valign="top" background="http://chveni.mamuli.net:8989/portal/ge/" bgcolor="#FFFACD" class="smText">
+         <a name="563"></a>
+<img src="icon_ofg.gif"> 
+         <span class="bold">August</span><br />დაწინაურებული<br /><img src="http://www.animati&#111;nlibrary.com/Animati&#111;n11/Nature/Sun/Sun_&#111;n_fire_2.gif" width="64" height="64" alt="ავატარი" vspace="5" OnError="this.src='http://chveni.mamuli.net:8989/portal/ge/images/blank.gif', height='0';"><br /><br />         <img src="3_star_s.gif" alt="დაწინაურებული"><br /><br />წევრობა: 17/ნოემბერი/2004<br /><img src="f-pl0001.gif" OnError="this.src='http://chveni.mamuli.net:8989/portal/ge/images/flags/icons/f-00.gif'" border="0" alt="National Flag of Poland" width="18" height="12" align="absmiddle" /> <a href="http://chveni.mamuli.net:8989/portal/ge/countryinfo.asp?ID=198" class="smLink">Poland</a><br />პასუხები: 236
+         </td>
+        <td valign="top" background="http://chveni.mamuli.net:8989/portal/ge/" bgcolor="#FFFACD" class="text">
+         <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+           <td width="80%" class="smText">ჩაწერილია: 04/დეკემბერი/2004 დრო 19:08 | IP Logged
+		    </td>
+                    <td width="20%" align="right" nowrap="nowrap">
+            		 <a href="http://chveni.mamuli.net:8989/portal/ge/forum/edit_post.asp?M=Q&PID=563&TPN=1"><img src="quote_id.gif" align="absmiddle" border="0" alt="Quote&nbsp;August"></a>
+          </td>
+          </tr>
+          <tr>
+           <td colspan="2"><hr /></td>
+          </tr>
+         </table>
+<!-- Message body -->
+რაში
+<br />
+<br />ქართულ მითოლოგიაში გმირების სწრაფი და ყოვლისშემძლე ცხენები; მათ სახელს ირანული და ტაჯიკური მითო-პოეტური ტრადიციების ლეგენდარული ცხენის რახშის სახელთან მივყავართ. რაშები არაჩვეულებრივად ჩნდებიან: ისინი იბადებიან ადამიანის კუნთებიდან, ამოდიან ზღვიდან, იზრდებიან მიწიდან. განარჩევენ მიწიერ, ზღვის და ზეციურ რაშებს. მიწიერი რაშები კეთილი ფუნქციებით ხასიათდებიან, გამჭრიახები არიან და წინასწარმეტყველური უნარი აქვთ; ისინი ეხმარებიან გმირებს და მათ ყველა დავალებას ასრულებენ. ზღვის რაშები ველური ბუნებით ხასიათდებიან; გმირებს ისინი ზღვის სიღრმიდან ჯადოსნური აღვირით ან მიწიერი რაშების დახმარებით ამოჰყავთ. ზღვის რაშის რძე სამკურნალოა, მაგრამ მისი მოპოვება ხიფათთან არის დაკავშირებული. ზეციური რაშები ჩვეულებრივ ფრთოსანნი და ცეცხლისმფრქვევლები არიან. მათი გახედვნა ძალიან ძნელია, მაგრამ მოთვინიერების შემდეგ გმირების ერთგული მსახურნი ხდებიან და მათ ყველა სურვილს ასრულებენ. 
+<br />
+<br />როკაპი
+<br />
+<br />ქართულ მითოლოგიაში კუდიანების მეთაური, რომლებსაც მისთვის ადამიანთა გულები მოაქვთ. ღმერთის მიერ დასჯილი როკაპი მიწაში ღრმად ჩასობილ რკინის ბოძზეა მიბმული. როკაპი ყოველ წელს ცდილობს ბოძის ამოგლეჯას და განთავისუფლებას, მაგრამ როდესაც თითქმის ახერხებს ამას, ბოძზე ჩიტი ჯდება; როკაპი მას ჯოხს მოუქნევს, ჩიტი გაფრინდება, ხოლო ბოძი კვლავ ღრმად ჩადის მიწაში. 
+<br />
+<br />სამძიმარი
+<br />
+<br />ქართულ მითოლოგიაში ქაჯეთიდან მოტაცებული ქალი-ქაჯი. სამძიმარის მოტაცება ხახმატის გიორგის სახელს უკავშირდება. ამ წარმოდგენაში, ისევე, როგორც სამძიმარის შემდგომი ნათლობის სიუჟეტში აისახა წმინდა გიორგის მიერ წარმართი მეფის მოქცევის გავრცელებული მოტივი. სამძიმარი შეიძლება უბრალო მოკვდავს ძილში გამოეცხადოს. ზოგჯერ მოკვდავი ქალის სახეს იღებს და მამაკაცს თავს აყვარებს, შემდეგ კი პატარძლად შედის ოჯახში და დოვლათი და იღბალი შეაქვს. როდესაც გაირკვევა, რომ იგი მოკვდავი ქალი არ არის, სამძიმარი ტოვებს სახლს. 
+<br />
+<br />სახლის ანგელოზი
+<br />
+<br />ქართულ მითოლოგიაში ოჯახის, კერძოდ ცოლ-ქმრული ურთიერთობების მფარველი ღვთაება. ოჯახის წევრებს შორის ჩხუბი სახლის ანგელოზის განრისხებას მიეწერებოდა. ამ შემთხვევაში მას ცხვარს ან გოჭს სწირავდნენ და მსხვერპლის სისხლს სახლის კარს და კედლებს უსვამდნენ. 
+<br />
+<br />ტყაში-მაფა
+<br />
+<br />ქართულ მითოლოგიაში ტყის დედოფალი, გარეულ ცხოველთა მბრძანებელი. ხალხური წარმოდგენებით ტყაში-მაფა ოქროსთმიანი (ზოგჯერ შავთმიანი) მშვენიერი ქალია, რომელიც ტყეში ცხოვრობს. მასზეა დამოკიდებული მონადირის იღბალი. ტყაში-მაფა მონადირესთან საიდუმლო სასიყვარულო კავშირს ამყარებს; საიდუმლოს გაცემის შემთხვევაში იგი მის რჩეულს სიკვდილს მოუვლენს (ზოგჯერ ქვად აქცევს), ხოლო მის ოჯახს გააღატაკებს. ტყაში-მაფას სიყვარულს ეძიებს ოჩოკოჩი, რომლის ძალადობის გამო ტყაში-მაფა კვდება (ან მონადირის ხელშეწყობით შველის თავს). ზოგი მკვლევარი ტყაში-მაფას დალისთან და უსახელო “ტყის ქალის” სახელთან აკავშირებს, რომელიც საქართველოს სხვადასხვა რაიონებში გავრცელებულ გადმოცემებსა და რიტუალურ სიმღერებში გვხვდება. 
+<br />
+<br />ფასკუნჯი
+<br />
+<br />ქართულ მითოლოგიასა და ფოლკლორში დრაკონის მსგავსი ფრინველი. ფასკუნჯთან დაკავშირებული ადრეული მითოლოგიური მოტივები არ შემონახულა. უფრო გვიანდელ ტრადიციებში ფასკუნჯის სახემ ფრინველ სიმურგის შესახებ ირანული წარმოდგენების მნიშვნელოვანი გავლენა განიცადა. ფასკუნჯი უზარმაზარი ძალით და გაუმაძღრობით გამოირჩევა. მის ფრთებს მაგიური ძალა აქვთ. ფასკუნჯის ფრთის შეხება ჭრილობას კურნავს. ფრთის დაწვით მისი გამოძახება შეიძლება. ფასკუნჯი ქვედა სამყაროში ცხოვრობს და მისი შვილების გველეშაპისგან გადარჩენის სამაგიეროდ გმირი ზევით ამოჰყავს.
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; ფოლკლორში დემითოლოგიზებული ფასკუნჯი ადამიანურ არსებას ემსგავსება. არსებობს აგრეთვე წარმოდგენები ბოროტი ფასკუნჯების შესახებ, რომლებიც დევების მსგავსად მტრობენ ადამიანებს. 
+<br />
+<br />ქაჯი
+<br />
+<br />ქართულ მითოლოგიაში სულები; უსიამოვნო გარეგნობის ანთროპომორფული არსებები. ქაჯების მუდმივ საცხოვრებელ ადგილს ქაჯეთი ეწოდება. ქაჯებს შეუძლიათ დღის - ღამედ, ღამის კი - დღედ ქცევა, ზღვაზე ქარიშხლის გამოწვევა, ისინი ძირავენ ხომალდებს, თავისუფლად გადაადგილდებიან წყლის ზედაპირზე, გადაქცევის და გაუჩინარების უნარი აქვთ. განარჩევენ მიწიერ და წყლის ქაჯებს. მიწიერი ქაჯები ტყეებში და მიუვალ კლდეებში ცხოვრობენ, მტრობენ ადამიანებს, სასიკვდილოდ სცემენ ან აგიჟებენ მათ. წყლის ქაჯები მდინარეებსა და ტბებში ცხოვრობენ. ისინი ნაკლებ ბოროტები არიან და ხშირად ეხმარებიან მეთევზეებს. ქალი-ქაჯები სილამზით გამოირჩევიან, ადამიანებთან სასიყვარულო ურთიერთობებს ამყარებენ, ხშირად უბედურებისაგან იხსნიან მათ, მიყვებიან ცოლად გმირებს. 
+<br />
+<br />ღმერთი
+<br />
+<br />ქართულ მითოლოგიაში ცის უზენაესი ღვთაება, ღვთაებების მამა, სამყაროს მბრძანებელი, შემოქმედი და მსოფლიო წესრიგის (მორიგე-ღმერთი), აგრეთვე ბუნების და ადამიანთა სიცოცხლის გამგებელი. ღმერთმა გამოჭედა ცა, შექმნა ხმელეთი და ზღვები, გაანათა ისინი ქალწული მზის - მზექალის შუქით, შექმნა დანარჩენი ღვთაებები - ხვთისშვილები. ღმერთი მეცხრე (მეშვიდე) ცაზე ცხოვრობს და ოქროს ტახტზე დაბრძანდება. იგი განაგებს სამყაროს და ადამიანთა საქმეებს და თავის ნება-სურვილს ხვთისშვილების მეშვეობით გამოთქვამს. ის ჭექა-ქუხილის და ციური ცეცხლის მფლობელი და მართლმსაჯულების ღვთაებაა. ღმერთი განსაზღვრავს ადამიანთა ბედს, აძლევს მათ მოსავალს, დღეგრძელობას, ნაყოფიერებას და იცავს მათ ყოველივე ცუდისგან. იგი ყველგან მყოფი და ყველაფრის მცოდნეა, ერთიანი, მაგრამ მრავალრიცხოვანი თავის “ნაწილებში”, რომელთა საშუალებით ნებისმიერი არსების სახით შეიძლება მოგვევლინოს. ღმერთს თან ახლავს მისი ერთგული ძაღლები (ან მგლები), რომლებსაც ის ადამიანთა საშველად ან დასასჯელად აგზავნის. ღმერთი წარმოდგენილია ოქროს პირით და საშინელი, ანთებული თვალებით. მისი წმინდა ცხოველი და სავარაუდო ზოომორფული წინასახე ბუღა-ხარია. ქრისტიანობის გავრცელების შემდეგ ღმერთი ბიბლიურ მამა-ღმერთთან გაიგივდა. 
+<br />
+<br />ყამარი
+<br />
+<br />ქართულ მითოლოგიაში ციური ქალწული, ამირანის შესახებ თქმულებების პერსონაჟი. ყამარის გარეგნობა და ხასიათი მზეთუნახავისას წააგავს. ყამარი კეთილი არსებაა, ერთგულად უყვარს ამირანი, რომელიც იტაცებს მას ზღვისიქითა ქვეყნიდან, ამარცხებს რა მამამისს - ამინდის და საავდრო ღრუბლების მეუფეს და ქაჯების მბრძანებელს. ყამარი მას შემდეგაც ელის თავის შეყვარებულს, რაც მას კლდეზე მიაჯაჭვავენ. ზოგი მკვლევარი მიიჩნევს, რომ ყამარის მოტაცება ზეციური ცეცხლის მოტაცებას განასახიერებს (აქედან სიუჟეტის დაკავშირება ბერძნულ პრომეთესთან). 
+<br />
+<br />ხვთისშვილი
+<br />
+<br />ქართულ მითოლოგიაში მეორეხარისხოვან ღვთაებათა (კოპალას, იახსარის და სხვ.) საერთო სახელწოდება. ჩვეულებრივ, ხვთისშვილები უზენაესი ღმერთის შვილებად ითვლებიან.
+<br />
+<br />ჯვარი
+<br />
+<br />ქართულ მითოლოგიაში (ხევსურებში) ლოკალურ ღვთაებათა საერთო სახელწოდება. ჯვართან ერთად იხმარება აგრეთვე ტერმინები “ხვთისშვილი”, “ღვთისნადები”. ჯვრები მორიგე-ღმერთს ემორჩილებიან, ითვლებიან მხარის, თემის, სოფლის მფარველებად. ხევსურთა საყოველთაო ღვთაებად ითვლება გუდანის ჯვარი სოფელ გუდანში. გუდანის ჯვარი მეომარი ღვთაების სახით გვევლინება, რომელიც ეხმარება ხევსურებს მტრის წინააღმდეგ ლაშქრო�ებში და გიორგისთან იდენტიფიცირდება. ფართოდ არის აგრეთვე გავრცელებული კარატის ჯვრის კულტი. ჯვრის შესახებ წარმოდგენებმა შეითავსა აგრეთვე მარიამის და სხვა ქრისტიანულ პერსონაჟთა თვისებები. ფშავში და თუშეთში ჯვარს ხატი შეესაბამება.<span class="smText"><br /><br />Edited by August on 05/დეკემბერი/2004 დრო 11:35</span><!-- Signature --><br /><br />__________________<br />Cogito, ergo sum.<!-- Signature -->
+<!-- Message body ''"" -->
+        </td>
+       </tr>
+       <tr>
+        <td bgcolor="#FFFACD" background="http://chveni.mamuli.net:8989/portal/ge/"><a href="#top" target="_self" class="npLink">გვერდის თავში</a>&nbsp;<a href="javascript:openWin('printer_friendly_messages.asp?TID=102&MID=563','printer_friendly','toolbar=0,location=0,status=0,menubar=1,scrollbars=1,resizable=1,width=640,height=390')"><img src="print_vf.gif" align="absmiddle" border="0" alt="საბეჭდი სახე"></a></td>
+        <td bgcolor="#FFFACD" background="http://chveni.mamuli.net:8989/portal/ge/" class="text"><a href="javascript:openWin('pop_up_profile.asp?PF=84&FID=41','profile','toolbar=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=590,height=425')"><img src="profile0.gif" border="0" alt="View&nbsp;August's&nbsp;Profile" align="absmiddle"></a>
+         <a href="http://chveni.mamuli.net:8989/portal/ge/forum/search_form.asp?KW=August&SI=AR&FM=41&FID=41&TID=102&PN=1&TPN=1"><img src="search_t.gif" border="0" alt="Search for other posts by&nbsp;August" align="absmiddle"></a>
+        </td>
+       </tr>
+
+       <tr>
+        <td colspan="2" align="center" background="http://chveni.mamuli.net:8989/portal/ge/" bgcolor="#FFA500"><span style="font-size: 2px;">&nbsp;</span></td></tr>
+      <tr>
+        <td valign="top" background="http://chveni.mamuli.net:8989/portal/ge/" bgcolor="#FFE9A6" class="smTe<td valign="top" background="http://chveni.mamuli.net:8989/portal/ge/" bgcolor="#FFE9A6" class="smText">
+         <a name="564"></a>
+<img src="icon_ofg.gif"> 
+         <span class="bold">August</span><br />დაწინაურებული<br /><img src="http://www.animati&#111;nlibrary.com/Animati&#111;n11/Nature/Sun/Sun_&#111;n_fire_2.gif" width="64" height="64" alt="ავატარი" vspace="5" OnError="this.src='http://chveni.mamuli.net:8989/portal/ge/images/blank.gif', height='0';"><br /><br />         <img src="3_star_s.gif" alt="დაწინაურებული"><br /><br />წევრობა: 17/ნოემბერი/2004<br /><img src="f-pl0001.gif" OnError="this.src='http://chveni.mamuli.net:8989/portal/ge/images/flags/icons/f-00.gif'" border="0" alt="National Flag of Poland" width="18" height="12" align="absmiddle" /> <a href="http://chveni.mamuli.net:8989/portal/ge/countryinfo.asp?ID=198" class="smLink">Poland</a><br />პასუხები: 236
+         </td>
+        <td valign="top" background="http://chveni.mamuli.net:8989/portal/ge/" bgcolor="#FFE9A6" class="text">
+         <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+           <td width="80%" class="smText">ჩაწერილია: 04/დეკემბერი/2004 დრო 19:32 | IP Logged
+		    </td>
+                    <td width="20%" align="right" nowrap="nowrap">
+            		 <a href="http://chveni.mamuli.net:8989/portal/ge/forum/edit_post.asp?M=Q&PID=564&TPN=1"><img src="quote_id.gif" align="absmiddle" border="0" alt="Quote&nbsp;August"></a>
+          </td>
+          </tr>
+          <tr>
+           <td colspan="2"><hr /></td>
+          </tr>
+         </table>
+<!-- Message body -->
+იბერიულ-კავკასიურ ხალხთა მითები
+<br /> 
+<br />იბერიულ-კავკასიურ ხალხთა მითოლოგია წარმოადგენს იმ ხალხთა მითოლოგიური წარმოდგენების ერთობლიობას, რომლებიც ცხოვრობენ ჩრდილოეთ კავკასიაში და ამიერკავკასიის ნაწილში და საუბრობენ კავკასიური ენების ოჯახში შემავალ ენებზე: ქართველების, ადიღების (ყაბარდოელები, ადიღები, ჩერქეზები), აფხაზების, აბაზინების, ჩეჩნების და ინგუშების (ვაინახები), დაღესტნელების (ავარები, ლეკები, დარგინები, ლეზგინები და სხვ.) და სხვ. ეს მითოლოგიური სისტემები წარმოიშვა უხსოვარ წარსულში იბერიულ-კავკასიურ ხალხთა წინაპარ ტომებს შორის. თავისი განვითარების პროცესში ეს სისტემები სხვადასხვა ზეგავლენას განიცდიდა. განსაკუთრებით დიდი ზეგავლენა მათზე ქრისტიანობამ და ისლამმა იქონია. კავკასიურ-იბერიული მითების ცალკეული ციკლები თითქმის არ შემონახულა, რადგან დიდ ეპოსებს (ქართული ეპოსი ამირანის შესახებ, კავკასიური ნართების ეპოსი) შეერწყა თითქმის ყველა მითოლოგიური სიუჟეტი და მოტივი. მრავალი წარმოდგენის და სიუჟეტის აღდგენა ხდება ენობრივი მონაცემების და სიმღერებში, ცეკვებში, ზეპირ გადმოცემებსა და რიტუალებში გაბნეული მოტივების მიხედვით. ეს მოტივები, რომლებიც კარგავდნენ პირვანდელ კონტექსტს, ზოგჯერ ერწყმოდნენ გვიანდელ რელიგიურ სისტემებს და ქრისტიანული და მუსულმანური კულტის ელემენტებად იქცეოდნენ. კავკასიურ-იბერიული მითოლოგიის უძველეს პლასტებზე წარმოდგენას იძლევა არქეოლოგია. ენეოლითისა და ადრეული ბრინჯაოს ხანიდან ჩვენამდე მოაღწია საყოფაცხოვრებო და საკულტო დანიშნულების საგნების ფრაგმენტებმა, რომლებზეც გამოსახულია ასტრალური ნიშნები, ჯვრები, კვადრატები, ადამიანთა და ცხოველთა ფიგურები. სხვადასხვა ტიპის სამარხების არსებობა გვაფიქრებინებს უკვე ამ ეპოქაში სიკვდილისშემდგომი სამყაროს შესახებ რთული წარმოდგენების არსებობაზე. კავკასიელ ხალხთა კოსმოგონიური წარმოდგენების მიხედვით, ხმელეთს მრგვალი ფორმა აქვს და გარშემორტყმულია ზღვით ან მთებით. სამყაროს კიდეზე დგას ცხოვრების ხე, რომელიც ვერტიკალურად აერთებს ცას, დედამიწას და მიწისქწვეშა სამყაროს. ჩეჩნების და ინგუშების წარმოდგენების თანახმად, მიწისქვეშა სამყარო ვერტიკალურად შვიდ სხვა სამყაროდ იყოფა, რომლებიც ერთმანეთთან დაკავშირებულია თითოეული სამყაროს კიდეზე არსებული სოროებითა თუ საიდუმლო გამოქვაბულებით (მოგვიანებით ჩეჩნებსა და ინგუშებში წარმოიშვა ერთიანი მიწისქვეშა სამყაროს გაგება). კოსმოგონიური წარმოდგენების შემდგომ განვითარებაზე თვალის გადევნება კარგად შეიძლება ენობრივი მონაცემების საფუძველზე, რომლის მიხედვითაც სამყარო გადამკვეთ კოორდინატებზე განლაგებული ცალკეული სამყაროებისგან შედგება (შდრ. ქართული სკნელი); ვერტიკალურად განლაგდება ზედა სამყარო (ზესკნელი), მიწიერი სამყარო (სკნელი) და მიწისქვეშა სამყარო (ქვესკნელი); ჰორიზონტალურად სამყაროს ცენტრის (სკნელის) წინ მოთავსებულია წინა სამყარო (წინასკნელი), ხოლო უკან - უკანა სამყარო (უკანასკნელი). ზედა სამყარო დასახლებულია ღვთაებებით, ფრინველებით და ფანტასტიური არსებებით, შუა - ადამიანებით, ცხოველებითა და მცენარეებით. ქვედა სამყარო ბოროტი ქტონური არსებების - დევების, დრაკონების, აგრეთვე სიღრმისეული წყლების სამყაროა. სამ ვერტიკალურ სამყაროს (ქართულ მითოლოგიაში) შეესაბამება თეთრი, წითელი და შავი ფერი. წინა სამყაროს - ნათელს და კეთილგანწყობილს, შეესაბამება გაგება “აქ”, ხოლო მის საპირისპირო უკანა სამყაროს - ბნელს, იდუმალს, ხიფათით და მოულოდნელობებით აღსავსეს - გაგება “იქ”. ბოროტი უკანა სამყაროს გამო მრავალი ჩვეულებით იკრძალებოდა უკან მოხედვა. ვერტიკალურად და ჰორიზონტალურად განლაგებულ სამყაროთა მთელი ეს სისტემა გარშემორტყმულია ბნელი გარეთა სამყაროთი - გარესკნელით, რომლის იქით არაფერი არ არსებობს და რომელიც მოიაზრება, როგორც გაყინული სიბნელე და უცვლელი მარადისობა. ვერტიკალურად განლაგებული სამყაროები ერთმანეთისგან ჰაერის სისქით და ხმელეთით გამოიყოფა, ხოლო ჰორიზონტალური - შვიდი (ცხრა) მთით და ზღვით. ერთი სამყაროდან მეორეში გადასვლა შესაძლებელია მხოლოდ ღვთაებების და ღმერთკაცებისთვის, ხოლო ადამიანს ასეთი გადასვლა შეუძლია მხოლოდ ღვთაების ნებართვით “იერის ცვლის” ანუ სიკვდილის გზით (შდრ. ქართული “გარდაცვალება”), როდესაც სული დროებით ტოვებს სხეულს, “მოგზაურობს” ღვთაებებთან ერთად ერთი სამყაროდან მეორეში, ხოლო დაბრუნების შემდეგ კვლავ შესახლდება მის სხეულში (ქართ. გახუა მეგრელაური, ინგუშური ბოტკი შირტკა). მოგვიანებით ჩნდება (ალბათ, ქრისტიანობის და მუსულმანობის გავლენით) სამოთხის და ჯოჯოხეთის ცნებები, ფორმდება სიუჟეტები, რომლებიც აღწერს სულის გადასვლას გარდაცვლილთა სამეფოში და ცოდვილთა სასჯელებს. ყველა სამყაროს ერთმანეთთან აერთიანებს სამყაროს კიდეზე მდგარი მსოფლიო ხე (მისი ვარიანტებია - სვეტი, რომელსაც ეყრდნობა ცარგვალი; კოშკი; ციდან დაშვებული ჯაჭვი; ირემი უზარმაზარი დატოტვილი რქებით, რომლებიც ცამდე აღწევს) მასზე მიბმული ცხოველით (აფხაზთა წარმოდგენით, როდესაც ცხოველი იღვიძებს და განთავისუფლებას ლამობს, ხდება მიწისძვრები). სამყაროთა შორის კავშირი მყარდება აგრეთვე ჯადოსნური ცხოველების, ფრინველების, ფანტასტიური არსებების (გმირთა რაშები, არწივები, თეთრი და შავი ცხვრები, დევები, ქაჯები და ა. შ. ) მეშვეობით. ამ წარმოდგენებს უკავშირდება რწმენა ხის და ტყეების ზებუნებრივი ძალის შესახებ. მრავალი ტომი (აფხაზები, ადიღები, დაღესტნელები) სცემდა თაყვანს ხეებს და სწირავდა მსხვერპლს. ქართულ მითებში ღვთაებები ხშირად ევლინებიან ურჩ ქვეშევრდომებს ხეების სახით. ჩეჩნების და ინგუშების კოსმოგონიური წარმოდგენა სიცოცხლის წარმოშობას უკავშირებს დედამიწაზე დაშვებულ უზარმაზარ თეთრ ფრინველს. დედამიწა მაშინ წარმოადგენდა ბრტყელ, უწყლო ხმელეთს, მცენარეებისა და ცხოველების გარეშე. ფრინველის უკან გაფრენის შემდეგ მისი ექსკრემენტებისგან წარმოიქმნა წყალი და თესლი, დაღვრილი წყლისგან წარმოიქმნა ზღვები, ტბები, მდინარეები; ქარით გაფანტული თესლით წარმოიშვა სხვადასხვა მცენარე. სხვა ვაინახური მითების მიხედვით მთები, ცხოველები და ადამიანები შექმნა დემიურგმა დიალამ. კავკასიურ-იბერიულ მითებში შემონახულია ძველი წინაქრისტიანული და წინაისლამური ღვთაებების პანთეონები უზენაესი ღვთაებით სათავეში. თუმცა მითებში უზენაესი ღვთაების გავლენა სხვა ღვთაებებზე ხშირად არ ვლინდება (ისევე, როგორც უზენაეს ღვთაებებს ხშირად უფრო არქაული მითოლოგიური პერსონაჟების ნიშან-თვისებები აქვს შემორჩენილი), რაც ამ წარმოდგენების შედარებით გვიანდელ წარმოშობაზე მიუთითებს. ამასთანავე, უზენაესი ღვთაების ცნებამ მნიშვნელოვანი ტრანსფორმაცია განიცადა ქრისტიანობის და ისლამის გავლენით. ქართული პანთეონის სათავეში დგას უზენაესი ღვთაება - ღმერთი, რომელიც, მიუხედავად იმისა, რომ ინაწილებს ზოგიერთ ფუნქციას სხვა ღვთაებებთან, არსებითად წარმოადგენს მსოფლიო წესრიგის ერთადერთ დამფუძნებელს და დამცველს, ყოველივე არსებულის მბრძანებელს. იგი იმყოფება მეცხრე ცაზე და მისი ნების გარეშე არაფერი არ ხდება არც მზისქვეშეთში, არც გარდაცვლილთა საუფლოში (ქრისტიანობის გავრცელების შემდეგ ღმერთი ასოცირდებოდა ბიბლიურ მამა - ღმერთთან). დანარჩენ ღვთაებებს - ხვთისშვილებს (ღმერთის შვილებს) ლოკალური ღვთაებების - მფარველების და ადამიანთა და უზენაეს ღმერთს შორის შუამავლების ფუნქცია აქვთ. ხვთისშვილთა მეთაურად ითვლებოდა კვირია - ხმელეთის მმართველი, რომელსაც საკუთარი კარავი ანუ სახლეული ჰქონდა. ზოგიერთი მითის მიხედვით, კვირია ითვლებოდა შუამავლად ღმერთსა და დანარჩენ ხვთისშვილებს შორის, რომლებიც მხოლოდ განსაკუთრებულ შემთხვევებში იკრიბებოდნენ უზენაესი ღმერთის კართან (დასავლეთ საქართველოს მთის ხალხთა მითებში კვირია ნაყოფიერების ფალოსური ღვთაებაა). აფხაზური პანთეონის სათავეში დგას ანცვა, რომელსაც შერწყმული აქვს ჭექა-ქუხილის და ნადირობის ძველი ღვთაებების, დედა- ღვთაების და სხვათა ნიშან-თვისებები. ადიღეურ მითოლოგიაში პანთეონის მეთაური, დემიურგი და შემოქმედი არის ტხა (სიტყვის წარმოშობა ადიღეური “დიგე”, “ტიგე” - მზე, საშუალებას იძლევა ვიფიქროთ, რომ თავდაპირველად შემოქმედის როლი ეკუთვნოდა მზის ღვთაებას); მოგვიანებით ტხას ფუნქციებმა გადაინაცვლა ტხაშხოსთან. ტხაშხოს კულტმა მიიღო ქრისტიანობის ზოგიერთი ელემენტი, ხოლო ჩრდილოეთ კავკასიაში ისლამის გავრცელების შემდეგ ალაჰის კულტს შეერწყა. ჩეჩნურ-ინგუშურ მითოლოგიაში უზენაესი ღვთაება, დემიურგი არის დიალა. დაღესტანში ერთი და იმავე ფუნქციის მქონე მითოლოგიურ პერსონაჟებს არა აქვთ საერთო სახელი, თითქმის ყველა ხალხს თავისი ღმერთები ჰყავს. პანთეონის სათავეში დგას ზალი (ლეკებთან), ბეჩედი (ავარებთან), გინიში (ცახურებთან), იინიში (რუტულებთან) და სხვ. კავკასიურ-იბერიული ხალხების მითოლოგიური წარმოდგენებისთვის დამახასიათებელია მზის, მთვარის და სხვა მნათობების პერსონიფიკაცია. ქართულ მითებში მთვარე მამაკაცია, მზე - ქალი; ისინი ხან და-ძმანი არიან, ხან - ცოლ-ქმარი, ხან კი - დედა-შვილი. დაღესტნის მთიელები მთვარეს და მზეს ქალიშვილის და ჭაბუკის იერით გამოსახავდნენ, ამასთანავე ზოგიერთ მითში ისინი და-ძმად გვევლინებიან, ზოგში კი - შეყვარებულებად. აფხაზთა პანთეონში თავდაპირველად შედიოდა მზის ამოსვლის და ჩასვლის ღვთაება ხაიტი, რომელიც დაკავშირებული იყო ცოცხალთა სამყაროსთან, გარდაცვლილთა სამყაროსთან, ზღვასთან. ძველი წარმოდგენებით, ხაიტის საზღვაო სამეფოში მთებიდან უზარმაზარი ხვრელით ჩაედინება ყველა მდინარე. ხაიტის ქალური შესატყვისი - კოდოში, რომლის კულტიც გავრცელებული იყო აფხაზეთის სანაპირო ზოლში და ზოგიერთ მოსაზღვრე ადიღეურ ტომში (მაგ. შაფსუღებში), გამოისახებოდა მისადმი მიძღვნილი ტყეებისა და ცალკეული ხის თაყვანისცემით. მოგვიანებით აფხაზურ პანთეონში შევიდნენ ამრა (მზის პერსონიფიკაცია) და ამზა (მთვარის პერსონიფიკაცია). მთვარის ფაზების წარმოშობის შესახებ მითის მიხედვით, ამრა (მზე) - მშვენიერი ქალია, ხოლო ამზა - მისი ქმარი. ამზას მოსდევს მისი და - ეშმაკი. როდესაც დაეწევა გაქცეულ ძმას, იგი იწყებს მის ჭამას. ამ დროს ჩნდება ამრა, რომელსაც გაუგია უბედურების შესახებ. ის თავისკენ ექაჩება ამზას, ხოლო და - თავისკენ. კამათს ღვთაება გადაჭრის: 15 დღით იგი ამზას ეშმაკს აძლევს (რომელიც ამ პერიოდში თითქმის მთლიანად შთანთქავს მთვარეს), ხოლო 15 დღით - მის ცოლს ამრას. იგი ახერხებს მიუსწროს ამზას სიცოცხლის ბოლოს (როდესაც მთვარე ილევა) და ალერსით და ზრუნვით კვლავ შთაბეროს სიცოცხლე. სავსემთვარეობისას კვლავ ეშმაკი აღიდგენს უფლებებს. არსებობს მთვარეზე ლაქების ახსნის სხვადასხვა ვარიანტი: მეცხვარის მიერ ზევით ასროლილი და მთვარეზე გაბნეული ძროხის ნაკელი; ნართ სასრიყვას ჯოგი, რომელიც მთვარეზე ძოვს. ქართველთა წარმოდგენით ლაქები მთვარეზე დედის მიერ ცომში მოსვრილი ხელით შვილისთვის სილის გაწვნის კვალია. მრავალი კავკასიური ხალხის რწმენით მთვარის დაბნელება ხდება იმის გამო, რომ მას თავს ესხმის ურჩხული (დრაკონი), რომელიც მის შეჭმას ლამობს; არსებობდა ტრადიცია მთვარის დაბნელების დროს მისი მიმართულებით სროლისა, რათა ეხსნათ იგი. ინგუშების და ჩეჩნების მითოლოგიაში ციური მნათობებისადმი მიძღვნილი რამდენიმე სიუჟეტი არსებობს. ერთ-ერთის მიხედვით, პერსონიფიცირებული მზე (ან მზის ღმერთი) გელა დილით ზღვიდან ამოდის, ხოლო საღამოს კვლავ ზღვაში ჩადის. როდესაც იგი ჰორიზონტზე ამოდის, მისგან ზღვის ქაფი წვეთავს. წელიწადში ორჯერ (ბუნიობის დროს) დედამისს - აზას სტუმრობს (ზოგიერთი მითის მიხედვით, აზა მზის შვილია, ყოველივე ცოცხალის მფარველი; დაიბადა მზის სხივისგან და წარმოადგენს მზის სხივების მაცოცხლებელ ძალას). ერთ-ერთი მითის თანახმად, მზე და მთვარე ძმები არიან (თუმცა სხვადასხვა დედის შვილები), რომელთაც მუდმივად დევნის მათი ბოროტი და მოჟი, რომელსაც ცაზე თავისი ნათესავები შეუჭამია; როცა იგი მათ დაეწევა, ხდება დაბნელება. სხვა მითი მოგვითხრობს მზისა და სხვა მნათობების წარმოშობის შესახებ. მშვენიერ ქალიშვილს მისდევდა მასზე შეყვარებული სახელგანთქმული ოსტატი-მჭედელი, რომელმაც არ იცოდა, რომ ეს ქალიშვილი მისი და იყო: იგი მას გავარვარებული ოქროს კომბლით მისდევდა მანამდე, ვიდრე ორივენი არ მოკვდნენ. კომბლის ნაპერწკლები ვარსკვლავებად გადაიქცნენ, ჭაბუკი - მზედ, ხოლო ქალიშვილი - მთვარედ. დღემდე ჭაბუკი (მზე) ცდილობს დაეწიოს ცაზე მის შეყვარებულს (მთვარეს). კავკასიაში გავრცელებულია მითოლოგიური სიუჟეტები მფარველ ღვთაებებზე და ბუნებრივი ობიექტების - მდინარეების, ტბების, ზღვების, მთის მწვერვალების და სხვ. მფლობელებზე, აგრეთვე ნადირობის ღვთაებებზე, რომლის ნებართვის გარეშე მონადირეს არ შეუძლია მოინადიროს რაიმე. არსებობს აგრეთვე ლეგენდები გარეული ცხოველების “პატრონ” ღვთაებებზე. ისინი ჩუქნიან მონადირეს ნანადირევს, რომლის მოკვლაც მათი ნებართვის გარეშე ეკრძალებათ, ხოლო ურჩი ყოველთვის ისჯება. ნადირობის ღვთაებებს მიეკუთვნებიან ქართული ოჩოპინტრე, დალი, აფხაზური აჟვეიფში, რომელიც ზოგჯერ აერგთან არის გაიგივებული, ადიღეური მეზიტხა, რომელმაც განდევნა ნადირობის ადრინდელი ღვთაება მეზგუაში ( ქრისტიანობის გავრცელების შემდეგ მისი ფუნქციები ნაწილობრივ დაუშჯერჯიამ აიღო, რომელსაც აგრეთვე წმინდა გიორგის ნიშნები შეერწყა), დაღესტნური აბდალი (ავდალი), ინგუშური ელტა (რომელიც აგრეთვე მცენარეულობის ღვთაებაა) და სხვ. ნადირობის ღვთაებებთან დაკავშირებული წარმოდგენები ასახულია სანადირო ეპოსში და მითოლოგიურ სიუჟეტებში მონადირეთა შესახებ, რომლებიც მისდევენ რა ნადირთა მფარველ ღვთაებებს, რომელთაც ცხოველის სახე აქვთ მიღებული, მაღალი კლდეებიდან ვარდებიან და იღუპებიან. ეს სიუჟეტები, ისევე, როგორც ხალხური ცეკვებისა და სიმღერების ტექსტები, სრულდებოდა საგაზაფხულო დღეობებზე. მოგვიანებით კავკასიაში სანადირო მოტივები აგრარულ და კოსმოგონიურ წარმოდგენებს შეერწყა. ცეკვა-სიმღერები დაღუპული მონადირის შესახებ, რომლებიც ყოველწლიურად სრულდებოდა ადრეულ საგაზაფხულო დღეობებზე, ეძღვნებოდა ბუნების ნაყოფიერების განახლებას და გამოღვიძებას. დაღესტნის მრავალ ხალხში სჩანს ტოტემური წარმოდგენების კვალი. ტოტემების როლში გვხვდება დათვი, ძროხა, ძაღლი, ცხენი, თხა, ცხვარი, არწივი. დაღესტნის ხალხთა წარმოდგენებში მნიშვნელოვანია გველის როლი; ერთგან გველი კეთილი სულია, სახლის მფარველი, ხოლო მეორეგან - წყლის, წვიმის და ელვის განსახიერება. ტოტემური წარმოდგენები მოსჩანს ჩეჩნურ-ინგუშურ მითოლოგიაშიც. ერთ-ერთ ზღაპარში უშვილო წყვილს ძროხამ და დედალმა ცხენმა მოუყვანეს შვილები. მშობლებმა ძროხისგან დაბადებულ შვილს მახტატი დაარქვეს, ხოლო ცხენისგან დაბადებულს - პახტატი. მათ გოლიათური ძალა აქვთ და მრავალ გმირობას ჩადიან. სხვა ზღაპარში ადამიანის და დათვის კავშირის შედეგად ჩნდება ჯადოსნური უნარის მქონე გმირი ჩაიტონგი. ჩეჩნებთან და ინგუშებთან ადამიანთა მფარველად გვევლინებიან ფრინველი (ფარა ხაზილგი) და გველი.
+<br />
+<br /><span class="smText"><br /><br />Edited by August on 05/დეკემბერი/2004 დრო 12:01</span><!-- Signature --><br /><br />__________________<br />Cogito, ergo sum.<!-- Signature -->
+<!-- Message body ''"" -->
+        </td>
+       </tr>
+       <tr>
+        <td bgcolor="#FFE9A6" background="http://chveni.mamuli.net:8989/portal/ge/"><a href="#top" target="_self" class="npLink">გვერდის თავში</a>&nbsp;<a href="javascript:openWin('printer_friendly_messages.asp?TID=102&MID=564','printer_friendly','toolbar=0,location=0,status=0,menubar=1,scrollbars=1,resizable=1,width=640,height=390')"><img src="print_vf.gif" align="absmiddle" border="0" alt="საბეჭდი სახე"></a></td>
+        <td bgcolor="#FFE9A6" background="http://chveni.mamuli.net:8989/portal/ge/" class="text"><a href="javascript:openWin('pop_up_profile.asp?PF=84&FID=41','profile','toolbar=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=590,height=425')"><img src="profile0.gif" border="0" alt="View&nbsp;August's&nbsp;Profile" align="absmiddle"></a>
+         <a href="http://chveni.mamuli.net:8989/portal/ge/forum/search_form.asp?KW=August&SI=AR&FM=41&FID=41&TID=102&PN=1&TPN=1"><img src="search_t.gif" border="0" alt="Search for other posts by&nbsp;August" align="absmiddle"></a>
+        </td>
+       </tr>
+
+       <tr>
+        <td colspan="2" align="center" background="http://chveni.mamuli.net:8989/portal/ge/" bgcolor="#FFA500"><span style="font-size: 2px;">&nbsp;</span></td></tr>
+      <tr>
+        <td valign="top" background="http://chveni.mamuli.net:8989/portal/ge/" bgcolor="#FFFACD" class="smText">
+         <a name="572"></a>
+<img src="icon_ofg.gif"> 
+         <span class="bold">August</span><br />დაწინაურებული<br /><img src="http://www.animati&#111;nlibrary.com/Animati&#111;n11/Nature/Sun/Sun_&#111;n_fire_2.gif" width="64" height="64" alt="ავატარი" vspace="5" OnError="this.src='http://chveni.mamuli.net:8989/portal/ge/images/blank.gif', height='0';"><br /><br />         <img src="3_star_s.gif" alt="დაწინაურებული"><br /><br />წევრობა: 17/ნოემბერი/2004<br /><img src="f-pl0001.gif" OnError="this.src='http://chveni.mamuli.net:8989/portal/ge/images/flags/icons/f-00.gif'" border="0" alt="National Flag of Poland" width="18" height="12" align="absmiddle" /> <a href="http://chveni.mamuli.net:8989/portal/ge/countryinfo.asp?ID=198" class="smLink">Poland</a><br />პასუხები: 236
+         </td>
+        <td valign="top" background="http://chveni.mamuli.net:8989/portal/ge/" bgcolor="#FFFACD" class="text">
+         <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+           <td width="80%" class="smText">ჩაწერილია: 05/დეკემბერი/2004 დრო 12:53 | IP Logged
+		    </td>
+                    <td width="20%" align="right" nowrap="nowrap">
+            		 <a href="http://chveni.mamuli.net:8989/portal/ge/forum/edit_post.asp?M=Q&PID=572&TPN=1"><img src="quote_id.gif" align="absmiddle" border="0" alt="Quote&nbsp;August"></a>
+          </td>
+          </tr>
+          <tr>
+           <td colspan="2"><hr /></td>
+          </tr>
+         </table>
+<!-- Message body -->
+მრავალი სიუჟეტი უკავშირდება ელვის და ჭექა-ქუხილის ღვთაებებს, ადამიანთა ბედის და მოსავლის გამგებლებს. ისინი, უზენაესი ღმერთების მსგავსად, ფლობენ ციურ ცეცხლს და დედამიწაზე გზავნიან წვიმას და გვალვას. ქართულმა მითებმა და რიტუალებმა არ შემოგვინახა ელვის და ჭექა- ქუხილის უძველესი ღვთაებების სახელები, რომელთა კულტიც შეერწყა მათი გამომდევნელი ქრისტიანული წმინდანების - ელიას (ილიას), გიორგის და სხვ. კულტს. აფხაზურ პანთეონში ელვის და ჭექა-ქუხილის მბრძანებელია აფი, რომელიც დედამიწაზე ცეცხლოვან ისრებს გზავნის. ადიღებს სწამდათ დიდი ელვისმტყორცნელი ღმერთი შიბლე, რომელიც სულის ღმერთ ფსატხასთან ერთად პანთეონში ტხას (ტხაშხოს) შემდეგ მოდიოდა. დაღესტანში თაყვანს სცემდნენ ელვის და ჭექა-ქუხილის ღვთაებებს ასს (ლაკებთან) და არშს (ცახურებთან), წვიმის ღვთაებებს (ზიუვილს ლაკებთან, გუდილს ტაბასარებთან, გუდის რუტულებთან, გოდეის ცახურებთან, ფეშაფაის ლეზგინებთან). აფხაზები, ადიღები, ქართველები მეხისგან მოკლულს განსაკუთრებული პატივით კრძალავდნენ, როგორც წესი სიკვდილის ადგილზე. ჭექა-ქუხილთან და ელვასთან დაკავშირებულია მჭედლობის მფარველი ღვთაებები (ქართული პირქუში, აფხაზური შაშვი, ადიღეური ტლეფში). აფხაზები სამჭედლოს ჭექა- ქუხილის ღმერთის - აფის ნამსხვრევად თვლიდნენ. მთელ კავკასიაში იყო გავრცელებული წარმოდგენები ღმერთსა და ადამიანს შორის შუამავალი ღვთაებების შესახებ, რომლებიც გამოსთხოვდნენ ხოლმე ღმერთს ადამიანთათვის სასურველ ამინდს. რიტუალების დროს ამ ღვთაებების პატივსაცემად ქალები სოფელში მორთული თოჯინებით დადიოდნენ, რომელთაც წყლით რწყავდნენ, ხოლო ცერემონიის დასრულების შემდეგ მდინარეში ყრიდნენ ხოლმე. ითვლებოდა, რომ ეს მსვლელობები შეაჩერებდა გვალვას და კოკისპირულ წვიმებს. ლაზარეს, გონჯოს და სხვებთან ერთად ქართველები თაყვანს სცემდნენ ქრისტიანულ წმინდანებს, რომელთაც საჭირო ამინდი მოჰყავდათ, კერძოდ, გაღმერთებულ ისტორიულ პიროვნებებს. ფალოსური თოჯინებით გამართული რიტუალური მსვლელობები ბევრ რამეში ემთხვევა ძველბერძენი მწერლების მიერ აღწერილ, მოსავლიანობის ღვთაებებისადმი მიძღვნილ დღესასწაულებს. საქონლის ნაყოფიერებაზე ქართველები უზენაეს ღვთაებას (ღმერთს) ევედრებოდნენ, აგრეთვე წმინდა მარიამს და სხვადასხვა სინკრეტულ ღვთაებას, რომლებიც საქონლის მფარველობასთან ერთად აგრარულ ფუნქციებსაც ითავსებდნენ (მაგ. ბოსელი, ბარბალე, ბარბოლი, ქრისტიანული წმინდა ბარბარე, თევდორე, ჭაბუკი, ლამარი და სხვ.) შემონახულია აგრეთვე შინაური ცხოველების და მიწათმოქმედების განსაკუთრებულ მფარველებთან დაკავშირებული სიუჟეტები. დაღესტანში ლეზგინები თაყვანს სცემდნენ მიწათმოქმედების და მესაქონლეობის ღვთაება გუცარს. კავკასიის სხვა ხალხებთან ეს წარმოდგენები უფრო დიფერენცირებულია. აფხაზები მესაქონლეობის მთავარ ღვთაება აიტართან ერთად თაყვანს სცემდნენ საქონლის, განსაკუთრებით კამეჩების მფარველ ღვთაებას მკამგარიას (აკამგარია, სკამგარია). ადიღები თაყვანს სცემდნენ ხარების მფარველს - ხაკუსტაშს და ძროხების მფარველს - ფშიშაკს; ამათ გარდა იყვნენ მსხვილი და წვრილი საქონლის მფარველი ღვთაებები ახინი და ამიში. მთელ კავკასიაშია გავრცელებული ლეგენდები საქონლის მფარველი ღვთაების მიერ გამოგზავნილი ძროხის ან ხარის შესახებ, რომელიც ნებაყოფლობით სწირავს თავს მსხვერპლად ამ ღვთაებას. ქართველებში ეს ლეგენდები უკავშირდება სხვადასხვა ღვთაების - თემის მფარველთა და ქრისტიან წმინდანთა კულტს. ქრისტიანული ეკლესია იყენებდა ლეგენდებს ცხოველის შესახებ, რომელიც თვითონ მოდის მსხვერპლად შეწირვის ადგილას. მაგ. ილორის ტაძარში წმინდა გიორგის დღეობაზე “სასწაული” ხდებოდა: მოდიოდა ოქროს რქიანი ხარი, რომელიც თითქოს დღესასწაულის წინა ღამით თვით წმინდანის მიერ იყო მოყვანილი. ქართული ლეგენდის თანახმად, თავდაპირველად ღვთაება ირემს გზავნიდა. ნებაყოფლობითი მსხვერპლის მოტივი უახლოვდება შესაბამის ანტიკურ და ძველაღმოსავლურ მოტივებს. კავკასიის მთიელებში ცნობილია მიწათმოქმედების, ნაყოფიერების და მოსავლის ძველი ღვთაებები, როგორებიც არიან აფხაზური ჯაჯა და ანაპა-ნაგა, ადიღეური ტხაგალეჯი, ჩეჩნურ- ინგუშური ერდი, თუშოლი (რომელიც ქართველებშიც არის ცნობილი), დაღესტნური იდორი, კვარა და სხვ. არსებობენ ხელობის მფარველი ღვთაებები (კერძოდ, ქართული ლამარი, აფხაზური ერიში - ქსოვის, საუნაუ - ფქვის და სხვ.) იბერიულ-კავკასიურ მითოლოგიაში შემონახულია წარმოდგენები კეთილი და ბოროტი სულების, ტყის კაცების შესახებ, რომლებიც მოგვიანებით ქრისტიანობის და ისლამის გავლენით ეშმაკის, შაითანის, იბლისის შესახებ წარმოდგენებს შეერწყა. ჩეჩნურ-ინგუშურ მითოლოგიაში კეთილი სულების - მფარველების როლში გვევლინებიან ტარამები; ბევრია ბოროტი სული - ალმაზები, ხუნ საგი, უბური, ვოჩაბი, გამსილგი. ბოროტ სულთა შორის ბევრი სხვადასხვა დაავადებას განასახიერებს. დაღესტნის ხალხებში შაითანები წარმოადგენენ თმებით დაფარულ ანთროპომორფულ არსებებს გადმოტრიალებული ხელ-ფეხით და ადამიანზე დაბლები არიან. ისინი განცალკევებულად ცხოვრობენ და ისეთივე ცხოვრებას ეწევიან, როგორსაც ადამიანები: ქორწინდებიან, შობენ შვილებს (მძიმე მშობიარობის დროს დამხმარე ქალს იწვევენ); უყვართ ცხენებით სეირნობა. ზოგჯერ ნაცნობი ადამიანის სახეს იღებენ. ზოგჯერ, თუ ადამიანმა სიკეთე და ზრუნვა გამოამჟღავნა, შაითანი მას მდიდარ ადამიანად აქცევს. ბოროტი შაითანები ცვლიან ახალშობილებს, ხელს კრავენ უფსკრულის კიდეზე მდგომ ადამიანებს, აჩერებენ წისქვილებს და ა.შ. მთის ხალხის რწმენით, ყურანისეული ლოცვა შაითანისგან იცავს. ავარებთან შაითანებს საკუთარი სახელები აქვთ: იტუ, ტიტუ, ნისკუ და სხვ. შაითანთა სახესხვაობას წარმოადგენენ ვასვასინეკალი (ჯერ კიდევ არდაბადებულ ადამიანს დაავადებებს მოუვლენს), კეხაი (კისერს უმრუდებს ადამიანს, აბნევს მას, უმთავრესად კი საქონელს ერჩის), ჟუნდული (ჩვეულებრივ, იცავს ადამიანს, მაგრამ მის მაწყენარს დაავადებებს მოუვლენს - სახის კრუნჩხვებს, აჯადოებს) და სხვ. ჯინები, რომლებიც დაღესტნურ მითოლოგიაში გვხვდებიან, იყოფიან თეთრ ჯინებად, რომლებიც მფარველობენ ადამიანებს, ხელს უწყობენ გამდიდრებაში ( გამდიდრების საიდუმლოს გამამხელელი ადამიანი სასტიკად ისჯება ჯინის მიერ) და შავ ჯინებად, რომლებიც აგიჟებენ ადამიანს. ქართულ მითებში გვხვდება ბოროტი სულები - დევები და ქაჯები, რომლებიც ქვედა სამყაროში ცხოვრობენ. მითოლოგიური წარმოდგენების განსაკუთრებული პლასტი ვლინდება ეპოსში და ფოლკლორში. ჩრდილოეთ კავკასიის ხალხთა და აფხაზური ნართების ეპოსი და ქართული ამირანის ეპოსი, წარმოიქმნენ რა უხსოვარ წარსულში, სხვადასხვა ისტორიული ეპოქის ანაბეჭდს ატარებენ. ეპოსსა და მითს შორის საზღვარი ხშირ შემთხვევაში საკმაოდ პირობითია. ეპოსის გმირები ცხოვრობენ სამყაროში, რომლის სივრცე-დროითი მახასიათებლები მითიური სამყაროს შესაბამისი მახასიათებლების მსგავსია. ღმერთები გვევლინებიან გმირების დამხმარეების, მფარველების ან პირიქით მოწინააღმდეგეთა როლში. ნართულ ეპოსში ღმერთები დებეჩი და ტლეპში ღვთაებრივი მჭედლების ორ თაობას განასახიერებენ. დებეჩი გავარვარებულ ლითონს ხელით აძლევს ფორმას, ხოლო ტლეპში იგონებს მარწუხებს, უროს, გრდემლს, აკეთებს პირველ ნამგალს. იგი ასევე მკურნალობს ძვლების მოტეხილობებს (აქ ასახულია ლითონის ათვისების ეპოქის დროინდელი უძველესი წარმოდგენები, როდესაც მჭედელი, რომელსაც თაყვანს სცემდნენ, როგორც ღვთაების ყოვლისშემძლე რჩეულს, განასახიერებდა ზებუნებრივ ძალას, რომელსაც ლითონის დამორჩილება შეეძლო). მეორეს მხრივ, ეპოსის გმირები (ამირანი, აბრსკილი, სასრიკვა, სოსრუკო, ნასრენ-ჟაჩე, ბატრაზი, პხარმატი და სხვ.) აღსდგებიან თვით ღმერთის წინააღმდეგ და ცეცხლს მოუპოვებენ ხალხს, რაც მათ ბერძნულ პრომეთესთან ანათესავებს და საშუალებას იძლევა, ისინი კულტურული გმირების რიგში განვიხილოთ. განასახიერებენ რა კეთილ საწყისს, ეპოსის გმირები ყოველთვის ეწინააღმდეგებიან ბოროტების, სიბნელის და მიწისქვეშა სამეფოს ქტონურ ძალებს, რომლებზეც გამარჯვება კოსმოსის მოწესრიგების სიმბოლოა. თავის საქმეებში გმირები მრავალ ღმერთს სჯობიან, ხოლო ზოგჯერ მათ მოწინააღმდეგედაც გვევლინებიან (ადიღეური სოსრუკო ღმერთებს სასმელს - სანოს წაართმევს და ადამიანებს აძლევს), ებრძვიან მათ და ხშირად იმარჯვებენ კიდეც (უაზირმესი კლავს ბოროტ ღმერთ პაკოს; ნასრენ-ჟაჩე აღსდგება ტხას მბრძანებლობის წინააღმდეგ, რის გამოც ოშხამახოს მწვერვალზე მიაჯაჭვავენ, საიდანაც მოგვიანებით ნართი ბატრაზი ათავისუფლებს). უმეტეს შემთხვევაში ეპოსის გმირები სასწაულებრივად იბადებიან - უცოდველი ქალწულისგან, ქვისგან, ქალღმერთის და მონადირისგან (აბრსკილი, ამირანი, სასრიკვა, სოსრუკო, სოსკა-სოლსა). ნადირობას კავკასიურ ეპოსში განსაკუთრებული ადგილი უჭირავს, იგი წინ უძღვის ყველა მნიშვნელოვან გმირობას. ეპოსის გმირთა გმირობები განასახიერებენ ბუნების მოვლენებს, ბუნებრივი ციკლების პერიოდულობას, ციურ მნათობთა მოძრაობის როტაციულ ხასიათს. თუმცა თვითონ გმირთა ქმედებების ციკლურობა უკვე დაკარგულია და მხოლოდ სიუჟეტის გარკვეული ელემენტები მიუთითებენ მათ თავდაპირველ ხასიათზე. მიწისქვეშა სამყაროდან მოილტვის ცოცხლად დამარხული ნართი სოსრუკო, ყოველ გაზაფხულზე გაისმის მისი კვნესა; სოსრუკოს მიწისქვეშა სამყაროში ჩასვლის დღეს იღვიძებს ბუნება, მიწა იცილებს ყინულს, ჩნდება წყაროები - სოსრუკოს ცრემლები. ყოველ წელს გვახსენებენ თავს კლდეზე მიჯაჭვული ან გამოქვაბულში გამომწყვდეული გმირები (ამირანი, აბრსკილი და სხვ.). აღმოსავლეთ საქართველოს მთიელთა ფოლკლორში შემორჩენილია სიუჟეტები გიორგის ყოველწლიური მოგზაურობის შესახებ ქაჯების ქვეყანაში. გიორგი, ამირანის და აშამეზის მსგავსად, იტაცებს მშვენიერ ქალებს, სიყვარულის და ნაყოფიერების ქალღმერთებს (ალბათ, ქაჯების მიერ მოტაცებულთ), ცხრასიმიან ფანდურს და გრდემლს, მოერეკება უზარმაზარ ჯოგს. ქაჯების ქვეყნიდან დაბრუნებისას თან მოაქვს მუსიკალური ინსტრუმენტი - გაზაფხულის სიმბოლო. ამირანი გადაივლის ზღვას და იტაცებს მშვენიერ ყამარს, ზეციურ, მზიურ ქალიშვილს, ღრუბელთა წინამძღოლის შვილს - გაზაფხულის სიმბოლურ სახეს. ამირანს გადაყლაპავს ვეშაპი, რომელიც სიბნელეს განასახიერებს, მაგრამ იგი ვეშაპს გვერდს გაუჭრის და გარეთ გამოდის. ნართები ჩადიან გმირობებს, რომლებიც აბედნიერებენ ადამიანებს და აყვავებენ ბუნებას. ნართი აშამეზი ბატრაზთან და სოსრუკოსთან ერთად მიწისქვეშა სამყაროში ჩადის, რათა დრაკონისგან მშვენიერი ახუმიდა გამოიხსნას და მოსტაცოს ჯადოსნური სალამური, რომლის დაკვრაც მძინარე ბუნებას აღვიძებს და განდევნის ზამთარს, რომელიც ჩამოწოლილა დედამიწაზე, ვიდრე სალამური დრაკონის ხელშია. დაღესტანში, სადაც ნართების ეპოსი ფართოდ არ გავრცელებულა (აქ ცნობილია მხოლოდ ცალკეული სიუჟეტები ნართებზე, კერძოდ ნართ ბარხუზე) ეპიკური სიუჟეტები და მოტივები ტიპოლოგიურად ახლოს დგას ამირანის და ნართების ეპოსთან. ლეზგინების ეპოსის გმირი - შარვილი, რომელშიც გაერთიანებულია მითოლოგიური და ზღაპრული ნიშან-თვისებები, უზარმაზარ ძალას ფლობს: გრანიტის კლდეს ჰკვეთს, ასი ათას მეომარს ცვლის, შეუვალია ისრების და ხანჯლებისთვის; მტერი მასთან გამკლავებას მხოლოდ მოტყუების გზით ახერხებს. დაღესტნური ეპოსის ზოგიერთი გმირი ღმერთებს ებრძვის. ლაკების გმირი ამირი აღუდგება ღმერთ ზალს, რისთვისაც მას რკინის ჯაჭვით კლდეზე მიაბამენ. სხვა გმირი (ადამიანი მაჩალ-ლაშიდან) მთაში ყინვისგან გათოშილი ქალიშვილებისთვის ცეცხლს პარავს ღმერთს. ყველაზე გავრცელებულ სიუჟეტებს შორისაა გმირების ბრძოლა ცალთვალა გოლიათებთან (ამირანი, ნართები; შდრ, ბერძნული ოდისევსის ბრძოლა ციკლოპ პოლიფემოსთან). ანალოგიური სიუჟეტები გვხვდება აგრეთვე კავკასიელ ხალხთა ფოლკლორში. ქართული ხალხური ლექსი “თავფარავნელი ჭაბუკი” შეიცავს სიეჟეტს გმირზე, რომელიც ყოველ ღამე გადაცურავს ზღვას თავის შეყვარებულთან შესახვედრად; ქალწული ანთებულ სანთელს ტოვებს ნაპირზე, რათა ჭაბუკს გზა მიასწავლოს, მაგრამ ბოროტი დედაბერის შელოცვით სანთელი ქარიშხლის დროს ქრება. ჭაბუკი ვერ აგნებს ნაპირს და იღუპება. ანალოგიური სიუჟეტები შემორჩენილია ადიღებშიც. ლეგენდის თანახმად, მშვენიერი ადიუხის სახლი დგას მდინარის ნაპირზე, რომელზეც გადაჭიმულია ტილოს ხიდი. თუ ადიუხის ქმარი სახლში გვიან ღამით ბრუნდება, იგი ფანჯრიდან თავის მანათობელ ხელებს უწვდის, რომელიც უნათებს გზას და ქმარიც ხიდზე ადვილად გადარეკავს ცხენებს. უმადური ქმარი უშლის ადიუხს ხიდის ხელებით განათებას. ბნელი ღამით იგი ვარდება ხიდიდან და იხრჩობა, რის შემდეგაც ადიუხი ცოლად სოსრუკოს მიყვება, რომელსაც მზის ატრიბუტიკა ახასიათებს. ადიუხის მანათობელი ხელები გვახსენებს ძველ მითს განთიადის ქალღმერზე, რომლის ვარდისფერი თითებიც ანათებს დილის ცას. ლეგენდის ქართულ ვარიანტში დაღუპული გმირი მის აქსესუარებთან ერთად (წითელი სამოსი, ანთებული სანთელი, ღამით ცურვა, ტვირთი, რომელიც მიაქვს და საბოლოოდ, სიკვდილი) ქალღმერთის სიყვარულის გამო დაღუპულ ღვთაებებს და გმირებს უახლოვდება.<!-- Signature --><br /><br />__________________<br />Cogito, ergo sum.<!-- Signature -->
+<!-- Message body ''"" -->
+        </td>
+       </tr>
+       <tr>
+        <td bgcolor="#FFFACD" background="http://chveni.mamuli.net:8989/portal/ge/"><a href="#top" target="_self" class="npLink">გვერდის თავში</a>&nbsp;<a href="javascript:openWin('printer_friendly_messages.asp?TID=102&MID=572','printer_friendly','toolbar=0,location=0,status=0,menubar=1,scrollbars=1,resizable=1,width=640,height=390')"><img src="print_vf.gif" align="absmiddle" border="0" alt="საბეჭდი სახე"></a></td>
+        <td bgcolor="#FFFACD" background="http://chveni.mamuli.net:8989/portal/ge/" class="text"><a href="javascript:openWin('pop_up_profile.asp?PF=84&FID=41','profile','toolbar=0,location=0,status=0,menubar=0,scrollbars=1,resizable=1,width=590,height=425')"><img src="profile0.gif" border="0" alt="View&nbsp;August's&nbsp;Profile" align="absmiddle"></a>
+         <a href="http://chveni.mamuli.net:8989/portal/ge/forum/search_form.asp?KW=August&SI=AR&FM=41&FID=41&TID=102&PN=1&TPN=1"><img src="search_t.gif" border="0" alt="Search for other posts by&nbsp;August" align="absmiddle"></a>
+        </td>
+       </tr>
+
+       <tr>
+        <td colspan="2" align="center" background="http://chveni.mamuli.net:8989/portal/ge/" bgcolor="#FFA500"><span style="font-size: 2px;">&nbsp;</span></td></tr>     
+    </table></td>
+<td background='http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/right-side-table-bg.gif'>
+<img alt="]" src='right-sl.gif' /></td>
+</tr>
+</table>
+<table cellspacing='0' cellpadding='0' width='100%' align='center'>
+<tr>
+<td><img alt="]" src='bottom-o.gif' /></td>
+<td width='100%' background='http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/bottom-bg.gif'>
+<img alt="]" src='spacer03.gif' width='100%' height='1' /></td>
+<td><img src='bottom-u.gif'></td>
+</tr>
+</table>
+
+    <table width="100%" border="0" cellspacing="0" cellpadding="4" align="center">
+      <tr>
+        <td>
+	<span class="text">ფორუმზე</span>
+	 <select onChange="ForumJump(this)" name="SelectJumpForum">
+           <option value="" selected>-- შეარჩიეთ --</option>
+		<option value="">კარიბჭის სიახლეები</option>
+		<option value="forum_topics.asp?FID=6">&nbsp;&nbsp;|&#8212;&nbsp;საითების სიახლეები</option>
+		<option value="">პოლიტიკა</option>
+		<option value="forum_topics.asp?FID=16">&nbsp;&nbsp;|&#8212;&nbsp;საქართველოს უახლესი ისტორია</option>
+		<option value="forum_topics.asp?FID=17">&nbsp;&nbsp;|&#8212;&nbsp;რუსეთი და კავკასია</option>
+		<option value="forum_topics.asp?FID=14">&nbsp;&nbsp;|&#8212;&nbsp;სიმართლე წარსულზე - საითი "სიმართლე"</option>
+		<option value="">ერი და ცხოვრება</option>
+		<option value="forum_topics.asp?FID=19">&nbsp;&nbsp;|&#8212;&nbsp;ქართული ენა და მისი პრობლემები</option>
+		<option value="forum_topics.asp?FID=30">&nbsp;&nbsp;|&#8212;&nbsp;ვეძებთ ნაცნობ-მეგობრებს</option>
+		<option value="">ხელოვნება და კულტურა</option>
+		<option value="forum_topics.asp?FID=50">&nbsp;&nbsp;|&#8212;&nbsp;სიმღერების გაზიარება და გაცვლა</option>
+		<option value="forum_topics.asp?FID=32">&nbsp;&nbsp;|&#8212;&nbsp;ყველაფერი მუსიკის შესახებ</option>
+		<option value="forum_topics.asp?FID=33">&nbsp;&nbsp;|&#8212;&nbsp;ჩანახატები და ნარკვევები</option>
+		<option value="forum_topics.asp?FID=52">&nbsp;&nbsp;|&#8212;&nbsp;ჩვენებურების ფორუმი</option>
+		<option value="">ოქროპირი</option>
+		<option value="forum_topics.asp?FID=48">&nbsp;&nbsp;|&#8212;&nbsp;მიყვარდი და მიყვარხარ კიდევაც მეყვარები</option>
+		<option value="forum_topics.asp?FID=47">&nbsp;&nbsp;|&#8212;&nbsp; მეზობელო კარისაო.</option>
+		<option value="forum_topics.asp?FID=46">&nbsp;&nbsp;|&#8212;&nbsp;უხ, რა კარგად გამოვძეხი</option>
+		<option value="forum_topics.asp?FID=45">&nbsp;&nbsp;|&#8212;&nbsp;როგორი ამინდი იქნება ?</option>
+		<option value="forum_topics.asp?FID=44">&nbsp;&nbsp;|&#8212;&nbsp; სუყველაფერს ვყიდულობ, სუყველაფერს ვყიდი მე</option>
+		<option value="forum_topics.asp?FID=43">&nbsp;&nbsp;|&#8212;&nbsp;კინო-ფოტო მანია</option>
+		<option value="forum_topics.asp?FID=42">&nbsp;&nbsp;|&#8212;&nbsp;გაიგებდით ალბათ</option>
+		<option value="forum_topics.asp?FID=41">&nbsp;&nbsp;|&#8212;&nbsp;წერე, წერე, ჩემო ვარდენ</option>
+		<option value="forum_topics.asp?FID=40">&nbsp;&nbsp;|&#8212;&nbsp;სწავლის ძირი მწარე არის</option>
+		<option value="forum_topics.asp?FID=39">&nbsp;&nbsp;|&#8212;&nbsp;იდეებს რა ვუყო?</option>
+		<option value="">ეკონომიკა და ბიზნესი</option>
+		<option value="">მეცნიერება და ტექნიკა</option>
+		<option value="forum_topics.asp?FID=53">&nbsp;&nbsp;|&#8212;&nbsp;ატლანტიდა</option>
+		<option value="">ფიზკულტურა და სპორტი</option>
+		<option value="forum_topics.asp?FID=18">&nbsp;&nbsp;|&#8212;&nbsp;ქართული ფეხბურთი</option>
+		<option value="forum_topics.asp?FID=49">&nbsp;&nbsp;|&#8212;&nbsp;ფალავანთა კლუბი</option>
+		<option value="forum_topics.asp?FID=31">&nbsp;&nbsp;|&#8212;&nbsp;სპორტული ფოტოგალერეა</option>
+		<option value="">კომპიუტერის გაქართულება</option>
+		<option value="forum_topics.asp?FID=8">&nbsp;&nbsp;|&#8212;&nbsp;ფონტები</option>
+		<option value="forum_topics.asp?FID=9">&nbsp;&nbsp;|&#8212;&nbsp;კლავიატურის დრაივერები</option>
+		<option value="forum_topics.asp?FID=10">&nbsp;&nbsp;|&#8212;&nbsp;ბრაუზერები</option>
+		<option value="forum_topics.asp?FID=11">&nbsp;&nbsp;|&#8212;&nbsp;უნიკოდი</option>
+		<option value="forum_topics.asp?FID=12">&nbsp;&nbsp;|&#8212;&nbsp;ვებში პუბლიკაცია</option>
+		<option value="forum_topics.asp?FID=13">&nbsp;&nbsp;|&#8212;&nbsp;ელფოსტა</option>
+		<option value="">ბპგ სხარტი გამომცემელი</option>
+		<option value="forum_topics.asp?FID=2">&nbsp;&nbsp;|&#8212;&nbsp;ტექნიკური მხარდაჭერა</option>
+		<option value="forum_topics.asp?FID=5">&nbsp;&nbsp;|&#8212;&#8212;&#8212;&nbsp;რჩევა დარიგებები</option>
+		<option value="">კენჭისყრები</option>
+		<option value="forum_topics.asp?FID=4">&nbsp;&nbsp;|&#8212;&nbsp;პოლიტიკა</option>
+	</select>
+        </td>
+        <td align="right">&nbsp;
+        </td>
+      </tr>
+    </table>
+<br /><a name="reply"></a>
+	<p class="text">If you wish to post a reply to this topic you must first&nbsp;<a href="http://chveni.mamuli.net:8989/portal/ge/forum/login_user.asp?FID=41" target="_self">login</a><br />If you are not already registered you must first&nbsp;<a href="http://chveni.mamuli.net:8989/portal/ge/forum/registration_rules.asp?FID=41" target="_self">register</a></p>
+	  <table width="100%" border="0" cellspacing="0" cellpadding="3">
+            <tr>
+              <td>&nbsp;
+             </td>
+              <td align="right">
+<a href="http://chveni.mamuli.net:8989/portal/ge/forum/edit_post.asp?M=R&FID=41"  target="_self"><img src="post_req.gif"  border="0" align="absmiddle" alt="ჩავწეროთ პასუხი"></a><a href="http://chveni.mamuli.net:8989/portal/ge/forum/post_message_form.asp?FID=41"  target="_self"><img src="new_posu.gif"  border="0" align="absmiddle" alt="ახალი თემა"></a>
+		</td>
+	    </tr>
+         </table><br /><table cellspacing='0' cellpadding='0' width='100%' align='center'>
+<tr>
+<td><img alt="]" src='top-lefw.gif' /></td>
+<td width='100%' background='http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/top-bg.gif'>
+<img alt="]" src='spacer03.gif' width='1' height='1' /></td>
+<td><img alt="]" src='top-rigk.gif' /></td>
+</tr>
+</table>
+<table cellspacing='0' cellpadding='0' width='100%' align='center'>
+<tr>
+<td background='http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/left-side-table-bg.gif'>
+<img alt="]" src='left-sig.gif' /></td>
+<td width='100%'>
+<table cellspacing='0' cellpadding='3' width='100%' align='center'>
+<tr>
+<td background='http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/table_bg_image.gif' width='85%' class='tHeading' align='left'>
+&nbsp;</td>
+<td background='http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/table_bg_image.gif' width='15%' align='right'>
+<a href=javascript:hideshow('postsopts','postsoptsimage','http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/');>
+<img alt="]" id='postsoptsimage' src='hide_miq.gif' border='0' /></a></td>
+</tr>
+</table>
+<div id='postsopts'> <table width="100%" border="0" cellspacing="1" cellpadding="4" bgcolor="#FFFACD">
+  <tr>
+   <td width="30%">
+    <table width="380" border="0" cellspacing="0" cellpadding="2">
+          <tr>
+           <td align="center"> <a href="javascript:openWin('printer_friendly_posts.asp?TID=102','printer_friendly','toolbar=0,location=0,status=0,menubar=1,scrollbars=1,resizable=1,width=640,height=390')"><img src="print_vf.gif" align="absmiddle" border="0" alt="საბეჭდი სახე"></a>
+           <a href="javascript:openWin('printer_friendly_posts.asp?FID=41&TID=102','printer_friendly','toolbar=0,location=0,status=0,menubar=1,scrollbars=1,resizable=1,width=640,height=390')" class="smLink">საბეჭდი სახე</a>	 </td>
+        </tr>
+       </table>
+   <td width="70%" align="right" class="smText" nowrap="nowrap">თქვენ <span style="font-weight: bold;">არ შეგიძლიათ</span> დაამატოთ აქ ახალი თემა<br />თქვენ <span style="font-weight: bold;">არ შეგიძლიათ</span> უპასუხოთ თემებს<br />თქვენ <span style="font-weight: bold;">არ შეგიძლიათ</span> მოსპოთ თქვენი წერილები<br />თქვენ <span style="font-weight: bold;">არ შეგიძლიათ</span> შეასწოროთ თქვენი წერილები<br />თქვენ <span style="font-weight: bold;">არ შეგიძლიათ</span> დააარსოთ კენჭისყრები<br />თქვენ <span style="font-weight: bold;">არ შეგიძლიათ</span> კენჭი უყაროთ<br /></td></tr></table></div></td>
+<td background='http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/right-side-table-bg.gif'>
+<img alt="]" src='right-sl.gif' /></td>
+</tr>
+</table>
+<table cellspacing='0' cellpadding='0' width='100%' align='center'>
+<tr>
+<td><img alt="]" src='bottom-o.gif' /></td>
+<td width='100%' background='http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/bottom-bg.gif'>
+<img alt="]" src='spacer03.gif' width='100%' height='1' /></td>
+<td><img src='bottom-u.gif'></td>
+</tr>
+</table>
+
+      <p style="margin-top: 0; margin-bottom: 0" align="center">
+      <!--Begin BannerDots Free Exchange Network code--> 
+      <script language="Javascript" src="nph-adcq.js"> 
+      </script> 
+      <!--End BannerDots Free Exchange Network code--></p>
+
+</td>
+</tr>
+</table>
+<br /><table cellspacing='0' cellpadding='0' width='98%' align='center'>
+<tr>
+<td><img alt="]" src='top-lefw.gif' /></td>
+<td width='100%' background='http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/top-bg.gif'>
+<img alt="]" src='spacer03.gif' width='1' height='1' /></td>
+<td><img alt="]" src='top-rigk.gif' /></td>
+</tr>
+</table>
+<table cellspacing='0' cellpadding='0' width='98%' align='center'>
+<tr>
+<td background='http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/left-side-table-bg.gif'>
+<img alt="]" src='left-sig.gif' /></td>
+<td width='100%'>
+<table align="center"  width="100%" cellspacing="1" cellpadding="4" bgcolor="#FFFACD">
+<tr>
+<td class="smText" align="left">This page was generated in 0.9297 seconds.</td>
+<td class="smText" align="right">Powered by <a class="npLink" href="http://www.soopportal.org/" target="_blank">SOOP Portal</a> version Raven RC1</td>
+</tr>
+</table>
+</td>
+<td background='http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/right-side-table-bg.gif'>
+<img alt="]" src='right-sl.gif' /></td>
+</tr>
+</table>
+<table cellspacing='0' cellpadding='0' width='98%' align='center'>
+<tr>
+<td><img alt="]" src='bottom-o.gif' /></td>
+<td width='100%' background='http://chveni.mamuli.net:8989/portal/ge/skins/summer/forum_images/bottom-bg.gif'>
+<img alt="]" src='spacer03.gif' width='100%' height='1' /></td>
+<td><img src='bottom-u.gif'></td>
+</tr>
+</table>
+<br />
+</body>
+</html>
+
+<!-- This document saved from http://chveni.mamuli.net:8989/portal/ge/forum/forum_posts.asp?TID=102&PN=1 -->
