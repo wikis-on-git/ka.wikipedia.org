@@ -1,21 +1,19 @@
 __NOTOC__
 
-'''[[Wikipedia:Welcome, newcomers!|კეთილი იყოს თქვენი მობრძანება]] [[Wikipedia|ვიკიპედიაში]]'''! A '''[[Wikipedia|ვიკიპედია]]''' é uma [[enciclopédia]] [[GNU FDL|livre]] e gratuita, feita por pessoas como você em quase 80 idiomas! O seu conteúdo pode ser modificado e distribuído livremente, desde que sejam respeitadas algumas regras simples. Veja '''[[Wikipedia:Como editar a Wikipedia|como editar a Wikipédia]]''' e '''[[Wikipedia:Coisas a não fazer|o que não fazer na Wikipédia]]'''.
+'''[[Wikipedia:Welcome, newcomers!|კეთილი იყოს თქვენი მობრძანება]] [[Wikipedia|ვიკიპედიაში]]'''! A '''[[Wikipedia|ვიკიპედია]]''' é uma [[ენციკლოპედია]] [[GNU FDL|livre]] e gratuita, feita por pessoas como você em quase 80 idiomas! O seu conteúdo pode ser modificado e distribuído livremente, desde que sejam respeitadas algumas regras simples. Veja '''[[Wikipedia:Como editar a Wikipedia|como editar a Wikipédia]]''' e '''[[Wikipedia:Coisas a não fazer|o que não fazer na Wikipédia]]'''.
 
-A [[Wikipédia]] pertence a um [[meta:Main Page|conjunto de projetos de colaboração]] em várias línguas, desenvolvidos por voluntários espalhados pelo mundo. Todo o conteúdo foi produzido a partir do zero. Esta é a versão em [[português|língua portuguesa]].
+A [[Wikipédia]] pertence a um [[meta:Main Page|conjunto de projetos de colaboração]] em várias línguas, desenvolvidos por voluntários espalhados pelo mundo. Todo o conteúdo foi produzido a partir do zero. Esta é a versão em [[ქართული|ქართული ენა]].
 
-Neste momento, '''{{CURRENTDAYNAME}}, dia [[{{CURRENTDAY}} de {{CURRENTMONTHNAME}}]] de [[{{CURRENTYEAR}}]]''', estamos trabalhando em '''{{NUMBEROFARTICLES}}''' artigos.
+Neste momento, '''{{CURRENTDAYNAME}}, dia [[{{CURRENTDAY}} de {{CURRENTMONTHNAME}}]] de [[{{CURRENTYEAR}}]]''', estamos trabalhando em '''{{NUMBEROFARTICLES}}''' სტატიები.
 
-{| cellspacing=3
-!width="55%" bgcolor="#f8f8ff" style="border:1px solid #e2e2ff;padding:1em;padding-top:0.5em;" |
-
-==ენციკლოპედია==
-!width="55%" bgcolor="#ffffec" style="border:1px solid #faf9b2;padding:1em;padding-top:0.5em;" |
-
-==საზოგადოება==
+{| cellspacing=3 
 |- valign="top"
 
 |width="55%" bgcolor="#f8f8ff" style="border:1px solid #e2e2ff;padding:1em;padding-top:0.5em;"|
+
+<center>
+==ენციკლოპედია==
+</center>
 
 <!--Artigo em destaque-->
 ===გამორჩეული სტატია===
@@ -27,6 +25,10 @@ Neste momento, '''{{CURRENTDAYNAME}}, dia [[{{CURRENTDAY}} de {{CURRENTMONTHNAME
 <!--A partir daqui começa comunidade-->
 
 |width="45%" bgcolor="#ffffec" style="border:1px solid #faf9b2;padding:1em;padding-top:0.5em;"|
+
+<center>
+==საზოგადოება==
+</center>
 
 {{comunidade_wikipédia}}
 
