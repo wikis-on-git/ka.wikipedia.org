@@ -12,7 +12,7 @@
 <table align="center">
 <tr><td>Kingdom:</td><td>[[Animal]]ia</td></tr>
 <tr><td>Phylum:</td><td>[[Chordate|Chordata]]</td></tr>
-{{Taxobox_subphylum_entry | taxon = [[Vertebrate|Vertebrata]]}}
+<tr><td>Subphylum:</td><td>[[Vertebrate|Vertebrata]]</td></tr>
 {{Taxobox_classis_entry | taxon = [[Mammal]]ia}}
 {{Taxobox_ordo_entry | taxon = [[Primate]]s}}
 {{Taxobox_familia_entry | taxon = [[Hominidae]]}}
