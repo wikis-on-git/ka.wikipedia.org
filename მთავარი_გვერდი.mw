@@ -1,10 +1,13 @@
 __NOTOC__
 
-'''[[Wikipedia:Welcome, newcomers!|კეთილი იყოს თქვენი მობრძანება]] [[Wikipedia|ვიკიპედიაში]]'''! A '''[[Wikipedia|ვიკიპედია]]''' é uma [[ენციკლოპედია]] [[GNU FDL|livre]] e gratuita, feita por pessoas como você em quase 80 idiomas! O seu conteúdo pode ser modificado e distribuído livremente, desde que sejam respeitadas algumas regras simples. Veja '''[[Wikipedia:Como editar a Wikipedia|como editar a Wikipédia]]''' e '''[[Wikipedia:Coisas a não fazer|o que não fazer na Wikipédia]]'''.
 
-A [[Wikipédia]] pertence a um [[meta:Main Page|conjunto de projetos de colaboração]] em várias línguas, desenvolvidos por voluntários espalhados pelo mundo. Todo o conteúdo foi produzido a partir do zero. Esta é a versão em [[ქართული|ქართული ენა]].
+'''[[ვიკიპედია:კეთილი იყოს თქვენი მობრძანება!|კეთილი იყოს თქვენი მობრძანება]] [[ვიკიპედია|ვიკიპედიაში]]'''!
+'''[[ვიკიპედია]]''' არის [[GNU FDL|თავისუფალი]] და უფასო [[ენციკლოპედია]], რომლის შექმნის პროცესშიც მონაწილეობენ ოთხმოცამდე ენის წარმომადგენლები! ენციკლოპედიის სტატიათა შინაარსისა თუ ფორმის შეცვლა შეგიძლიათ, თუკი დაცული იქნება რამდენიმე მარტივი წესი. სანამ მონაწილეობას მიიღებთ, საჭიროა იცოდეთ, [[ვიკიპედია:როგორ უნდა მოხდეს ვიკიპედიის რედაქტირება|როგორ უნდა მოხდეს ვიკიპედიის რედაქტირება]] და [[ვიკიპედია:რისი გაკეთება არ შეიძლება|რისი გაკეთება არ შეიძლება]].
 
-Neste momento, '''{{CURRENTDAYNAME}}, dia [[{{CURRENTDAY}} de {{CURRENTMONTHNAME}}]] de [[{{CURRENTYEAR}}]]''', estamos trabalhando em '''{{NUMBEROFARTICLES}}''' სტატია.
+[[ვიკიპედია]] განეკუთვნება [[meta:Main Page|საერთაშორისო თანამშრომლობის პროექტთა ჯგუფს]]. ეს პროექტები ხორციელდება სხვადასხვა ენებზე, მსოფლიოს მრავალი ქვეყნის წარმომადგენელი მოხალისეების მიერ. ვიკიპედიის მთელი შინაარსის აგება ნოლიდან დაიწყო. თქვენ ახლა კითხულობთ [[ქართული|ქართულ]] ვერსიას.
+
+დღეს, '''{{CURRENTDAYNAME}}, [[{{CURRENTYEAR}}]] წლის [[{{CURRENTDAY}} {{CURRENTMONTHNAME}}]]''', მუშაობის პროცესშია '''{{NUMBEROFARTICLES}}''' სტატია.
+
 
 {| cellspacing=3 
 |- valign="top"
