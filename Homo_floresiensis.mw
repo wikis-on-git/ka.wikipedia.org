@@ -15,7 +15,7 @@
 <tr><td>Subphylum:</td><td>[[Vertebrate|Vertebrata]]</td></tr>
 <tr><td>Class:</td><td>[[Mammal]]ia</td></tr>
 <tr><td>Order:</td><td>[[Primate]]s</td></tr>
-{{Taxobox_familia_entry | taxon = [[Hominidae]]}}
+<tr><td>Family:</td><td>[[Hominidae]]</td></tr>
 {{Taxobox_genus_entry | taxon = ''[[Homo (genus)|Homo]]''}}
 <tr><td>Species:</td><td>'''''H. floresiensis'''''</td></tr>
 </table>
