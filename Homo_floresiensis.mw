@@ -13,7 +13,7 @@
 <tr><td>Kingdom:</td><td>[[Animal]]ia</td></tr>
 <tr><td>Phylum:</td><td>[[Chordate|Chordata]]</td></tr>
 <tr><td>Subphylum:</td><td>[[Vertebrate|Vertebrata]]</td></tr>
-{{Taxobox_classis_entry | taxon = [[Mammal]]ia}}
+<tr><td>Class:</td><td>[[Mammal]]ia</td></tr>
 {{Taxobox_ordo_entry | taxon = [[Primate]]s}}
 {{Taxobox_familia_entry | taxon = [[Hominidae]]}}
 {{Taxobox_genus_entry | taxon = ''[[Homo (genus)|Homo]]''}}
