@@ -11,7 +11,7 @@
 <tr><td>
 <table align="center">
 <tr><td>Kingdom:</td><td>[[Animal]]ia</td></tr>
-{{Taxobox_phylum_entry | taxon = [[Chordate|Chordata]]}}
+<tr><td>Phylum:</td><td>[[Chordate|Chordata]]</td></tr>
 {{Taxobox_subphylum_entry | taxon = [[Vertebrate|Vertebrata]]}}
 {{Taxobox_classis_entry | taxon = [[Mammal]]ia}}
 {{Taxobox_ordo_entry | taxon = [[Primate]]s}}
