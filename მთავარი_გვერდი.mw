@@ -4,7 +4,7 @@ __NOTOC__
 
 A [[Wikipédia]] pertence a um [[meta:Main Page|conjunto de projetos de colaboração]] em várias línguas, desenvolvidos por voluntários espalhados pelo mundo. Todo o conteúdo foi produzido a partir do zero. Esta é a versão em [[ქართული|ქართული ენა]].
 
-Neste momento, '''{{CURRENTDAYNAME}}, dia [[{{CURRENTDAY}} de {{CURRENTMONTHNAME}}]] de [[{{CURRENTYEAR}}]]''', estamos trabalhando em '''{{NUMBEROFARTICLES}}''' სტატიები.
+Neste momento, '''{{CURRENTDAYNAME}}, dia [[{{CURRENTDAY}} de {{CURRENTMONTHNAME}}]] de [[{{CURRENTYEAR}}]]''', estamos trabalhando em '''{{NUMBEROFARTICLES}}''' სტატია.
 
 {| cellspacing=3 
 |- valign="top"
@@ -22,7 +22,7 @@ Neste momento, '''{{CURRENTDAYNAME}}, dia [[{{CURRENTDAY}} de {{CURRENTMONTHNAME
 
 <!--A partir daqui começa comunidade-->
 
-|width="45%" bgcolor="#fffdec" style="border:1px solid #faf9b2;padding:1em;padding-top:0.5em;"|
+|width="45%" bgcolor="#fffdef" style="border:1px solid #faf9b2;padding:1em;padding-top:0.5em;"|
 
 ==საზოგადოება==
 
