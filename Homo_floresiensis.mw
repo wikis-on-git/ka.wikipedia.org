@@ -8,7 +8,8 @@
 <tr><th bgcolor=pink>
 [[Scientific classification]]
 </th></tr>
-<tr><td><table align="center">
+<tr><td>
+<table align="center">
 {{Taxobox_regnum_entry | taxon = [[Animal]]ia}}
 {{Taxobox_phylum_entry | taxon = [[Chordate|Chordata]]}}
 {{Taxobox_subphylum_entry | taxon = [[Vertebrate|Vertebrata]]}}
