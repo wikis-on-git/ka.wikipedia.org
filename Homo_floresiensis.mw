@@ -10,7 +10,7 @@
 {{Taxobox_ordo_entry | taxon = [[Primate]]s}}
 {{Taxobox_familia_entry | taxon = [[Hominidae]]}}
 {{Taxobox_genus_entry | taxon = ''[[Homo (genus)|Homo]]''}}
-{{Taxobox_species_entry | taxon = '''''H. floresiensis'''''}}
+<tr><td>Species:</td><td>'''''H. floresiensis'''''</td></tr>
 {{Taxobox_end_placement}}
 {{Taxobox_section_binomial | color = pink | binomial_name = Homo floresiensis | author = P. Brown ''et al.'' | date = [[2004]] }}
 {{Taxobox_end}}
