@@ -10,7 +10,7 @@
 </th></tr>
 <tr><td>
 <table align="center">
-{{Taxobox_regnum_entry | taxon = [[Animal]]ia}}
+<tr><td>Kingdom:</td><td>[[Animal]]ia</td></tr>
 {{Taxobox_phylum_entry | taxon = [[Chordate|Chordata]]}}
 {{Taxobox_subphylum_entry | taxon = [[Vertebrate|Vertebrata]]}}
 {{Taxobox_classis_entry | taxon = [[Mammal]]ia}}
