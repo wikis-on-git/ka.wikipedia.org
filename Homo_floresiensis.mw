@@ -18,7 +18,9 @@
 {{Taxobox_genus_entry | taxon = ''[[Homo (genus)|Homo]]''}}
 <tr><td>Species:</td><td>'''''H. floresiensis'''''</td></tr>
 {{Taxobox_end_placement}}
-{{Taxobox_section_binomial | color = pink | binomial_name = Homo floresiensis | author = P. Brown ''et al.'' | date = [[2004]] }}
+<tr><th bgcolor=pink>[[Binomial name]]</th></tr>
+<tr><td align="center">'''''Homo floresiensis'''''<br/>
+<small>P. Brown ''et al.'', [[2004]]</small>
 </td></tr>
 </table>
 
