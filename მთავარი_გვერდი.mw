@@ -12,7 +12,7 @@ Neste momento, '''{{CURRENTDAYNAME}}, dia [[{{CURRENTDAY}} de {{CURRENTMONTHNAME
 ==ენციკლოპედია==
 !width="55%" bgcolor="#ffffec" style="border:1px solid #faf9b2;padding:1em;padding-top:0.5em;" |
 
-==Comunidade==
+==საზოგადოება==
 |- valign="top"
 
 |width="55%" bgcolor="#f8f8ff" style="border:1px solid #e2e2ff;padding:1em;padding-top:0.5em;"|
@@ -22,13 +22,13 @@ Neste momento, '''{{CURRENTDAYNAME}}, dia [[{{CURRENTDAY}} de {{CURRENTMONTHNAME
 {{em_destaque}}
 
 <!--Aqui vêm as diversas seções que a wikipédia possui-->
-{{msg:enciclopédia_seções}}
+{{enciclopédia_seções}}
 
 <!--A partir daqui começa comunidade-->
 
 |width="45%" bgcolor="#ffffec" style="border:1px solid #faf9b2;padding:1em;padding-top:0.5em;"|
 
-{{msg:comunidade_wikipédia}}
+{{comunidade_wikipédia}}
 
 <!--Começa outra linha da tabela-->
 
@@ -37,7 +37,7 @@ Neste momento, '''{{CURRENTDAYNAME}}, dia [[{{CURRENTDAY}} de {{CURRENTMONTHNAME
 
 ===Wikipédia em outras línguas===
 
-{{msg:línguas_wikipédia}}
+{{línguas_wikipédia}}
 
 |- 
 |colspan=2 bgcolor="#fffffc" style="border:1px solid #cfcfcf;padding:1em;padding-top:0.5em;padding-bottom:0em;"|
@@ -45,8 +45,8 @@ Neste momento, '''{{CURRENTDAYNAME}}, dia [[{{CURRENTDAY}} de {{CURRENTMONTHNAME
 ===Outros projetos correlatos===
 
 <small>
-{{msg:projetos_correlatos}}
+{{projetos_correlatos}}
 </small>
 
-Se a [[wikipédia]] ou algum de seus projetos correlatos lhe é útil, por favor considere a possibilidade de fazer uma [http://wikimediafoundation.org/fundraising doação]. Doações são utilizadas principalmente para comprar novos equipamentos e alocar recursos para novos projetos.
+Se a [[Wikipédia]] ou algum de seus projetos correlatos lhe é útil, por favor considere a possibilidade de fazer uma [http://wikimediafoundation.org/fundraising doação]. Doações são utilizadas principalmente para comprar novos equipamentos e alocar recursos para novos projetos.
 |}
