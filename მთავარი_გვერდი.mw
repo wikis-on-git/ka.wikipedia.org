@@ -1,0 +1,51 @@
+__NOTOC__
+
+Seja '''[[Wikipedia:Boas vindas|bem-vindo]]''' à '''[[Wikipédia]]''', uma [[enciclopédia]] [[GNU FDL|livre]] e gratuita, feita por pessoas como você em quase 80 idiomas! O seu conteúdo pode ser modificado e distribuído livremente, desde que sejam respeitadas algumas regras simples. Veja '''[[Wikipedia:Como editar a Wikipedia|como editar a Wikipédia]]''' e '''[[Wikipedia:Coisas a não fazer|o que não fazer na Wikipédia]]'''.
+
+A [[Wikipédia]] pertence a um [[meta:Main Page|conjunto de projetos de colaboração]] em várias línguas, desenvolvidos por voluntários espalhados pelo mundo. Todo o conteúdo foi produzido a partir do zero. Esta é a versão em [[português|língua portuguesa]].
+
+Neste momento, '''{{CURRENTDAYNAME}}, dia [[{{CURRENTDAY}} de {{CURRENTMONTHNAME}}]] de [[{{CURRENTYEAR}}]]''', estamos trabalhando em '''{{NUMBEROFARTICLES}}''' artigos.
+
+{| cellspacing=3
+!width="55%" bgcolor="#f8f8ff" style="border:1px solid #e2e2ff;padding:1em;padding-top:0.5em;" |
+
+==Enciclopédia==
+!width="55%" bgcolor="#ffffec" style="border:1px solid #faf9b2;padding:1em;padding-top:0.5em;" |
+==Comunidade==
+|- valign="top"
+
+|width="55%" bgcolor="#f8f8ff" style="border:1px solid #e2e2ff;padding:1em;padding-top:0.5em;"|
+
+<!--Artigo em destaque-->
+===Em destaque===
+{{msg:em_destaque}}
+
+<!--Aqui vêm as diversas seções que a wikipédia possui-->
+{{msg:enciclopédia_seções}}
+
+<!--A partir daqui começa comunidade-->
+
+|width="45%" bgcolor="#ffffec" style="border:1px solid #faf9b2;padding:1em;padding-top:0.5em;"|
+
+{{msg:comunidade_wikipédia}}
+
+<!--Começa outra linha da tabela-->
+
+|-
+|colspan=2 bgcolor="#f3fff3" style="border:1px solid #99E49F;padding:1em;padding-top:0.5em;padding-bottom:0em;"|
+
+===Wikipédia em outras línguas===
+
+{{msg:línguas_wikipédia}}
+
+|- 
+|colspan=2 bgcolor="#fffffc" style="border:1px solid #cfcfcf;padding:1em;padding-top:0.5em;padding-bottom:0em;"|
+
+===Outros projetos correlatos===
+
+<small>
+{{msg:projetos_correlatos}}
+</small>
+
+Se a [[wikipédia]] ou algum de seus projetos correlatos lhe é útil, por favor considere a possibilidade de fazer uma [http://wikimediafoundation.org/fundraising doação]. Doações são utilizadas principalmente para comprar novos equipamentos e alocar recursos para novos projetos.
+|}
