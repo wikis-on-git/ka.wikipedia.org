@@ -1,50 +1,225 @@
-__NOTOC__
+{| bgcolor="#FFFFFF" cellspacing="8"
 
-'''[[ვიკიპედია:კეთილი იყოს თქვენი მობრძანება|კეთილი იყოს თქვენი მობრძანება]] [[ვიკიპედია|ვიკიპედიაში]]'''!
-'''[[ვიკიპედია]]''' არის [[GNU FDL|თავისუფალი]] და უფასო [[ენციკლოპედია]], რომლის შექმნის პროცესშიც მონაწილეობენ ოთხმოცამდე ენის წარმომადგენლები! ენციკლოპედიის სტატიათა შინაარსისა თუ ფორმის შეცვლა შეგიძლიათ, თუკი დაცული იქნება რამდენიმე მარტივი წესი. სანამ მონაწილეობას მიიღებთ, საჭიროა იცოდეთ, [[ვიკიპედია:როგორ უნდა მოხდეს ვიკიპედიის რედაქტირება|როგორ უნდა მოხდეს ვიკიპედიის რედაქტირება]] და [[ვიკიპედია:რისი გაკეთება არ შეიძლება|რისი გაკეთება არ შეიძლება]].
+| width="65%" style="border: 1px solid #960; vertical-align: top;" background-color: #FAF9EC; |
 
-[[ვიკიპედია]] განეკუთვნება [[meta:Main Page|საერთაშორისო თანამშრომლობის პროექტთა ჯგუფს]]. ეს პროექტები ხორციელდება სხვადასხვა ენებზე, მსოფლიოს მრავალი ქვეყნის წარმომადგენელი მოხალისეების მიერ. ვიკიპედიის მთელი შინაარსის აგება ნოლიდან დაიწყო. თქვენ ახლა კითხულობთ [[ქართული ენა|ქართულ]] ვერსიას.
-
-დღეს არის '''{{CURRENTDAYNAME}}, [[{{CURRENTYEAR}}]] წლის [[{{CURRENTDAY}} {{CURRENTMONTHNAME}}]]''' და მუშაობის პროცესშია '''{{NUMBEROFARTICLES}}''' სტატია.
-
-{| cellspacing=3 
-|- valign="top"
-
-|width="65%" bgcolor="#f8f8ff" style="border:1px solid #e2e2ff;padding:1em;padding-top:0.5em;"|
-
-==ენციკლოპედია==
-
-===რჩეული სტატია===
-{{რჩეული სტატია}}
-
-<!--აქ იწყება ვიკიპედიის სხვადასხვა სექციები-->
-{{ენციკლოპედიის სექციები}}
-
-<!--აქედან იწყება საზოგადოება-->
-
-|width="35%" bgcolor="#fffdef" style="border:1px solid #faf9b2;padding:1em;padding-top:0.5em;"|
-
-==საზოგადოება==
-
-{{საზოგადოება_ვიკიპედია}}
-
-<!--ახალი ხაზი იწყება-->
-
+{| cellspacing="0" cellpadding="6" style="font-size: 1.0em;" 
+| style="text-align: center; background: #CDB38B; color: #000000;" | <font color=navy>'''კეთილი იყოს თქვენი მობრძანება!''' </font>
 |-
-|colspan=2 bgcolor="#f3fff3" style="border:1px solid #99E49F;padding:1em;padding-top:0.5em;padding-bottom:0em;"|
+| align="left" bgcolor="#FFFFFF"  |[[Image:130px-Georgian COA.jpg|130px|left]]
+მოგესალმებით! [[ვიკიპედია:კეთილი იყოს თქვენი მობრძანება|კეთილი იყოს თქვენი მობრძანება]] [[ვიკიპედია|ვიკიპედიაში]]. ეს არის ფონდ [[ვიკიპედია:ფონდი ვიკიმედია|ვიკიმედიის]] ერთ-ერთი [[ვიკიპედია:ვიკიმედიის პროექტები|პროექტი]]. თქვენ ახლა ათვალიერებთ მის [[ქართული ენა|ქართულენოვან]] ვერსიას. ამ პროექტის მიზანია [[GNU FDL|თავისუფალი]] და სრულფასოვანი [[ენციკლოპედია|ენციკლოპედიის]] შექმნა მსოფლიოს ყველა ენაზე. ვიკიპედია იქმნება [[ვიკიპედია:ვიკიპედიელები|მოხალისეების]] მიერ, რომელთა შორის შეიძლება იყოთ თქვენც. შეიტანეთ თქვენი წვლილი ქართული ვიკიპედიის შედგენასა და რედაქტირებაში, ეს საინტერესოცაა, სასარგებლოც და არც თუ ისე რთული. ამისათვის წინასწარ გაეცანით [[ვიკიპედია:დახმარება|დახმარების]] გვერდებს. გისურვებთ წარმატებებს!
+<br><br>
+|}
 
-===ვიკიპედია სხვა ენებზე===
+{| cellspacing="0" cellpadding="6" style="font-size: 1.0em;"
+| style="text-align: center; background: #ECE5CA; color: #000000;" | <font color=black>'''რჩეული სტატია'''
+|-
+| bgcolor="#FFFFFF" | 
+{{რჩეული სტატია}}
+|}
 
-{{ენები_ვიკიპედია}}
+{| cellspacing="0" cellpadding="6" style="font-size: 1.0em;"
+| style="text-align: center; background: #CDB38B; color: #000000;" |<font color=maroon> '''ენციკლოპედიის სექციები'''</font>
+|-
+| bgcolor="#F7F5D3" | 
+{{ენციკლოპედიის სექციები}}
+<br>
+|}
 
-|- 
-|colspan=2 bgcolor="#fffcfa" style="border:1px solid #d3bfbe;padding:1em;padding-top:0.5em;padding-bottom:0em;"|
+| width="35%" style="border: 1px solid #960; vertical-align: top;" background-color: #FAF9EC; |
 
-===დაკავშირებული პროექტები===
+{| cellspacing="0" cellpadding="6" style="font-size: 1.0em;" 
+| style="text-align: center; background: #CDB38B; color: #000000;" | <font color=maroon>'''ენციკლოპედია''' </font>
+|-
+| bgcolor="#FFFFFF"  | <center>დღეს არის [[{{CURRENTDAYNAME}}]], [[{{CURRENTYEAR}}]] წლის [[{{CURRENTDAY}} {{CURRENTMONTHNAME}}]] და მუშაობის პროცესშია '''{{NUMBEROFARTICLES}}''' სტატია.</center>
+----
+<center>'''ახალი სტატიები'''</center>
+{{ახალი სტატიები}}
 
+----
+<center>'''ანბანური საძიებელი'''</center>
+<table border=0 cellpadding=3 align=center>
+
+<tr align=center> 
+<td>[[Special:Allpages/ა|ა]] </td><td>[[Special:Allpages/ბ|ბ]] </td><td>[[Special:Allpages/გ|გ]] </td><td>[[Special:Allpages/დ|დ]] </td><td>[[Special:Allpages/ე|ე]] </td>
+<td>[[Special:Allpages/ვ|ვ]] </td><td>[[Special:Allpages/ზ|ზ]] </td><td>[[Special:Allpages/თ|თ]] </td><td>[[Special:Allpages/ი|ი]] </td><td>[[Special:Allpages/კ|კ]] </td>
+<td>[[Special:Allpages/ლ|ლ]]</td><td>[[Special:Allpages/მ|მ]] </td><td>[[Special:Allpages/ნ|ნ]] </td><td>[[Special:Allpages/ო|ო]] </td><td>[[Special:Allpages/პ|პ]] </td>
+<td>[[Special:Allpages/ჟ|ჟ]]</td>
+
+</tr><tr align=center>
+
+<td>[[Special:Allpages/რ|რ]] </td><td>[[Special:Allpages/ს|ს]] </td><td>[[Special:Allpages/ტ|ტ]] </td><td>[[Special:Allpages/უ|უ]] </td><td>[[Special:Allpages/ფ|ფ]] </td>
+<td>[[Special:Allpages/ქ|ქ]]</td><td>[[Special:Allpages/ღ|ღ]] </td><td>[[Special:Allpages/ყ|ყ]] </td><td>[[Special:Allpages/შ|შ]] </td><td>[[Special:Allpages/ჩ|ჩ]] </td>
+<td>[[Special:Allpages/ც|ც]] </td><td>[[Special:Allpages/ძ|ძ]] </td><td>[[Special:Allpages/წ|წ]] </td><td>[[Special:Allpages/ჭ|ჭ]] </td><td>[[Special:Allpages/ხ|ხ]] </td>
+<td>[[Special:Allpages/ჯ|ჯ]] </td><td>[[Special:Allpages/ჰ|ჰ]] </td>
+</tr>
+</table>
+----
+<center>'''სხვა სარჩევები და სქემები'''</center>
+<center>[http://ka.wikipedia.com/wiki.cgi?action=index ყველა გვერდი] - [[ვიკიპედია:სიების სარჩევი|სიების სარჩევი]] - [[სპეციალური:კატეგორიები|კატეგორიების სარჩევი]] - [[ვიკიპედია:კატეგორიზაციის სქემები|ვიკიპედიის კატეგორიზაციის სქემები]] <center>
+|}
+
+{| cellspacing="0" cellpadding="6" style="font-size: 1.0em;"
+| style="text-align: center; background: #ECE5CA; color: #OOOOOO;" | <font color=navy>'''საზოგადოება'''
+|-
+| bgcolor="#FFFFFF" | <br>
+{{საზოგადოება ვიკიპედია}}
+|}
+|}
+
+{| bgcolor="#FFFFFF" cellspacing="8"
+| width="65%" style="border: 1px solid #960; vertical-align: top;" background-color: #FAF9EC; |
+{| cellspacing="0" cellpadding="6" style="font-size: 1.0em;" 
+| style="text-align: center; background: #CDB38B; color: #000000;" | <font color=maroon>'''ვიკიპედია სხვა ენებზე''' </font>
+|-
+| bgcolor="#FFFFFF" | 
+{{ენები ვიკიპედია}}
+|}
+
+| width="35%" style="border: 1px solid #960; vertical-align: top;" background-color: #FAF9EC; |
+
+{| cellspacing="0" cellpadding="6" style="font-size: 1.0em;" 
+| style="text-align: center; background: #ECE5CA; color: #000000;" | <font color=navy>'''ვიკიპედიის სიახლენი''' </font>
+|-
+| bgcolor="#FFFFFF" |
+
+<center>[[ვიკიპედია:ახალი ამბები|ვიკიპედიის ისტორია]]</center>
+{{ვიკიპედიის სიახლენი}}
+|}
+|}
+
+{| bgcolor="#FFFFFF" cellspacing="8"
+| width="65%" style="border: 1px solid #960; vertical-align: top;" background-color: #FAF9EC; |
+{| cellspacing="0" cellpadding="6" style="font-size: 1.0em;" 
+| style="text-align: center; background: #ECE5CA; color: #000000;" | <font color=maroon>'''დაკავშირებული პროექტები''' </font>
+|-
+| bgcolor="#FFFFFF"  | 
 <small>
 {{დაკავშირებული პროექტები}}
 </small>
-
-თუ [[ვიკიპედია|ვიკიპედიას]] ან მასთან დაკავშირებულ რომელიმე პროექტს თქვენთვის რაიმე სარგებლობა მოაქვს, გთხოვთ მიიღოთ მხედველობაში [http://wikimediafoundation.org/fundraising შეწირულობების] გაცემის შესაძლებლობა. შეწირულობები ძირითადად ხმარდება ახალი ინფრასტრუქტურის შეძენასა და ახალი პროექტებისათვის რესურსების განაწილებას.
 |}
+| width="35%" style="border: 1px solid #960; vertical-align: top;" background-color: #FAF9EC; |
+{| cellspacing="0" cellpadding="6" style="font-size: 1.0em;" 
+| style="text-align: center; background: #CDB38B; color: #000000;" |  <font color=maroon> '''შეწირულობები''' </font>
+|-
+| align="left" bgcolor="#F7F5D3"  |
+[[Image:Wikipedia-logo.png|40px|right]]თუ [[ვიკიპედია|ვიკიპედიას]] ან მასთან დაკავშირებულ რომელიმე პროექტს თქვენთვის რაიმე სარგებლობა მოაქვს, გთხოვთ მიიღოთ მხედველობაში [http://wikimediafoundation.org/fundraising შეწირულობების] გაცემის შესაძლებლობა. 
+შეწირულობები ძირითადად ხმარდება ახალი ინფრასტრუქტურის შეძენასა და ახალი პროექტებისათვის რესურსების განაწილებას.
+|}
+|}
+
+
+__NOTOC__
+__NOEDITSECTION__
+
+
+[[af:]]
+[[ang:]]
+[[ar:]]
+[[an:]]
+[[roa-rup:]]
+[[ast:]]
+[[gn:]]
+[[ay:]]
+[[az:]]
+[[id:]]
+[[ms:]]
+[[jv:]]
+[[su:]]
+[[bn:]]
+[[zh-min-nan:]]
+[[be:]]
+[[bi:]]
+[[bg:]]
+[[bs:]]
+[[br:]]
+[[ca:]]
+[[chr:]]
+[[cv:]]
+[[cs:]]
+[[co:]]
+[[cy:]]
+[[da:]]
+[[de:]]
+[[et:]]
+[[na:]]
+[[el:]]
+[[en:]]
+[[eo:]]
+[[es:]]
+[[eu:]]
+[[fa:]]
+[[fo:]]
+[[fr:]]
+[[fy:]]
+[[ga:]]
+[[gv:]]
+[[gd:]]
+[[gl:]]
+[[gu:]]
+[[he:]]
+[[hi:]]
+[[hr:]]
+[[hy:]]
+[[ia:]]
+[[ie:]]
+[[io:]]
+[[is:]]
+[[it:]]
+[[ja:]]
+[[csb:]]
+[[sw:]]
+[[kn:]]
+[[ko:]]
+[[kw:]]
+[[ky:]]
+[[ku:]]
+[[la:]]
+[[lv:]]
+[[lb:]]
+[[lt:]]
+[[jbo:]]
+[[hu:]]
+[[mk:]]
+[[mg:]]
+[[mi:]]
+[[ml:]]
+[[mn:]]
+[[mr:]]
+[[nah:]]
+[[nl:]]
+[[nb:]]
+[[nn:]]
+[[oc:]]
+[[pa:]]
+[[nds:]]
+[[pl:]]
+[[pt:]]
+[[ro:]]
+[[qu:]]
+[[ru:]]
+[[sa:]]
+[[st:]]
+[[sc:]]
+[[sq:]]
+[[scn:]]
+[[simple:]]
+[[sk:]]
+[[sl:]]
+[[sr:]]
+[[fi:]]
+[[sv:]]
+[[ta:]]
+[[th:]]
+[[tl:]]
+[[tt:]]
+[[vi:]]
+[[tg:]]
+[[tpi:]]
+[[tr:]]
+[[uk:]]
+[[ur:]]
+[[vo:]]
+[[wa:]]
+[[yi:]]
+[[yo:]]
+[[zh:]]
