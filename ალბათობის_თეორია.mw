@@ -1,0 +1,4 @@
+Probability theory is the mathematical study of probability.
+Mathematicians think of probabilities as numbers in the interval from 0 to 1 assigned to "events" whose occurrence or failure to occur is random. Probabilities P(E) are assigned to events E according to the probability axioms.
+The probability that an event E occurs given the known occurrence of an event F is the conditional probability of E given F; its numerical value is  (as long as P(F) is nonzero). If the conditional probability of E given F is the same as the ("unconditional") probability of E, then E and F are said to be independent events. That this relation between E and F is symmetric may be seen more readily by realizing that it is the same as saying .
+Two crucial concepts in the theory of probability are those of a random variable and of the probability distribution of a random variable; see those articles for more information.
