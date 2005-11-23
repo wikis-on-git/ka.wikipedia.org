@@ -1,4 +1,59 @@
-Probability theory is the mathematical study of probability.
+ალბათობის თეორია მოვლენათა ალბათობის მათემატიკური ანალიზია.
+
+მათემატიკოსები ალბათობას აიგივებენ რიცხვებთან ინტერვალში 0-დან 1-მდე, რომლებსაც მიუჩენენ ამათუიმ მოვლენებს, რომელთა მოხდენა ან არმოხდენა შემთხვევითია. ალბათობა P(E) მიეკუთვნება E მოვლენას ალბათობის აქსიომებში. ალბათობა იმისა, ომ მოვლენა E მოხდება, თუ ცნობილია, რომ მოვლენა F მოხდენილია არის E პირიბითი ალბათობა მოცემული F-ით; მისი რიცხობრივი მნიშვნელობაა [[http://en.wikipedia.org/math/b/e/e/beeb926db4449535e6f3b0768a41a8fe.png]] (იმ შემთხვევაში თუ P(F) ნულის ტოლი არაა). თუ E პირიბითი ალბათობა მოცემული F-ით იგივეა რაც (უპირობო) E ალბათობა, მაშინ E და F დამოუკიდებელი მოვლენებია.
+
+
 Mathematicians think of probabilities as numbers in the interval from 0 to 1 assigned to "events" whose occurrence or failure to occur is random. Probabilities P(E) are assigned to events E according to the probability axioms.
 The probability that an event E occurs given the known occurrence of an event F is the conditional probability of E given F; its numerical value is  (as long as P(F) is nonzero). If the conditional probability of E given F is the same as the ("unconditional") probability of E, then E and F are said to be independent events. That this relation between E and F is symmetric may be seen more readily by realizing that it is the same as saying .
 Two crucial concepts in the theory of probability are those of a random variable and of the probability distribution of a random variable; see those articles for more information.
+
+
+The probability that an event <math>E</math> occurs ''given'' the known occurrence of an event <math>F</math> is the [[conditional probability]] of <math>E</math>  ''given''  <math>F</math>; its numerical value is <math>P(E \cap F)/P(F)</math> (as long as <math>P(F)</math> is nonzero).  If the conditional probability of <math>E</math> given <math>F</math> is the same as the ("unconditional") probability of <math>E</math>, then <math>E</math> and <math>F</math> are said to be [[statistical independence|independent]] events.  That this relation between <math>E</math> and <math>F</math> is symmetric may be seen more readily by realizing that it is the same as saying
+<math>P(E \cap F) = P(E)P(F)</math>.
+
+Two crucial concepts in the theory of probability are those of a [[random variable]] and of the [[probability distribution]] of a random variable; see those articles for more information.
+
+==A somewhat more abstract view of probability==
+
+"Pure" mathematicians usually take probability theory to be the study of probability spaces and random variables &mdash; an approach introduced by [[Andrey Kolmogorov|Kolmogorov]] in the [[1930s]].  A [[probability space]] is a triple <math>(\Omega, \mathcal F, P)</math>, where
+
+*<math>\Omega</math> is a non-empty set, sometimes called the "sample space", each of whose members is thought of as a potential outcome of a random experiment.  For example, if 100 voters are to be drawn randomly from among all voters in California and asked whom they will vote for governor, then the set of all sequences of 100 Californian voters would be the sample space &Omega;.
+
+* <math> \mathcal F </math> is a [[sigma-algebra|&sigma;-algebra]] of subsets of <math>\Omega</math>  whose members are called "events".  For example the set of all sequences of 100 Californian voters in which at least 60 will vote for Schwarzenegger is identified with the "event" that at least 60 of the 100 chosen voters will so vote.  To say that <math>\mathcal F</math>  is a &sigma;-algebra implies per definition that it contains  <math>\Omega)</math>, that the complement of any event is an event, and the union of any (finite or countably infinite) sequence of events is an event. 
+
+* <math>P</math> is a [[probability measure]] on <math>\mathcal F</math>, i.e., a [[measure (mathematics)|measure]] such that <math>P(\Omega)=1</math>, .
+
+It is important to note that <math>P</math> is defined on <math>\mathcal F</math> and not on <math>\Omega</math>. 
+
+With &Omega; [[denumerable]] we can define <math>\mathcal F</math> as the [[powerset]] of <math>\Omega</math>, i.e <math>\mathcal F=\mathbb P (\Omega)</math> which is trivially a &sigma;-algebra and the biggest one we can create using &Omega;. 
+In a discrete space we can therefore omit ''F'' and just write  <math>(\Omega, P)</math> to define it. If on the other hand <math>\Omega</math>,  is [[non-denumerable]] and we use <math>\mathcal F=\mathbb P (\Omega)</math> we get into trouble defining our probability measure <math>P</math> because ''F'' is too 'huge', i.e. there will be sets to which it will be impossible to assign a unique meassure e.g the [[Banach-Tarski Paradox]]. So we have to use a smaller &sigma;-algebra <math>\mathcal F</math>   (e.g. the [[Borel algebra]] of  <math>\Omega</math>, which is the smallest &sigma;-algebra that makes all open sets measuable). 
+
+A [[random variable]] <math>X</math> is a [[measurable function]] on <math>\Omega</math>;.  For example, the number of voters who will vote for Schwarzenegger in the aforementioned sample of 100 is a random variable.
+
+If ''X'' is any random variable, the notation  <math>P(X \ge 60)</math>,  is shorthand for  <math>P(\{ \omega \in \Omega \mid X(\omega) \ge 60 \})</math>, so that "''X'' &ge; 60" is an "event".
+
+For an algebraic alternative to Kolmogorov's approach, see [[algebra of random variables]].
+
+==Philosophy of application of probability==
+
+Some statisticians will assign probabilities only to events that are random, i.e., [[random variables]], that are outcomes of actual or theoretical ''experiments''; those are [[frequentist|frequentists]].  Others assign probabilities to propositions that are uncertain according either to [[personal probability|subjective]] degrees of belief in their truth, or to logically justifiable degrees of belief in their truth.  Such persons are [[Bayesian probability|Bayesians]].  A Bayesian may assign a probability to the proposition that 'there was life on Mars a billion years ago,' since that is uncertain, whereas a frequentist would not assign probabilities to such arbitrary statements. A frequentist might consider such a judgment to be nonsense. Frequentists only assign probabilities to outcomes of well defined ''random experiments'', that is, where there is a defined [[sample space]] as defined above in the theory section.
+
+==See also==
+
+*[[Glossary of probability and statistics]]
+*[[list of probability topics]]
+*[[list of statistical topics]]
+*[[List of publications in statistics]]
+*[[Predictive modelling]]
+*[[Fuzzy measure theory]]
+*[[probability]]
+*[[probability axioms]]
+*[[probability distribution]]
+*[[expected value]]
+*[[likelihood function]]
+*[[random variable]]
+*[[sample space]]
+*[[variance]]
+*[[statistical independence]]
+*[[Notation in probability]]
+*[[Possibility theory]]
