@@ -8,24 +8,23 @@
 
 
 ==აბსტრაქტული შეხედულება ალბათობაზე==
-წმინდა მათემატიკოსები ხშირად ალბათობის თეორიას იღებენ როგორც ალბათობის სივრცისა და შემთხვევითი ცვლადი შესწავლა; მიდგომა, რომელიც პირველად შემოღებულლ იქნა [[კოლმოგოროვი, ანდრეი|ანდრეი კოლმოგორივის]] მიერ [[1930]] წელს. ალბათობის სივრცე სამგანზობილებიანია <math>(\Omega, \mathcal F, P)</math>, სადაც
+წმინდა მათემატიკოსები ხშირად ალბათობის თეორიას მიიჩნევენ, როგორც ალბათობის სივრცისა და შემთხვევითი ცვლადის შესწავლას; მიდგომა, რომელიც პირველად შემოღებულლ იქნა [[კოლმოგოროვი, ანდრეი|ანდრეი კოლმოგორივის]] მიერ [[1930]] წელს. ალბათობის სივრცე სამგანზობილებიანია <math>(\Omega, \mathcal F, P)</math>, სადაც
 
-*<math>\Omega</math> სანიმუშო სივრცეა, რომლის შემადგენელი ნებისმიერი წევრი მოიაზრება, როგორც შემთხვევით ექსპერიმენტის პოტენციური შედეგი.  მაგ. თბილისის ყველა ამომრჩევლიდან შემთხვევით შერჩეულია 100 ამომრჩეველი, რომელთაც ეკითხებიან თუ ვის მისცემენ საკრებულოს თავმჯდომარის პოსტზე ხმას, მაშასადამე ამ 100 თბილისელი ამომრჩევლის პასუხთა ყველა ვარიანტის წყობა იქნება ე.წ. სანიმუშო სოვრცე &Omega;.
+*<math>\Omega</math> სანიმუშო სივრცეა, რომლის შემადგენელი ნებისმიერი წევრი მოიაზრება, როგორც შემთხვევითი ექსპერიმენტის პოტენციური შედეგი.  მაგ. თბილისის ყველა ამომრჩევლიდან შემთხვევით შერჩეულია 100 ამომრჩეველი, რომელთაც ეკითხებიან თუ ვის მისცემენ საკრებულოს თავმჯდომარის პოსტზე ხმას, მაშასადამე ამ 100 თბილისელი ამომრჩევლის პასუხთა ყველა ვარიანტის წყობა იქნება ე.წ. სანიმუშო სოვრცე &Omega;
 
-* <math> \mathcal F </math> არის [[sigma-algebra|&sigma;-algebra]] სუბ-წყობა <math>\Omega</math>-ისა, რომლის წევრებსაც უწოდებენ "მოვლენებს". მაგ. 100 თბილისელი ამომრჩევლის ყველა შესაძლო წყობა რომელშიც მინიმუმ 60 ხმას უგულავას მისცემს განისაზღვრება "მოვლენით", რომ მინიმუმ 60 ადამიანი არჩეული 100-დან ხმას ამგვარად მისცემს. იმის თქმა, რომ <math>\mathcal F</math>  არის &sigma;-algebra განსაზღვრების შესაბამისაც მიუთითებს რომ ის მოიცავს <math>\Omega)</math>, რომ ნებისმიერ მოვლენა მეორე მოვლენის კომპლიმენტურია, და რომ მოვლენათა ნებისმიერ წყობის გაერთიანებაც მოვლენაა. 
+*<math> \mathcal F </math> არის [[sigma-algebra|&sigma;-algebra]] სუბ-წყობა <math>\Omega</math>-ისა, რომლის წევრებსაც უწოდებენ "მოვლენებს". მაგ. 100 თბილისელი ამომრჩევლის ყველა შესაძლო წყობა, რომელშიც მინიმუმ 60 ამომრჩეველი ხმას უგულავას მისცემს განისაზღვრება "მოვლენით", რომ მინიმუმ 60 ადამიანი შერჩეული 100-დან ხმას ამგვარად მისცემს. იმის თქმა, რომ <math>\mathcal F</math>  არის &sigma;-algebra განსაზღვრების შესაბამისად მიუთითებს, რომ ის მოიცავს <math>\Omega)</math>, რომ ნებისმიერი მოვლენა მეორე მოვლენის კომპლიმენტურია, და რომ მოვლენათა ნებისმიერი წყობის გაერთიანებაც მოვლენაა. 
 
-* <math>P</math> არის [[ალბათობის საზომი]] <math>\mathcal F</math>-თვის, ანუ, ისეთი მათემატიკური საზომი სადაც <math>P(\Omega)=1</math>,.
+* <math>P</math> არის [[ალბათობის საზომი]] <math>\mathcal F</math>-თვის, ანუ, ისეთი მათემატიკური საზომი სადაც <math>P(\Omega)=1</math>.
 
 მნიშვნელოვანია იმის აღნიშვნა, რომ <math>P</math> განისაზღვრება <math>\mathcal F</math>-ით და არა <math>\Omega</math>-ით. 
 
-With &Omega; [[denumerable]] we can define <math>\mathcal F</math> as the [[powerset]] of <math>\Omega</math>, i.e <math>\mathcal F=\mathbb P (\Omega)</math> which is trivially a &sigma;-algebra and the biggest one we can create using &Omega;. 
-In a discrete space we can therefore omit ''F'' and just write  <math>(\Omega, P)</math> to define it. If on the other hand <math>\Omega</math>,  is [[non-denumerable]] and we use <math>\mathcal F=\mathbb P (\Omega)</math> we get into trouble defining our probability measure <math>P</math> because ''F'' is too 'huge', i.e. there will be sets to which it will be impossible to assign a unique meassure e.g the [[Banach-Tarski Paradox]]. So we have to use a smaller &sigma;-algebra <math>\mathcal F</math>   (e.g. the [[Borel algebra]] of  <math>\Omega</math>, which is the smallest &sigma;-algebra that makes all open sets measuable). 
+შემთხვევითი ცვლადი <math>X</math> არის <math>\Omega</math>-ს [[ხსნადი ფუნქცია]]; მაგ. ამომრჩეველთა რიცხვი, რომელიც ხმას უგულავას მისცემს ზემოთხსენებული სანიმუშო 100 ამომრჩევლიდან არის შემთხვევითი ცვლადი.
 
-A [[random variable]] <math>X</math> is a [[measurable function]] on <math>\Omega</math>;.  For example, the number of voters who will vote for Schwarzenegger in the aforementioned sample of 100 is a random variable.
+თუ ''X'' შემთხვევითი ცვლადია, მაშასადამე აღნიშვნა <math>P(X \ge 60)</math>,  მოკლდება  <math>P(\{ \omega \in \Omega \mid X(\omega) \ge 60 \})</math>, სადაც "''X'' &ge; 60" არის "მოვლენა".
 
-If ''X'' is any random variable, the notation  <math>P(X \ge 60)</math>,  is shorthand for  <math>P(\{ \omega \in \Omega \mid X(\omega) \ge 60 \})</math>, so that "''X'' &ge; 60" is an "event".
+კოლმოგოროვის მიდგომის ალგებრული ალტერნატივისთვის, იხ. [[შემთხვევითი ცვლადების ალგებრა]].
 
-For an algebraic alternative to Kolmogorov's approach, see [[algebra of random variables]].
+==ალბათობის გამოყენების ფილოსოფია==
 
 ==Philosophy of application of probability==
 
