@@ -12,8 +12,8 @@
 |-----
 
 | align="center" bgcolor="#FFFFFF" width="8%" | '''<font color="#FF0000">ჯგუფი</font>'''
-| width="5%" align="center" bgcolor="#FFFFFF" | '''<font color="#FF0000">[[Щелочные металлы|1]]</font>'''
-| width="5%" align="center" bgcolor="#FFFFFF" | '''<font color="#FF0000">[[Щелочно-земельные металлы|2]]</font>'''
+| width="5%" align="center" bgcolor="#FFFFFF" | '''<font color="#FF0000">[[ტუტე მეტალები|1]]</font>'''
+| width="5%" align="center" bgcolor="#FFFFFF" | '''<font color="#FF0000">[[ტუტე-მიწათა მეტალები|2]]</font>'''
 | width="5%" align="center" bgcolor="#FFFFFF" | '''<font color="#FF0000">3</font>'''
 | width="5%" align="center" bgcolor="#FFFFFF" | '''<font color="#FF0000">4</font>'''
 | width="5%" align="center" bgcolor="#FFFFFF" | '''<font color="#FF0000">5</font>'''
@@ -28,8 +28,8 @@
 | width="5%" align="center" bgcolor="#FFFFFF" | '''<font color="#FF0000">14</font>'''
 | width="5%" align="center" bgcolor="#FFFFFF" | '''<font color="#FF0000">15</font>'''
 | width="5%" align="center" bgcolor="#FFFFFF" | '''<font color="#FF0000">[[Халькогены|16]]</font>'''
-| width="5%" align="center" bgcolor="#FFFFFF" | '''<font color="#FF0000">[[Галогены|17]]</font>'''
-| width="5%" align="center" bgcolor="#FFFFFF" | '''<font color="#FF0000">[[Инертные газы|18]]</font>'''
+| width="5%" align="center" bgcolor="#FFFFFF" | '''<font color="#FF0000">[[ჰალოგენები|17]]</font>'''
+| width="5%" align="center" bgcolor="#FFFFFF" | '''<font color="#FF0000">[[ინერტული აირები|18]]</font>'''
 |-----
 | align="center" bgcolor="#FFFFFF" width="8%" |
 | width="5%" align="center" bgcolor="#FFFFFF" | '''
@@ -97,13 +97,13 @@
 | width="5%" align="center" | || width="5%" align="center" |
 | width="5%" align="center" | || width="5%" align="center" |
 | width="5%" align="center" bgcolor="#c0ffff" | 2<br>
-[[гелий|He]]
+[[ჰელიუმი|He]]
 |-----
 | align="center" bgcolor="#FFFFFF" width="8%" | '''<font color="#FF0000">2</font>'''
 | width="5%" align="center" bgcolor="#FF6666" | 3<br>
-[[литий|Li]]
+[[ლითიუმი|Li]]
 | width="5%" align="center" bgcolor="#FFDEAD" | 4<br>
-[[бериллий|Be]]
+[[ბერილიუმი|Be]]
 | width="5%" align="center" | || width="5%" align="center" |
 | width="5%" align="center" |
 | width="5%" align="center" | || width="5%" align="center" |
@@ -111,23 +111,23 @@
 | width="5%" align="center" | || width="5%" align="center" |
 | width="5%" align="center" | || width="5%" align="center" |
 | width="5%" align="center" bgcolor="#cccc99" | 5<br>
-[[бор (элемент)|B]]
+[[ბორი (ელემენტი)|B]]
 | width="5%" align="center" bgcolor="#a0ffa0" | 6<br>
-[[углерод|C]]
+[[ნახშირბადი|C]]
 | width="5%" align="center" bgcolor="#a0ffa0" | 7<br>
-[[азот|N]]
+[[აზოტი|N]]
 | width="5%" align="center" bgcolor="#a0ffa0" | 8<br>
-[[кислород|O]]
+[[ჟანგბადი|O]]
 | width="5%" align="center" bgcolor="#ffff99" | 9<br>
-[[фтор|F]]
+[[ფთორი|F]]
 | width="5%" align="center" bgcolor="#c0ffff" | 10<br>
-[[неон|Ne]]
+[[ნეონი|Ne]]
 |-----
 | align="center" bgcolor="#FFFFFF" width="8%" | '''<font color="#FF0000">3</font>'''
 | width="5%" align="center" bgcolor="#ff6666" | 11<br>
-[[натрий|Na]]
+[[ნატრიუმი|Na]]
 | width="5%" align="center" bgcolor="#FFDEAD" | 12<br>
-[[магний|Mg]]
+[[მაგნიუმი|Mg]]
 | width="5%" align="center" | || width="5%" align="center" |
 | width="5%" align="center" |
 | width="5%" align="center" | || width="5%" align="center" |
@@ -135,39 +135,39 @@
 | width="5%" align="center" | || width="5%" align="center" |
 | width="5%" align="center" | || width="5%" align="center" |
 | width="5%" align="center" bgcolor="#cccccc" | 13<br>
-[[Алюминий|Al]]
+[[ალუმინი|Al]]
 | width="5%" align="center" bgcolor="#cccc99" | 14<br>
-[[Кремний|Si]]
+[[სილიციუმი|Si]]
 | width="5%" align="center" bgcolor="#a0ffa0" | 15<br>
-[[Фосфор|P]]
+[[ფოსფორი|P]]
 | width="5%" align="center" bgcolor="#a0ffa0" | 16<br>
-[[Сера|S]]
+[[გოგირდი|S]]
 | width="5%" align="center" bgcolor="#ffff99" | 17<br>
-[[хлор|Cl]]
+[[ქლორი|Cl]]
 | width="5%" align="center" bgcolor="#c0ffff" | 18<br>
-[[аргон|Ar]]
+[[არგონი|Ar]]
 |-----
 | align="center" bgcolor="#FFFFFF" width="8%" | '''<font color="#FF0000">4</font>'''
 | width="5%" align="center" bgcolor="#FF6666" | 19<br>
-[[калий|K]]
+[[კალიუმი|K]]
 | width="5%" align="center" bgcolor="#FFDEAD" | 20<br>
-[[кальций|Ca]]
+[[კალციუმი|Ca]]
 | width="5%" align="center" bgcolor="#ffc0c0" | 21<br>
-[[скандий|Sc]]
+[[სკანდიუმი|Sc]]
 | width="5%" align="center" bgcolor="#ffc0c0" | 22<br>
-[[титан (элемент)|Ti]]
+[[ტიტანი (ელემენტი)|Ti]]
 | width="5%" align="center" bgcolor="#ffc0c0" | 23<br>
-[[ванадий|V]]
+[[ვანადიუმი|V]]
 | width="5%" align="center" bgcolor="#ffc0c0" | 24<br>
-[[хром|Cr]]
+[[ქრომი|Cr]]
 | width="5%" align="center" bgcolor="#ffc0c0" | 25<br>
-[[марганец|Mn]]
+[[მანგანუმი|Mn]]
 | width="5%" align="center" bgcolor="#ffc0c0" | 26<br>
-[[железо|Fe]]
+[[რკინა|Fe]]
 | width="5%" align="center" bgcolor="#ffc0c0" | 27<br>
-[[кобальт|Co]]
+[[კობალტი|Co]]
 | width="5%" align="center" bgcolor="#ffc0c0" | 28<br>
-[[никель|Ni]]
+[[ნიკელი|Ni]]
 | width="5%" align="center" bgcolor="#ffc0c0" | 29<br>
 [[медь|Cu]]
 | width="5%" align="center" bgcolor="#ffc0c0" | 30<br>
@@ -379,12 +379,12 @@
 | bgcolor="#CCCCCC" | [[ მსუბუქი მეტალი|მსუბუქი მეტალები]]
 | bgcolor="#CCCC99" | [[მეტალოიდი |მეტალოიდები]]
 | bgcolor="#a0ffa0" | [[არამეტალი|არამეტალები]]
-| bgcolor="#ffff99" | [[ჰალოგენი|ალოგენები]]
+| bgcolor="#ffff99" | [[ჰალოგენი|ჰალოგენები]]
 | bgcolor="#c0ffff" | [[ინერტული აირი|ინერტული აირები]]
 |}
 
-
-
+[[კატეგორია:ქიმიური ელემენტები]]
+{{ესკიზი}}    
 [[af:Periodieke tabel]]
 [[als:Periodensystem]]
 [[ar:جدول دوري]]
