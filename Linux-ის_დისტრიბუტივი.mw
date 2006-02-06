@@ -627,18 +627,25 @@
 სტატიისთვის გამოყენებულია http://distrowatch.com მასალები.
 
 
-[[ar:توزيعات لينكس]]
+{{linux-distro}}
+
+[[კატეგორია:ოპერაციული სისტემები]]
+
+
+
+[[ar:توزيعات_لينكس]]
+[[cs:Linuxová distribuce]]
 [[da:Linux-distribution]]
 [[de:Linux-Distribution]]
-[[en:Linux distribution]]
-[[es:Distribución Linux]]
 [[et:Linuxi distributsioon]]
-[[fi:Linux-käyttöjärjestelmä]]
+[[es:Distribución Linux]]
 [[fr:Distribution Linux]]
+[[he:הפצות_של GNU/לינוקס]]
 [[hu:Linux disztribúció]]
-[[ja:Linuxディストリビューション]]
 [[nl:Linuxdistributie]]
+[[ja:Linuxディストリビューション]]
 [[pl:Dystrybucja Linuksa]]
+[[fi:Linux-käyttöjärjestelmä]]
 [[sv:Linuxdistribution]]
 [[tr:Linux dağıtımları]]
 [[zh:Linux发行版]]
