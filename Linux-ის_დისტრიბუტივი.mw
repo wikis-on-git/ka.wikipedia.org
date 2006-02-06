@@ -188,3 +188,58 @@
 <td>ფაილური სისტემები</td><td>ext3, JFS, ReiserFS, XFS</td>
 </tr>
 </table>
+
+
+
+== Fedora Core  ==
+
+
+მწარმოებელი ორგანიზაცია: Fedora Project
+
+ქვეყანა: აშშ
+
+უკანასკნელი ვერსია: 4
+
+ბირთვი: 2.6.11
+
+საშინაო გვერდი: http://fedora.redhat.com/
+
+მომხმარებელთა ფორუმები: http://forums.fedoraforum.org/
+
+დოკუმენტაცია: http://fedora.redhat.com/docs/
+
+ფედორა აწ გარდაცვლილი წითელქუდას სამაგიდო შტოს უფასო ჩამომავალია. როგორც არბობენ დიდი სტაბილურობით არ გამოირჩევა. იგი სრულიად ღია სისტემაა. მას პაკეტების საკმაოდ დიდი რაოდენობა მოყვება. მის გაქართულებაზე მუშაობა დაწყებულია.
+
+
+<table>
+<tr>
+<td>გამოსვლის თარიღი</td><td>2005/02/10</td>
+</tr>
+<tr>
+<td>ოფიციალური ფასი</td><td> - </td>
+</tr>
+<tr>
+<td>მატარებელი</td><td>4 CD</td>
+</tr>
+<tr>
+<td>უფასო ჩამოქაჩვა</td><td>http://download.fedora.redhat.com/pub/fedora/linux/core/4/</td>
+</tr>
+<tr>
+<td>პროცესორების არქიტექტურა</td><td>i386, ppc, ppc64, x86-64</td>
+</tr>
+<tr>
+<td>ინსტალაცია</td><td>გრაფიკული</td>
+</tr>
+<tr>
+<td>სტანდარტული გრაფიკული სისტემა</td><td>GNOME</td>
+</tr>
+<tr>
+<td>პაკეტების მენეჯერი</td><td>RPM</td>
+</tr>
+<tr>
+<td>საოფისე პროგრამები</td><td>GNOME Office, KOffice, OpenOffice</td>
+</tr>
+<tr>
+<td>ფაილური სისტემები</td><td>ext3 (supported), JFS, ReiserFS, XFS</td>
+</tr>
+</table>
