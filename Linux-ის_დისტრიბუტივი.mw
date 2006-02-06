@@ -506,3 +506,59 @@
 <td>ფაილური სისტემები</td><td>ext3, JFS, ReiserFS, XFS</td>
 </tr>
 </table>
+
+
+== Slackware Linux ==
+
+
+მწარმოებელი ორგანიზაცია: The Slackware Linux Project
+
+ქვეყანა: აშშ
+
+უკანასკნელი ვერსია: 10.2
+
+ბირთვი: 2.4.31
+
+საშინაო გვერდი:http://www.slackware.com/
+
+მომხმარებელთა ფორუმები: http://www.userlocal.com/phorum/ http://www.slackwarehelp.org/ http://www.linuxquestions.org/questions/f14 
+ 
+დოკუმენტაცია: http://www.slackware.com/book/
+
+სლაქვეარი არის პროფესიონალური დონის დისტრიბიუტივი. იგი ბაზირებულია კარგად გამოცდილ 2.4.30 ბირთვზე მაგრამ მომხმარებელს თვითონ შეიძლია დააყენოს ახალი ბირთვი. მასზე ვერ ვიტყვით რომ იგი ადვილია და ახალბედა მომხმარებლისთვის კარგად გასაგები, მაგრამ საქმის კარგად მცოდნეების ხელში იგი შეიძლება გახდეს როგორც კარგი სერვერი ასევე კარგი საოფისე კომპიუტერი.
+
+<table>
+<tr>
+<td>გამოსვლის თარიღი</td><td>2005/09/14</td>
+</tr>
+<tr>
+<td>ოფიციალური ფასი</td><td>40$</td>
+</tr>
+<tr>
+<td>მატარებელი</td><td>2</td>
+</tr>
+<tr>
+<td>უფასო ჩამოქაჩვა</td><td>http://www.slackware.com/getslack/</td>
+</tr>
+<tr>
+<td>პროცესორების არქიტექტურა</td><td>i486</td>
+</tr>
+<tr>
+<td>ინსტალაცია</td><td>ტექსტური</td>
+</tr>
+<tr>
+<td>სტანდარტული გრაფიკული სისტემა</td><td>KDE</td>
+</tr>
+<tr>
+<td>პაკეტების მენეჯერი</td><td>TGZ</td>
+</tr>
+<tr>
+<td>საოფისე პროგრამები</td><td>KOffice</td>
+</tr>
+<tr>
+<td>ფაილური სისტემები</td><td>ext3, JFS, ReiserFS, XFS</td>
+</tr>
+</table>
+
+
+== Red Hat (Enterprise) Linux ==
