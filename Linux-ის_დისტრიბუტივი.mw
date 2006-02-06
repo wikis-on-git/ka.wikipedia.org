@@ -243,3 +243,110 @@
 <td>ფაილური სისტემები</td><td>ext3 (supported), JFS, ReiserFS, XFS</td>
 </tr>
 </table>
+
+
+
+== MEPIS Linux ==
+
+მწარმოებელი ორგანიზაცია: 
+
+ქვეყანა: აშშ
+
+უკანასკნელი ვერსია: 3.3.1
+
+ბირთვი: 2.6.10
+
+საშინაო გვერდი: http://www.mepis.org/
+
+მომხმარებელთა ფორუმები: http://www.mepis.org/forum/
+
+დოკუმენტაცია: http://mepis.com/docs/
+
+
+ცნობები ამ დისტრიბუტივის შესახებ ჯერ არ არის.
+თუ იცით მის შესახებ მეტი, გთხოვთ დაარედაქტიროთ ეს განყოფილება.
+
+<table>
+<tr>
+<td>გამოსვლის თარიღი</td><td>2005/05/12</td>
+</tr>
+<tr>
+<td>ოფიციალური ფასი</td><td> 10$ </td>
+</tr>
+<tr>
+<td>მატარებელი</td><td>1 CD</td>
+</tr>
+<tr>
+<td>უფასო ჩამოქაჩვა</td><td>http://www.mepis.org/node/1462</td>
+</tr>
+<tr>
+<td>პროცესორების არქიტექტურა</td><td>i586</td>
+</tr>
+<tr>
+<td>ინსტალაცია</td><td>გრაფიკული</td>
+</tr>
+<tr>
+<td>სტანდარტული გრაფიკული სისტემა</td><td>KDE</td>
+</tr>
+<tr>
+<td>პაკეტების მენეჯერი</td><td>DEB</td>
+</tr>
+<tr>
+<td>საოფისე პროგრამები</td><td>OpenOffice</td>
+</tr>
+<tr>
+<td>ფაილური სისტემები</td><td>ext3, ReiserFS</td>
+</tr>
+</table>
+
+
+== Damn Small Linux ==
+
+
+მწარმოებელი ორგანიზაცია: 
+
+ქვეყანა: აშშ
+
+უკანასკნელი ვერსია: 2.1
+
+ბირთვი: 2.4.31
+
+საშინაო გვერდი: http://www.damnsmalllinux.org/
+
+მომხმარებელთა ფორუმები: http://damnsmalllinux.org/cgi-bin/forums/ikonboard.cgi
+
+დოკუმენტაცია: 
+
+
+<table>
+<tr>
+<td>გამოსვლის თარიღი</td><td>2006/01/10</td>
+</tr>
+<tr>
+<td>ოფიციალური ფასი</td><td> - </td>
+</tr>
+<tr>
+<td>მატარებელი</td><td>1 CD</td>
+</tr>
+<tr>
+<td>უფასო ჩამოქაჩვა</td><td>http://www.damnsmalllinux.org/download.html</td>
+</tr>
+<tr>
+<td>პროცესორების არქიტექტურა</td><td>i386</td>
+</tr>
+<tr>
+<td>ინსტალაცია</td><td> - </td>
+</tr>
+<tr>
+<td>სტანდარტული გრაფიკული სისტემა</td><td>Fluxbox</td>
+</tr>
+<tr>
+<td>პაკეტების მენეჯერი</td><td>DEB</td>
+</tr>
+<tr>
+<td>საოფისე პროგრამები</td><td> - </td>
+</tr>
+<tr>
+<td>ფაილური სისტემები</td><td>ext3</td>
+</tr>
+</table>
