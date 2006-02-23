@@ -34,8 +34,9 @@
 ----
 <center>'''[[სპეციალური:Newpages|ახალი სტატიები]]'''</center>
 {{ახალი სტატიები}}
-
+<br>
 ----
+
 <center>'''ანბანური საძიებელი'''</center>
 <table border=0 cellpadding=3 align=center>
 
@@ -54,14 +55,16 @@
 </tr>
 </table>
 ----
+
 <center>'''სხვა სარჩევები და სქემები'''</center>
 <center>[[სპეციალური:Allpages|ყველა გვერდი]] - [[ვიკიპედია:სიების სარჩევი|სიების სარჩევი]] - [[სპეციალური:Categories|კატეგორიების სარჩევი]] - [[ვიკიპედია:კატეგორიზაციის სხვა სქემები|კატეგორიზაციის სხვა სქემები]] <center>
 |}
-
+<br>
 {| cellspacing="0" cellpadding="6" style="font-size: 1.0em;"
 | style="text-align: center; background: #ECE5CA; color: #OOOOOO;" | <font color=navy>'''საზოგადოება'''
 |-
-| bgcolor="#FFFFFF" | <br>
+
+| bgcolor="#FFFFFF" | 
 {{საზოგადოება ვიკიპედია}}
 |}
 |}
