@@ -1,15 +1,16 @@
-'''IBM BlueGene/L''' დღესდღეობით ყველაზე ჩქარი [[სუპერკომპიუტერი]]  135 [[ტერაფლოპი|ტერაფლოპით]] და  32768 [[პროცესორ|პროცესორით]] , თუმცა მისი განახლება და აღჭურვა მუდვივად ხდება.
+[[სურათი:BlueGeneL-600x450.jpg|thumb|IBM BlueGene/L-ის ფოტო]]
+'''IBM BlueGene/L''' პირველი [[სუპერკომპიუტერი]] IBM BlueGene სერიიდან BlueGen/L დღეისათვის მსოფლიოს სუპერკომპიუტერებს უდგას სათავეში.იგი შემუშავებულია IBM-ისა და Lawrence Livermore National Laboratory-ის (LLNL) თანამშრომლობის შედეგად.
+==ისტორია==
+*2004 წლის 29 სექტემბერს IBM-მა ანონსირება გაუკეთა BlueGene/L-ის პროტოტიპს,რომლის სიჩქარემაც 36.01 ტერაფლოპს აღწევდა.
+*2005 წლის 27 ოქტომბერს სუპერკომპიუტერის მწარმოებლურობამ 280,6 ტერაფლოპს მიაღწია,რაც გამოწვეული იყო პროცესორების რიცხვობრივობის 131 072-მდე გაზრდით.
+*2005 წლის 14 ნოემბერს სიეტლში,SC05 Supercomputing Conference-მა IBM BlueGene/L საუკეთესოდ დაასახელა სუპერკომპიუტერებს შორის.მწარმოებლურობის რეკორდის დადგენა Linpack  benchmark-ის საშუალებით მოხდა,რომელიც თავის მხრივ ეტალონ ტესტადაა მიჩნეული ბოლო წლების განმავლობაში
 
+==სერიები==
+*BlueGene/C (მეორე სახელი Cyclops64)
+*BlueGen/L
+*Blue Gene/P
+*Blue Gene/Q
 
-{{ესკიზი}}
-
-
-[[de:BlueGene]]
-[[en:Blue Gene]]
-[[eo:BlueGene]]
-[[fr:Blue Gene]]
-[[id:Blue Gene]]
-[[it:Blue Gene]]
-[[ja:ブルージーン]]
-[[nl:Blue Gene]]
-[[sv:Blue Gene]]
+==რესურსები ინტერნეტში==
+*[http://www.research.ibm.com/bluegene// IBM Research: Blue Gene]
+*[http://www.llnl.gov/asci/platforms/bluegenel/// Lawrence Livermore National Laboratory: BlueGene/L]
