@@ -41,6 +41,17 @@ UIQ –ს ლიდერად SonyEricsson (P800, P900, P910, P990) და Mo
 ==ვერსიები==
 დღეისათვის არსებობს S60-ს ბოლო, მესამე რედაქცია, ვერსიით 9.1(მასზე მუშაობენ Nokia 3250, Nokia N71, Nokia N80, Nokia N91, Nokia N92, Nokia E60, Nokia E61, Nokia E70), რომელშიც ოპერაციული სისტემის დონეზე რეალიზებულია  Bluetooth 1.2 ვერსია(დამატებულია SIM Access profile, რაც საავტომობილო გარნიტურებთან ხმამაღალი კავშირის დამყარების სრულ ფუნქციონალურობას განაპირობებს),WLAN (WiFi), USB 2.0, SD_miniSD ბარათების, QWERTY კლავიატურის, WCDMA Cell Broadcast (CBS) შეტყობინებების მიღების, მხარდაჭერა. ეს არის ძირითადი, მაგრამ, არასრული ჩამონათვალი იმ ცვლილებებისა და დამატებებისა რაც მესამე რედაქციაში შევიდა. მეორე რედაქციის ანუ S60 2nd Edition, Feature Pack 3 — Symbian OS 8.1-ს ქვეშ მომუშავე აპარატები ARM9 ტიპის 220 MHz სიხშირიანი პროცესორებით არიან აღჭურვილნი.
 
+*S60 1st Edition — Symbian OS v6.1
+Nokia 7650, Nokia 3650, Nokia 3660, Nokia N-Gage, Nokia N-Gage QD, Sendo X и RoverPC Sendo X1, Siemens SX1 
+*S60 2nd Edition — Symbian OS v7.0s
+Nokia 6600, Nokia 7610, Nokia 6260, Nokia 3230, Nokia 6670, Panasonic X700, Panasonic X800, Samsung D720, Samsung D730 
+*S60 2nd Edition, Feature Pack 2 — Symbian OS v8.0a
+Nokia 6630, Nokia 6680, Nokia 6681, Lenovo P930 
+*S60 2nd Edition, Feature Pack 3 — Symbian OS v8.1a
+Nokia N70, Nokia N90 
+*S60 3rd Edition, Feature Pack 1 — Symbian OS v9.1
+Nokia 3250, Nokia N71, Nokia N80, Nokia N91, Nokia N92, Nokia E60, Nokia E61, Nokia E70
+
 ==პროგრამული უზრუნველყოფა==
 
 ყოველი პლათფორმისათვის იქმნება განსხვავებული პროგრამული უზრუნველყოფა,რაც აპარატურული და პროგრამული განსხვავებებიდან გამომდინარეობს. პლათფორმათა შორის პროგრამების, თამაშების და სხვა აპლიკაციებიების თავსებადობა შეუძლებელია. Symbian OS-ისათვის განკუთვნილი პროგრამები C++ პროგრამულ ენაზე იწერება და გააჩნია sis. გაფართოება(sisx. S60 3rd Edition-ის შემთხვევაში)
