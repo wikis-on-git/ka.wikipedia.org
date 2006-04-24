@@ -35,6 +35,86 @@
 [[მათემატიკის ისტორია|იხ. სრული ტექსტი.]] 
 
 
+==მათემატიკის ძირითადი თემები==
+=== რაოდენობა ===
+:რაოდენობის დადგენა იწყება დათვლითა და გაზომვით.
+:{| style="border:1px solid #999; text-align:center; margin: auto;" cellspacing="20"
+| <math>1, 2, \dots \,</math> || <math>\dots, -1, 0, 1, \dots \,</math> || <math>\frac{1}{2}, \frac{2}{3}, 0.125,\ldots \,</math> || <math>\pi, 1.62, e, \sqrt{2},\ldots \,</math> || <math>i, 3i+2, e^{i\pi/3},\ldots \,</math> 
+|-
+| [[ნატურალური რიცხვები]]|| [[წილადი|წილადები]] || [[რაციონალური რიცხვები]] || [[ნამდვილი რიცხვები]] || [[კომპლექსური რიცხვები]] 
+|}
+
+:[[ციფრი]] &ndash; [[ჰიპერკომპლექსური რიცხვები]] &ndash; [[ქვატერნიონები]] &ndash; [[ოქტონიონები]] &ndash; [[სედენიონები]] &ndash; [[ჰიპერნამდვილი რიცხვები]] &ndash; [[სიურეალური რიცხვები]] &ndash; [[ორდინალური რიცხვები]] &ndash; [[კარდინალური რიცხვები]] &ndash; [[P-ური რიცხვები]] &ndash; [[წილადური პროგრესიები]] &ndash; [[მათემატიკური კონსტანტები]] &ndash; [[უსასრულობა]] &ndash; [[ბაზისი (მათემატიკა)|ბაზისი]]
+
+=== სტრუქტურა===
+:Pinning down ideas of size, symmetry, and [[mathematical structure]].
+:{| style="border:1px solid #999; text-align:center; margin: auto;" cellspacing="15"
+| <math>36 \div 9 = 4</math> || [[Image:Elliptic curve simple.png|96px]] || [[Image:Rubik float.png|96px]] || [[Image:GroupDiagramD6.png|96px]] || [[Image:Lattice of the divisibility of 60.png|96px]]
+|-
+| [[არითმეტიკა]] || [[რიცხვთა თეორია]] || [[აბსტრაქტრული ალგებრა]] || [[ჯგუფთა თეორია]] || [[ჯგუფთა თეორია]]
+|}
+
+:[[მონოიდი]] &ndash; [[წრე (მათემატიკა)|წრეები]] &ndash; [[სიბრტყეები (მათემატიკა)|სიბრტყეები]] &ndash; [[წრფივი ალგებრა]] &ndash; [[ალგებრული გეომეტრია]]&ndash; [[უნივერსალური ალგებრა]]
+
+=== სივრცე ===
+:A more visual approach to mathematics.
+:{| style="border:1px solid #999; text-align:center; margin: auto;" cellspacing="15"
+| [[Image:Pythagorean.svg|96px]] || [[Image:Taylorsine.png|96px]] || [[Image:OsculatingCircle.png|96px]] || [[Image:Torus.jpg|96px]] || [[Image:Koch curve.png|96px]]
+|-
+|[[Geometry]] || [[Trigonometry]] || [[Differential geometry]] || [[Topology]] || [[Fractal geometry]]
+|}
+
+:[[Algebraic geometry]] &ndash; [[Differential topology]] &ndash; [[Algebraic topology]] &ndash; [[Linear algebra]] &ndash; [[Combinatorial geometry]] &ndash; [[Manifold]]s
+
+=== ცვლილება ===
+:Ways to express and handle change in mathematical functions, and changes between numbers.
+:{| style="border:1px solid #999; text-align:center; margin: auto;" cellspacing="20"
+| [[Image:Integral_as_region_under_curve.png|96px]]  || [[Image:Vectorfield_jaredwf.png|96px]] || <math>\frac{d^2}{dx^2} y = \frac{d}{dx} y + c</math> || [[Image:Limitcycle.jpg|96px]] || [[Image:LorenzAttractor.png|96px]]
+|-
+| [[კალკულუსი]] || [[ვექტორული კალკულუსი]]|| [[დიფერენციალური ტოლობები]] || [[დინამიური სისტემები]] || [[ქაოსის თეორია]]
+|}
+
+:[[მათემატიკური ანალიზი|ანალიზი]] &ndash; [[ნამდვილი ანალიზი]] &ndash; [[კომპლექსური ანალიზი]] &ndash; [[ფუნქციონალური ანალიზი]] &ndash; [[სპეციალური ფუნქციები]] &ndash; [[Measure theory]] &ndash; [[ფურიეს ანალიზი]] &ndash; [[Calculus of variations]]
+
+=== Foundations and methods ===
+:Approaches to understanding the nature of mathematics.
+
+:{| style="border:1px solid #999; text-align:center; margin: auto;" cellspacing="15"
+|  <math> P \Rightarrow Q \,</math>|| [[Image:Venn_A_intersect_B.png|128px]]  || [[Image:MorphismComposition-01.png|96px]]  
+|-
+| [[Mathematical logic]] || [[Set theory]] || [[Category theory]] || 
+|}
+
+:[[Foundations of mathematics]] &ndash; [[Philosophy of mathematics]] &ndash; [[Intuitionism]] &ndash; [[Constructivism (mathematics)|Constructivism]] &ndash; [[Proof theory]] &ndash; [[Model theory]] &ndash; [[Reverse mathematics]]
+
+=== დისკრეტული მათემატიკა ===
+:[[Discrete mathematics]] involves techniques that apply to objects that can only take on specific, separated values.
+
+:{| style="border:1px solid #999; text-align:center; margin: auto;" cellspacing="15"
+| <math>\begin{matrix} (1,2,3) & (1,3,2) \\ (2,1,3) & (2,3,1) \\ (3,1,2) & (3,2,1) \end{matrix}</math> || [[Image:Fsm_moore_model_door_control.jpg|96px]] || [[Image:Caesar3.png|96px]] || [[Image:6n-graf.png|96px]]
+|-
+| [[კომბინატორიკა]] || [[Theory of computation]] || [[კრიპტოგრაფია]] || [[გრაფის თეორია]]
+|}
+
+: [[Computability theory (computation)|Computability theory]] &ndash; [[Computational complexity theory]] &ndash; [[Information theory]]
+
+=== Applied mathematics ===
+:[[Applied mathematics]] aims to develop new mathematics to help solve real-world problems.
+
+:[[Mathematical physics]] &ndash; [[Mechanics]] &ndash; [[Fluid mechanics]] &ndash; [[Numerical analysis]] &ndash; [[Optimization (mathematics)|Optimization]] &ndash; [[Probability]] &ndash; [[Statistics]] &ndash; [[Mathematical economics]] &ndash; [[Financial mathematics]] &ndash; [[Game theory]] &ndash; [[Mathematical biology]] &ndash; [[Cryptography]] &ndash; [[Mathematics and architecture]] &ndash; [[Mathematics of musical scales]]
+
+=== მნიშვნელოვანი თეორემები ===
+
+:[[Pythagorean theorem]] &ndash; [[Fermat's last theorem]] &ndash; [[Gödel's incompleteness theorem]]s &ndash; [[Fundamental theorem of arithmetic]] &ndash; [[Fundamental theorem of algebra]] &ndash; [[Fundamental theorem of calculus]] &ndash; [[Cantor's diagonal argument]] &ndash; [[Four color theorem]] &ndash; [[Zorn's lemma]] &ndash; [[Euler's identity]] &ndash; [[classification theorems of surfaces]] &ndash; [[Gauss-Bonnet theorem]] &ndash; [[Quadratic reciprocity]] &ndash; [[Riemann-Roch theorem]].
+
+=== Important conjectures ===
+''See [[list of conjectures]] for more''
+
+:These are some of the major unsolved problems in mathematics.
+
+:[[Goldbach's conjecture]] &ndash; [[Twin Prime Conjecture]] &ndash; [[Riemann hypothesis]]  &ndash; [[Poincaré conjecture]] &ndash; [[Collatz conjecture]] &ndash; [[Complexity classes P and NP|P=NP?]] &ndash; open [[Hilbert problems]].
+
+
 ==მათემატიკის საერთო ცნებები და ტერმინები==
 
 ===პირველადი ცნებები===
@@ -50,7 +130,6 @@
 ===მნიშვნელოვანი თეორემები და ლემები===
 
 [[აბელის თეორემა]] – [[ბეზუს თეორემა]] – [[კოშის თეორემა]] – [[პითაგორას თეორემა]] – [[რიმანის ჰიპოთეზა]] - [[სინუსების თეორემა]] – [[ფერმას თეორემა]] – [[ცორნის ლემა]]
-
 
 ==გამოჩენილი მათემატიკოსები==
 
