@@ -76,16 +76,16 @@
 
 :[[მათემატიკური ანალიზი|ანალიზი]] &ndash; [[ნამდვილი ანალიზი]] &ndash; [[კომპლექსური ანალიზი]] &ndash; [[ფუნქციონალური ანალიზი]] &ndash; [[სპეციალური ფუნქციები]] &ndash; [[Measure theory]] &ndash; [[ფურიეს ანალიზი]] &ndash; [[Calculus of variations]]
 
-=== Foundations and methods ===
-:Approaches to understanding the nature of mathematics.
+=== საფუძვლები და მეთოდები ===
+:მათემატიკის ბუნების შეცნობის გზები.
 
 :{| style="border:1px solid #999; text-align:center; margin: auto;" cellspacing="15"
 |  <math> P \Rightarrow Q \,</math>|| [[Image:Venn_A_intersect_B.png|128px]]  || [[Image:MorphismComposition-01.png|96px]]  
 |-
-| [[Mathematical logic]] || [[Set theory]] || [[Category theory]] || 
+| [[მათემატიკური ლოგიკა]] || [[Set theory]] || [[კატეგორიათა თეორია]] || 
 |}
 
-:[[Foundations of mathematics]] &ndash; [[Philosophy of mathematics]] &ndash; [[Intuitionism]] &ndash; [[Constructivism (mathematics)|Constructivism]] &ndash; [[Proof theory]] &ndash; [[Model theory]] &ndash; [[Reverse mathematics]]
+:[[მათემატიკის საფუძვლები]] &ndash; [[მათემატიკის ფილოსოფია]] &ndash; [[ინტუიციონიზმი]] &ndash; [[კონსტრუქტივიზმი (მათემატიკა)|კონსტრუქტივიზმი]] &ndash; [[Proof theory]] &ndash; [[მოდელის თეორია]] &ndash; [[შებრუნებული მათემატიკა]]
 
 === დისკრეტული მათემატიკა ===
 :[[Discrete mathematics]] involves techniques that apply to objects that can only take on specific, separated values.
