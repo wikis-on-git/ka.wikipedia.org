@@ -67,7 +67,7 @@
 :[[ალგებრული გეომეტრია]] &ndash; [[დიფერენციალური ტოპოლოგია]] &ndash; [[ალგებრული ტოპოლოგია]] &ndash; [[წრფივი ალგებრა]] &ndash; [[კომბინატორული გეომეტრია]] &ndash; [[Manifold]]s
 
 === ცვლილება ===
-:Ways to express and handle change in mathematical functions, and changes between numbers.
+:მათემატიკურ ფუნქციებში და რიცხვთა შორის ცვლილებათა გამოხატვის გზები.
 :{| style="border:1px solid #999; text-align:center; margin: auto;" cellspacing="20"
 | [[Image:Integral_as_region_under_curve.png|96px]]  || [[Image:Vectorfield_jaredwf.png|96px]] || <math>\frac{d^2}{dx^2} y = \frac{d}{dx} y + c</math> || [[Image:Limitcycle.jpg|96px]] || [[Image:LorenzAttractor.png|96px]]
 |-
