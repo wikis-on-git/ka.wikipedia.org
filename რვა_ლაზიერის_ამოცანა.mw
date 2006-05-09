@@ -110,7 +110,7 @@ void Lazieri(int i)
 
 
 </pre>
-==პროგრამის მაგალითი JAVA–ზე==
+==პროგრამის მაგალითი Java–ზე==
 <pre>
 class EightQueen
 {
