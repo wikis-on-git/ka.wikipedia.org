@@ -110,7 +110,130 @@ void Lazieri(int i)
 
 
 </pre>
+==პროგრამის მაგალითი JAVA–ზე==
+<pre>
+class EightQueen
+{
+	public static void main(String args[])
+	{
+		Queen q = new Queen(8);
+		q.Run(0);
+	}
+}
 
+class Queen
+{
+	private int N;
+	private int dafa[][];
+	private int hor[];
+	private int ver[];
+	private int diagDown[];
+	private int diagUp[];
+	public int Ramdenia;
+	
+	Queen(int Number)
+	{
+		N = Number;	
+		Initialize();
+	}
+	
+	Queen()
+	{
+		N = 8;
+		Initialize();		
+	}
+	
+	private void Initialize()
+	{
+		Ramdenia = 0;
+		dafa = new int[N][N];
+		
+		hor = new int[N];
+		ver = new int[N];
+		
+		for(int i=0; i<N; i++)
+		{
+			hor[i] = 0;
+			ver[i] = 0;
+		}
+		
+		diagDown = new int[2*N-1];
+		diagUp = new int[2*N-1];
+		
+		for (int i=0; i<2*N-1; i++)
+		{
+			diagDown[i] = 0;
+			diagUp[i] = 0;
+		}	
+		
+		MakeZero();	
+	}
+	
+	public void MakeZero()
+	{
+		for(int i=0; i<N; i++)
+		{
+			for(int j=0; j<N; j++)
+			{
+				dafa[i][j] = 0;
+			}
+		}	
+		
+		Ramdenia = 0;	
+	}
+	
+	public void Print()
+	{
+		for(int i=0; i<N; i++)
+		{
+			for(int j=0; j<N; j++)
+			{
+				System.out.print(dafa[i][j] + " ");
+			}
+			
+			System.out.println();
+		}
+		
+		System.out.println(Ramdenia);
+		System.out.println();		
+	}
+	
+	public void Run(int i)
+	{
+		for (int j=0; j<N; j++)
+		{
+			if ( hor[i] == 0 && ver[j] ==0 && diagDown[i-j+N-1] == 0 
+				&& diagUp[i+j] ==0 && dafa[i][j] ==0 )
+			{
+				dafa[i][j] = 1;
+				hor[i] = 1;
+				ver[j] = 1;
+				diagUp[i+j] = 1;
+				diagDown[i-j+N-1] = 1;
+
+				if ( i < N-1)
+				{
+					Run(i+1);
+				}
+				else
+				{
+					Ramdenia++;
+					Print();
+				}
+			
+				if ( i < N)
+				{
+					dafa[i][j] = 0;
+					hor[i] = 0;
+					ver[j] = 0;
+					diagUp[i+j] = 0;
+					diagDown[i-j+N-1] = 0;
+				}
+			}
+		}
+	}
+}
+</pre>
 [[da:8-dronningeproblemet]]
 [[de:Damenproblem]]
 [[en:Eight queens puzzle]]
