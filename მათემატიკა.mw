@@ -52,7 +52,8 @@
 |}
 :[[არითმეტიკა]] – [[ელემენტარული ალგებრა]]
 
-:'''აბსტრაგირებას მივყევართ უფრო რთულ მათემატიკურ ("ალგებრულ") სტრუქტურებთან.'''
+
+:'''აბსტრაგირებას მივყევართ უფრო რთულ მათემატიკურ ("ალგებრულ") სტრუქტურებთან'''
 :{| style="border:1px solid #999; text-align:center; margin: auto;" cellspacing="15"
 | <math>36 \div 9 = 4</math> || [[Image:Elliptic curve simple.png|96px]] || [[Image:Rubik float.png|96px]] || [[Image:GroupDiagramD6.png|96px]] || [[Image:Lattice of the divisibility of 60.png|96px]]
 |-
@@ -62,7 +63,8 @@
 
 :[[ჯგუფი]] &ndash; [[რგოლი (მათემატიკა)|რგოლი]] &ndash; [[ველი|ველი]] &ndash; [[მოდული]] 
 
-:'''უფრო "გეომეტრიული" მათემატიკური სტრუქტურები'''.
+
+:'''უფრო "გეომეტრიული" მათემატიკური სტრუქტურები'''
 :{| style="border:1px solid #999; text-align:center; margin: auto;" cellspacing="15"
 | [[Image:Pythagorean.svg|96px]] || [[Image:Taylorsine.png|96px]] || [[Image:OsculatingCircle.png|96px]] || [[Image:Torus.jpg|96px]] || [[Image:Koch curve.png|96px]]
 |-
@@ -73,6 +75,7 @@
  
 :[[ტოპოლოგიური სივრცე]] – [[მრავალნაირობა|მრავალნაირობები]]
 
+
 :'''სხვა დისკრეტული სტრუქტურები'''
 :{| style="border:1px solid #999; text-align:center; margin: auto;" cellspacing="15"
 | <math>\begin{matrix} (1,2,3) & (1,3,2) \\ (2,1,3) & (2,3,1) \\ (3,1,2) & (3,2,1) \end{matrix}</math> || [[Image:Fsm_moore_model_door_control.jpg|96px]] || [[Image:Caesar3.png|96px]] || [[Image:6n-graf.png|96px]]
@@ -82,7 +85,8 @@
 
 : [[Computability theory (computation)|Computability theory]] &ndash; [[Computational complexity theory]] &ndash; [[Information theory]]
 
-:'''მათემატიკურ ფუნქციებს და სიდიდეებს შორის ცვლილებათა გამოხატვის გზები.'''
+
+:'''მათემატიკურ ფუნქციებს და სიდიდეებს შორის ცვლილებათა გამოხატვის გზები'''
 :{| style="border:1px solid #999; text-align:center; margin: auto;" cellspacing="20"
 | [[Image:Integral_as_region_under_curve.png|96px]]  || [[Image:Vectorfield_jaredwf.png|96px]] || <math>\frac{d^2}{dx^2} y = \frac{d}{dx} y + c</math> || [[Image:Limitcycle.jpg|96px]] || [[Image:LorenzAttractor.png|96px]]
 |-
@@ -90,6 +94,7 @@
 |}
 
 :[[მათემატიკური ანალიზი|ანალიზი]] &ndash; [[კომპლექსური ანალიზი]] &ndash; [[ფუნქციონალური ანალიზი]] &ndash; [[სპეციალური ფუნქციები]] &ndash; [[ზომის თეორია]] &ndash; [[ფურიეს ანალიზი]] &ndash; [[ვარიაციული აღრიცხვა]]
+
 
 '''საფუძვლები და მეთოდები''' 
 :{| style="border:1px solid #999; text-align:center; margin: auto;" cellspacing="15"
