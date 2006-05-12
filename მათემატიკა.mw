@@ -50,7 +50,7 @@
 |-
 | [[ნატურალური რიცხვები]]|| [[მთელი რიცხვები]] || [[რაციონალური რიცხვები]] || [[ნამდვილი რიცხვები]] || [[კომპლექსური რიცხვები]] 
 |}
-:[[არითმეტიკა]] [[ელემენტარული ალგებრა]]
+:[[არითმეტიკა]] – [[ელემენტარული ალგებრა]]
 
 :აბსტრაგირებას მივყევართ უფრო რთულ მათემატიკურ ("ალგებრულ") სტრუქტურებთან.
 :{| style="border:1px solid #999; text-align:center; margin: auto;" cellspacing="15"
@@ -60,7 +60,7 @@
 |}
 :[[ჯგუფთა თეორია]] – [[წრფივი ალგებრა]] – [[კომუტატიური ალგებრა]] – [[უნივერსალური ალგებრა]] – [[კატეგორიათა თეორია]]
 
-:[[ჯგუფი]] &ndash; [[რგოლი (მათემატიკა)|რგოლი]] &ndash; [[ველი|ველი]] &ndash; [[მოდული]] &ndash;
+:[[ჯგუფი]] &ndash; [[რგოლი (მათემატიკა)|რგოლი]] &ndash; [[ველი|ველი]] &ndash; [[მოდული]] 
 
 :უფრო "გეომეტრიული" მათემატიკური სტრუქტურები.
 :{| style="border:1px solid #999; text-align:center; margin: auto;" cellspacing="15"
@@ -91,8 +91,6 @@
 
 
 სხვა დისკრეტული სტრუქტურები
-:[[Discrete mathematics]] involves techniques that apply to objects that can only take on specific, separated values.
-
 :{| style="border:1px solid #999; text-align:center; margin: auto;" cellspacing="15"
 | <math>\begin{matrix} (1,2,3) & (1,3,2) \\ (2,1,3) & (2,3,1) \\ (3,1,2) & (3,2,1) \end{matrix}</math> || [[Image:Fsm_moore_model_door_control.jpg|96px]] || [[Image:Caesar3.png|96px]] || [[Image:6n-graf.png|96px]]
 |-
