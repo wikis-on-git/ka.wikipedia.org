@@ -104,15 +104,6 @@
 |}
 
 
-:'''სხვა დისკრეტული სტრუქტურები'''
-:{| style="border:1px solid #999; text-align:center; margin: auto;" cellspacing="15"
-| <math>\begin{matrix} (1,2,3) & (1,3,2) \\ (2,1,3) & (2,3,1) \\ (3,1,2) & (3,2,1) \end{matrix}</math> || [[Image:Fsm_moore_model_door_control.jpg|96px]] || [[Image:Caesar3.png|96px]] || [[Image:6n-graf.png|96px]]
-|-
-| [[კომბინატორიკა]] || [[გამოთვლების თეორია]] || [[კრიპტოგრაფია]] || [[გრაფთა თეორია]]
-|}
-
-: [[Computability theory (computation)|Computability theory]] &ndash; [[Computational complexity theory]] &ndash; [[Information theory]]
-
 === გამოყენებითი მათემატიკა ===
 :[[გამოყენებითი მათემატიკა]] ცდილობს განავითაროს ახალი მათემატიკური გზები და ხერხები ნადვილი, ცხოვრებისეული პრობლემების გადასაჭრელად.
 
