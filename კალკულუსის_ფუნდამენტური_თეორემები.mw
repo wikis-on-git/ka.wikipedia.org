@@ -1,4 +1,4 @@
-'''ანალიზის ფუნდამენტალური თეორემა''' – მდგომარეობს შემდეგში:
+'''ანალიზის ფუნდამენტური თეორემა''' – მდგომარეობს შემდეგში:
 
 თუ ''f'' და ''F'' [''a'', ''b''] ინტერვალზე განსაზღვრული ფუნქციებია და <math>f(x) = F'(x)\,</math>. მაშინ 
 :<math>\int_a^b f(x)\,dx = F(b) - F(a)</math>.
@@ -7,3 +7,27 @@
 :<math>F(x) = \int_a^x f(t)\, dt</math>
 მაშინ
 :<math>F'(x) = f(x)\,</math>.
+
+
+{{მათემატიკა}}
+
+
+[[da:Infinitesimalregningens hovedsætning]]
+[[de:Fundamentalsatz der Analysis]]
+[[en:Fundamental theorem of calculus]]
+[[eo:Fundamenta teoremo de kalkulo]]
+[[es:Teorema fundamental del cálculo integral]]
+[[fa:قضیه اساسی حسابان]]
+[[fi:Analyysin peruslause]]
+[[fr:Théorème fondamental de l'analyse]]
+[[he:המשפט היסודי של החשבון הדיפרנציאלי והאינטגרלי]]
+[[it:Teorema fondamentale del calcolo integrale]]
+[[ja:微分積分学の基本定理]]
+[[ko:미적분학의 기본정리]]
+[[pl:Podstawowe twierdzenie rachunku całkowego]]
+[[pt:Teorema fundamental do Cálculo]]
+[[ru:Основная теорема анализа]]
+[[sv:Analysens fundamentalsats]]
+[[th:ทฤษฎีบทมูลฐานของแคลคูลัส]]
+[[tr:Hesabın Temel Teoremi]]
+[[zh:微积分基本定理]]
