@@ -122,9 +122,9 @@ https://shipit.ubuntu.com/
 
 ქვეყანა: [[გერმანია]]
 
-უკანასკნელი ვერსია: 10.0
+უკანასკნელი ვერსია: 10.1
 
-ბირთვი: 2.6.13
+ბირთვი: 2.6.16
 
 საშინაო გვერდი: http://www.suse.com , http://www.opensuse.org/
 
@@ -170,8 +170,6 @@ https://shipit.ubuntu.com/
 <td>ფაილური სისტემები</td><td>ext3, JFS, ReiserFS, XFS</td>
 </tr>
 </table>
-
-
 
 == Mandriva Linux ==
 
