@@ -1,7 +1,7 @@
-{{Infobox Town|
-name = პრაღა|
+{{ქალაქი|
+სახელი = პრაღა|
 name_local=Praha|
-country=ჩეხეთის რესპუბლიკა|
+ქვეყანა=ჩეხეთის რესპუბლიკა|
 image_coat_of_arms=Prague coat of arms.png|
 region_type=დედაქალაქი|
 region_type_local=|
@@ -10,10 +10,10 @@ region_link=Czech Republic|
 region_name_local=Česká republika|
 population=1,172,975|
 population_as_of=31.3.2005|
-area=496|
-founded=მე-9 საუკუნე|
+ფართობი=496|
+დაფუძნდა=მე-9 საუკუნე|
 founded_type=|
-elevation=180-400|
+სიმაღლე=180-400|
 latitude=50°05'N|
 longitude=14°26'E|
 lat_deg=50|
@@ -22,7 +22,7 @@ lat_hem=N|
 lon_deg=14|
 lon_min=26|
 lon_hem=E|
-website=http://www.prague-city.cz|
+ვებგვერდი=http://www.prague-city.cz|
 image_location=Prague location.png|
 }}
 
