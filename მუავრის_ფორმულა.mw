@@ -3,3 +3,19 @@
 :<math>[r(\cos x+i\sin x)]^n=r^n[\cos(nx)+i\sin(nx)]\,</math>
 
 მუავრის ფორმულიდან გამომდინარეობს, რომ z-ის n ხარისხში ახარისხებისას r მოდული უნდა ავახარისხოთ ამავე ხარისხში, ხოლო <math>x</math> არგუმენტი გავამრავლოთ ხარისხის მაჩვენებელზე. მუავრის ფორმულა საშუალებას იძლევა <math>\cos(nx)</math> და <math>\sin(nx)</math> გამოვსახოთ <math>\cos(x)</math> და <math>\sin(x)</math>–ის ხარისხების საშუალებით. მუავრის ფორმულა მიიღო ფრანგმა მათემატიკოსმა [[მუავრი, აბრაამ დე|აბრაამ დე მუავრმა]] 1707 წელს.
+
+[[ar:صيغة دي مويفير]]
+[[ca:Fórmula de De Moivre]]
+[[cs:Moivreova věta]]
+[[da:De Movires formel]]
+[[en:De Moivre's formula]]
+[[es:Fórmula de De Moivre]]
+[[fr:Formule de De Moivre]]
+[[it:Formula di De Moivre]]
+[[nl:Stelling van De Moivre]]
+[[ja:ド・モアブルの定理]]
+[[pl:Wzór de Moivre'a]]
+[[pt:Fórmula de de Moivre]]
+[[sr:Моаврова формула]]
+[[fi:De Moivren kaava]]
+[[zh:棣美弗定理]]
