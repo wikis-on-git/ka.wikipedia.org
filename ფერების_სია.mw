@@ -1,0 +1,1628 @@
+ქვემოთ მოყვანილია ნაწილობრივი სია [[ფერი|ფერების]], რომელთაც თან შესაბამისი სტატიაც ახლავს (ბმულით).  
+
+ყურადღება მიაქციეთ, რომ [[CMYK]] სიდიდეები ნომინალურია, და რომ არ არსებობს ფიქსირებული კონვერსია RGB-დან CMYK-ზე. ნუ გამოიყენებთ ამ მნიშვნელობებს თუ ბეჭდვისას მაღალი ხარისხის ფერთა დამთხვევა გჭირდებათ.
+
+The actual color values below are correct, but some argue that the actual sample colors displayed are incorrect due to lack of [[gamma correction]].  White shows as white, and black shows as black, but colors in between, especially dark colors, are shown incorrectly[http://xona.com/colorlist/].  For example, 50% gray (half-way between white and black) should be 50% as bright as white, but without gamma correction, it is only 18% the brightness of white on a gamma 2.5 display (0.5<sup>2.5</sup> = ~0.1768), which is the standard gamma value for most CRTs and LCD displays.  (LCDs actually emulated a gamma 2.5, to correlate with more popular CRT displays, as they do not natively have that value.) However, if the purpose of the colors is to show how these color values look on displays rather than in a gamma corrected world, this argument does not apply.
+
+{{CompactTOC4}}
+==A==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Alice-Blue (color)|Alice Blue]]
+| style="background-color:#F0F8FF;" |
+| style="font-family:monospace;"    | #F0F8FF
+| style="border-left-width:medium;"   | 240 || 248 ||   245
+| style="border-left-width:medium;"   |   4 ||  1 || 0 ||   0
+| style="border-left-width:medium;"   |  208 || 6 || 100	
+|-
+! style="text-align:left;"          | [[Alizarin|Alizarin Crimson]]
+| style="background-color:#E32636;" |
+| style="font-family:monospace;"    | #E32636
+| style="border-left-width:medium;"   | 227 || 38 ||   54
+| style="border-left-width:medium;"   |   1 ||  92 || 82 ||   0
+| style="border-left-width:medium;"   |  355 || 83 || 89	
+|-
+! style="text-align:left;"          | [[Amber (color)|Amber]]
+| style="background-color:#FFBF00;" |
+| style="font-family:monospace;"    | #FFBF00
+| style="border-left-width:medium;"   | 255 || 191 ||   0
+| style="border-left-width:medium;"   |   0 ||  25 || 100 ||   0
+| style="border-left-width:medium;"   |  45 || 100 || 100	
+|-
+! style="text-align:left;"          | [[Amethyst (color)|Amethyst]]
+| style="background-color:#9966cc;" |
+| style="font-family:monospace;"    | #9966CC
+| style="border-left-width:medium;"   | 153 || 102 || 204
+| style="border-left-width:medium;"   |  25 ||  50 ||   0 ||  20
+| style="border-left-width:medium;"   | 270 ||  50 ||  80	
+|-
+! style="text-align:left;"          | [[Asparagus (color)|Asparagus]]
+| style="background-color:#7BA05B;" |
+| style="font-family:monospace;"    | #7BA05B
+| style="border-left-width:medium;"   | 123 || 160 ||  91
+| style="border-left-width:medium;"   |  23 ||   0 ||  43 ||  37
+| style="border-left-width:medium;"   |  92 ||  43 ||  63
+|-
+! style="text-align:left;"          | [[Aqua (color)|Aqua]]
+| style="background-color:#00FFFF;" |
+| style="font-family:monospace;"    | #00FFFF
+| style="border-left-width:medium;"   |   0 || 255 || 255
+| style="border-left-width:medium;"   | 100 ||   0 ||   0 ||   0
+| style="border-left-width:medium;"   | 180 || 100 || 100	
+|-
+! style="text-align:left;"          | [[Aquamarine (color)|Aquamarine]]
+| style="background-color:#7fffd4;" |
+| style="font-family:monospace;"    | #7FFFD4
+| style="border-left-width:medium;"   | 127 || 255 || 212
+| style="border-left-width:medium;"   |  50 ||   0 ||  17 ||   0
+| style="border-left-width:medium;"   | 160 ||  50 || 100	
+|-
+
+! style="text-align:left;"          | [[Azure (color)|Azure]]
+| style="background-color:#007fff;" |
+| style="font-family:monospace;"    | #007FFF
+| style="border-left-width:medium;"   |   0 || 127 || 255
+| style="border-left-width:medium;"   | 100 ||  50 ||   0 ||   0
+| style="border-left-width:medium;"   | 210 || 100 || 100	
+|}
+
+==B==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | Name
+!              | Sample
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Beige]]
+| style="background-color:#F5F5DC;" |
+| style="font-family:monospace;"    | #F5F5DC
+| style="border-left-width:medium;"   | 245 || 245 || 220
+| style="border-left-width:medium;"   |   0 ||   0 ||  10 ||   4
+| style="border-left-width:medium;"   |  60 ||  10 ||  96	
+|-
+! style="text-align:left;"          | [[Bistre]]
+| style="background-color:#3D2B1F;" |
+| style="font-family:monospace;"    | #3D2B1F
+| style="border-left-width:medium;"   |  61 ||  43 ||  31
+| style="border-left-width:medium;"   |   0 ||  30 ||  49 ||  76
+| style="border-left-width:medium;"   |  24 ||  49 ||  24
+|-
+! style="text-align:left;"          | [[Black]]
+| style="background-color:#000000;" |
+| style="font-family:monospace;"    | #000000
+| style="border-left-width:medium;"   |   0 ||   0 ||   0
+| style="border-left-width:medium;"   |   0 ||   0 ||   0 || 100
+| style="border-left-width:medium;"   |   0 ||   0 ||   0 
+|-
+! style="text-align:left;"          | [[Blue]]
+| style="background-color:#0000ff;" |
+| style="font-family:monospace;"    | #0000FF
+| style="border-left-width:medium;"   |   0 ||   0 || 255
+| style="border-left-width:medium;"   | 100 || 100 ||   0 ||   0
+| style="border-left-width:medium;"   | 240 || 100 || 100
+|-
+! style="text-align:left;"          | [[Bondi Blue]]
+| style="background-color:#0095B6;" |
+| style="font-family:monospace;"    | #0095B6
+| style="border-left-width:medium;"   |   0 || 149 || 182
+| style="border-left-width:medium;"   | 100 ||  18 ||   0 ||  29
+| style="border-left-width:medium;"   | 191 || 100 ||  71
+|-
+! style="text-align:left;"          | [[Brass]]
+| style="background-color:#B5A642;" |
+| style="font-family:monospace;"    | #B5A642
+| style="border-left-width:medium;"   | 181 || 166 ||  66
+| style="border-left-width:medium;"   |     ||     ||     ||    
+| style="border-left-width:medium;"   |  37 || 119 || 124
+|-
+! style="text-align:left;"          | [[Bright green]]
+| style="background-color:#66FF00;" |
+| style="font-family:monospace;"    | #66FF00
+| style="border-left-width:medium;"   | 102 || 255 ||   0
+| style="border-left-width:medium;"   |  60 ||   0 || 100 ||   0
+| style="border-left-width:medium;"   |  96 || 100 || 100
+|-
+! style="text-align:left;"          | [[Bright turquoise]]
+| style="background-color:#08E8DE;" |
+| style="font-family:monospace;"    | #08E8DE
+| style="border-left-width:medium;"   |   8 || 232 || 222
+| style="border-left-width:medium;"   |  97 ||   0 ||   4 ||   9
+| style="border-left-width:medium;"   | 177 ||  97 ||  91
+|-
+! style="text-align:left;"          | [[Bright violet]]
+| style="background-color:#CD00CD;" |
+| style="font-family:monospace;"    | #CD00CD
+| style="border-left-width:medium;"   | 205 || 0 || 205
+| style="border-left-width:medium;"   |  36 || 88 || 0 || 0
+| style="border-left-width:medium;"   | 300 || 100 || 80
+|-
+! style="text-align:left;"          | [[Bronze]]
+| style="background-color:#CD7F32;" |
+| style="font-family:monospace;"    | #CD7F32
+| style="border-left-width:medium;"   | 205 || 127 ||  50
+| style="border-left-width:medium;"   | 12  ||   58  ||  88   || 6  
+| style="border-left-width:medium;"   |  21 || 155 || 128
+|-
+! style="text-align:left;"          | [[Brown]]
+| style="background-color:#964B00;" |
+| style="font-family:monospace;"    | #964B00
+| style="border-left-width:medium;"   | 150 ||  75 ||   0
+| style="border-left-width:medium;"   |   0 ||  50 || 100 ||  41
+| style="border-left-width:medium;"   |  30 || 100 ||  59
+|-
+! style="text-align:left;"          | [[Buff (color)|Buff]]
+| style="background-color:#F0DC82;" |
+| style="font-family:monospace;"    | #F0DC82
+| style="border-left-width:medium;"   | 240 || 220 || 130
+| style="border-left-width:medium;"   |   0 ||   8 ||  46 ||   6
+| style="border-left-width:medium;"   |  49 ||  46 ||  94
+|-
+! style="text-align:left;"          | [[Burgundy (color)|Burgundy]]
+| style="background-color:#900020;" |
+| style="font-family:monospace;"    | #900020
+| style="border-left-width:medium;"   | 128 ||   0 ||   32
+| style="border-left-width:medium;"   |   0 ||  97 || 100 ||  50
+| style="border-left-width:medium;"   | 230 || 240 ||  60
+|-
+! style="text-align:left;"          | [[Orange (color)#Burnt orange|Burnt Orange]]
+| style="background-color:#cc5500;" |
+| style="font-family:monospace;"    | #CC5500
+| style="border-left-width:medium;"   | 204 ||  85 ||   0
+| style="border-left-width:medium;"   |   0 ||  58 || 100 ||  20
+| style="border-left-width:medium;"   |  25 || 100 ||  80
+|-
+! style="text-align:left;"          | [[Burnt Sienna]]
+| style="background-color:#E97451;" |
+| style="font-family:monospace;"    | #E97451
+| style="border-left-width:medium;"   | 233 || 116 ||  81
+| style="border-left-width:medium;"   |   0 ||  50 ||  65 ||   9
+| style="border-left-width:medium;"   |  14 ||  65 ||  91
+|-
+! style="text-align:left;"          | [[Burnt umber]]
+| style="background-color:#8A3324;" |
+| style="font-family:monospace;"    | #8A3324
+| style="border-left-width:medium;"   | 138 ||  51 ||  36
+| style="border-left-width:medium;"   |   0 ||  63 ||  74 ||  46
+| style="border-left-width:medium;"   |   9 ||  74 ||  54
+|}
+
+==C==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Camouflage green]]
+| style="background-color:#78866B;" |
+| style="font-family:monospace;"    | #78866B
+| style="border-left-width:medium;"   | 120 || 134 || 107
+| style="border-left-width:medium;"   | 55 || 35 || 62 || 10
+| style="border-left-width:medium;"   | 91 || 20 || 53
+|-
+! style="text-align:left;"          | [[Cardinal (color)|Cardinal]]
+| style="background-color:#C41E3A;" |
+| style="font-family:monospace;"    | #C41E3A
+| style="border-left-width:medium;"   | 196 ||  30 ||  58
+| style="border-left-width:medium;"   |   0 ||  85 ||  70 ||  23
+| style="border-left-width:medium;"   | 350 ||  85 ||  77
+|-
+! style="text-align:left;"          | [[Carmine (color)|Carmine]]
+| style="background-color:#960018;" |
+| style="font-family:monospace;"    | #960018
+| style="border-left-width:medium;"   | 150 ||   0 ||  24
+| style="border-left-width:medium;"   |   0 || 100 ||  84 ||  41
+| style="border-left-width:medium;"   | 350 || 100 ||  59
+|-
+! style="text-align:left;"          | [[Carrot (color)|Carrot]]
+| style="background-color:#ED9121;" |
+| style="font-family:monospace;"    | #ED9121
+| style="border-left-width:medium;"   | 237 || 145 || 33
+| style="border-left-width:medium;"   |  4 || 50 || 100 || 0
+| style="border-left-width:medium;"   | 33 || 86 || 93
+|-
+! style="text-align:left;"          | [[Celadon (color)|Celadon]]
+| style="background-color:#ACE1AF;" |
+| style="font-family:monospace;"    | #ACE1AF 
+| style="border-left-width:medium;"   | 172 || 225 || 175
+| style="border-left-width:medium;"   |  21 ||   0 ||   19 ||  12
+| style="border-left-width:medium;"   | 123 ||  24 ||  88
+|-
+|-
+! style="text-align:left;"          | [[Cerise (color)|Cerise]]
+| style="background-color:#DE3163;" |
+| style="font-family:monospace;"    | #DE3163 
+| style="border-left-width:medium;"   | 222 ||  49 ||  99
+| style="border-left-width:medium;"   |   0 ||  78 ||  55 ||  13
+| style="border-left-width:medium;"   | 343 ||  78 ||  87
+|-
+! style="text-align:left;"          | [[Cerulean]]
+| style="background-color:#007BA7;" | 
+| style="font-family:monospace;"    | #007BA7 
+| style="border-left-width:medium;"   |   0 || 123 || 167
+| style="border-left-width:medium;"   | 100 ||  26 ||   0 ||  35
+| style="border-left-width:medium;"   | 196 || 100 ||  65
+|-
+! style="text-align:left;"          | [[Cerulean blue]]
+| style="background-color:#2A52BE;" |
+| style="font-family:monospace;"    | #2A52BE
+| style="border-left-width:medium;"   |  42 ||  82 || 190
+| style="border-left-width:medium;"   |  78 ||  57 ||   0 ||  25
+| style="border-left-width:medium;"   | 224 ||  78 ||  75
+|-
+! style="text-align:left;"          | [[Chartreuse (color)|Chartreuse]]
+| style="background-color:#7fff00;" |
+| style="font-family:monospace;"    | #7FFF00
+| style="border-left-width:medium;"   | 127 || 255 ||   0
+| style="border-left-width:medium;"   |  50 ||   0 || 100 ||   0
+| style="border-left-width:medium;"   |  90 || 100 || 100
+|-
+! style="text-align:left;"          | [[Chestnut (color)|Chestnut]]
+| style="background-color:#CD5C5C;" |
+| style="font-family:monospace;"    | #CD5C5C
+| style="border-left-width:medium;"   | 205 ||  92 ||  92
+| style="border-left-width:medium;"   |   0 ||  55 ||  55 ||  20
+| style="border-left-width:medium;"   |   0 ||  55 ||  80
+|-
+! style="text-align:left;"          | [[Chocolate (color)|Chocolate]]
+| style="background-color:#D2691E;" |
+| style="font-family:monospace;"    | #D2691E*
+| style="border-left-width:medium;"   | 210 || 105 ||  30
+| style="border-left-width:medium;"   |   0 ||  50 ||  86 ||  18
+| style="border-left-width:medium;"   |  25 ||  86 ||  82
+|-
+! style="text-align:left;"          | [[Cinnamon]]
+| style="background-color:#7B3F00;" |
+| style="font-family:monospace;"    | #7B3F00
+| style="border-left-width:medium;"   | 123 || 63 ||  0
+| style="border-left-width:medium;"   |   16 ||  60 ||  82 ||  51
+| style="border-left-width:medium;"   |  31 ||  100 ||  48
+|-
+! style="text-align:left;"          | [[Cobalt (color)|Cobalt]]
+| style="background-color:#0047AB;" |
+| style="font-family:monospace;"    | #0047AB
+| style="border-left-width:medium;"   |   0 ||  71 || 171
+| style="border-left-width:medium;"   | 100 ||  58 ||   0 ||  33
+| style="border-left-width:medium;"   | 215 || 100 ||  67
+|-
+! style="text-align:left;"          | [[Copper (color)|Copper]]
+| style="background-color:#b87333;" |
+| style="font-family:monospace;"    | #B87333
+| style="border-left-width:medium;"   | 184 || 115 ||  51
+| style="border-left-width:medium;"   |   0 ||  38 ||  72 ||  28
+| style="border-left-width:medium;"   |  29 ||  72 ||  72
+|-
+! style="text-align:left;"          | [[Coral (color)|Coral]]
+| style="background-color:#ff7f50;" |
+| style="font-family:monospace;"    | #FF7F50
+| style="border-left-width:medium;"   | 255 || 127 ||  80
+| style="border-left-width:medium;"   |   0 ||  50 ||  69 ||   0
+| style="border-left-width:medium;"   |  16 ||  69 || 100
+|-
+! style="text-align:left;"          | [[Corn (color)|Corn]]
+| style="background-color:#FBEC5D;" |
+| style="font-family:monospace;"    | #FBEC5D
+| style="border-left-width:medium;"   | 251 || 236 || 93
+| style="border-left-width:medium;"   |  4 || 1 || 77 || 0
+| style="border-left-width:medium;"   | 54 || 63 || 98
+|-
+! style="text-align:left;"          | [[Cornflower blue]]
+| style="background-color:#6495ED;" |
+| style="font-family:monospace;"    | #6495ED
+| style="border-left-width:medium;"   | 100 || 149 || 237
+| style="border-left-width:medium;"   |  58 ||  37 ||   0 ||   7
+| style="border-left-width:medium;"   | 219 ||  58 ||  93
+|-
+! style="text-align:left;"          | [[Cream (colour)|Cream]]
+| style="background-color:#FFFDD0;" |
+| style="font-family:monospace;"    | #FFFDD0
+| style="border-left-width:medium;"   | 255 || 253 || 208
+| style="border-left-width:medium;"   |   0 ||   1 ||  18 ||   0
+| style="border-left-width:medium;"   |  57 ||  18 || 100
+|-
+! style="text-align:left;"          | [[Crimson]]
+| style="background-color:#dc143c;" |
+| style="font-family:monospace;"    | #DC143C
+| style="border-left-width:medium;"   | 220 ||  20 ||  60
+| style="border-left-width:medium;"   |   0 ||  91 ||  73 ||  14
+| style="border-left-width:medium;"   | 348 ||  91 ||  86
+|-
+! style="text-align:left;"          | [[Cyan]]
+| style="background-color:#00ffff;" |
+| style="font-family:monospace;"    | #00FFFF
+| style="border-left-width:medium;"   |   0 || 255 || 255
+| style="border-left-width:medium;"   | 100 ||   0 ||   0 ||   0
+| style="border-left-width:medium;"   | 180 || 100 || 100
+|}
+
+==D==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Dark blue (color)|Dark blue]]
+| style="background-color:#0000C8;" |
+| style="font-family:monospace;"    | #0000C8
+| style="border-left-width:medium;"   | 0  || 0 || 139
+| style="border-left-width:medium;"   | 1 || 1 || 0 || 0
+| style="border-left-width:medium;"   | 240 || 100 ||  55
+|-
+! style="text-align:left;"          | [[Dark brown]]
+| style="background-color:#654321;" |
+| style="font-family:monospace;"    | #654321
+| style="border-left-width:medium;"   | 101  || 67 || 33
+| style="border-left-width:medium;"   |   0 ||  34 ||  67 ||  60
+| style="border-left-width:medium;"   |  30 || 67 ||  40
+|-
+! style="text-align:left;"          | [[Dark cerulean]]
+| style="background-color:#08457E;" |
+| style="font-family:monospace;"    | #08457E
+| style="border-left-width:medium;"   | 8 || 69 || 126
+| style="border-left-width:medium;"   |   94 ||  45 ||  0 ||  51
+| style="border-left-width:medium;"   |  209 || 94 ||  49
+|-
+! style="text-align:left;"          | [[Dark chestnut]]
+| style="background-color:#986960;" |
+| style="font-family:monospace;"    | #986960
+| style="border-left-width:medium;"   | 152 || 105 || 96
+| style="border-left-width:medium;"   |   0 ||  31 ||  37 ||  40
+| style="border-left-width:medium;"   |  10 || 37 ||  60
+|-
+! style="text-align:left;"          | [[Dark coral]]
+| style="background-color:#CD5B45;" |
+| style="font-family:monospace;"    | #CD5B45
+| style="border-left-width:medium;"   | 205 || 91 || 69
+| style="border-left-width:medium;"   | 15 || 77 || 78 || 3
+| style="border-left-width:medium;"   | 10 || 66 || 80
+|-
+! style="text-align:left;"          | [[Goldenrod (color)#Shades|Dark goldenrod]]
+| style="background-color:#B8860B;" |
+| style="font-family:monospace;"    | #B8860B
+| style="border-left-width:medium;"   | 184 || 134 ||  11
+| style="border-left-width:medium;"   |   0 ||  27 ||  94 ||  28
+| style="border-left-width:medium;"   |  43 ||  94 ||  72
+|-
+! style="text-align:left;"          | [[Dark green]]
+| style="background-color:#013220;" |
+| style="font-family:monospace;"    | #013220*
+| style="border-left-width:medium;"   | 1 || 50 || 32
+| style="border-left-width:medium;"   |   98 ||  0 ||  36 ||  80
+| style="border-left-width:medium;"   |  158 || 98 ||  20
+|-
+! style="text-align:left;"          | [[Dark Indigo]]
+| style="background-color:#310062;" |
+| style="font-family:monospace;"    | #310062
+| style="border-left-width:medium;"   | 49 || 0 || 98
+| style="border-left-width:medium;"   |   50 ||  100 ||  0 ||  62
+| style="border-left-width:medium;"   |  270 || 100 ||  38
+|-
+! style="text-align:left;"          | [[Dark khaki#Shades|Dark Khaki]]
+| style="background-color:#BDB76B;" |
+| style="font-family:monospace;"    | #BDB76B
+| style="border-left-width:medium;"   | 189 || 183 || 107
+| style="border-left-width:medium;"   |   0 ||   3 ||  43 ||  26
+| style="border-left-width:medium;"   |  56 ||  43 ||  74
+|-
+! style="text-align:left;"          | [[Dark Olive]]
+| style="background-color:#556832;" |
+| style="font-family:monospace;"    | #556832*
+| style="border-left-width:medium;"   | 85 || 104 || 50
+| style="border-left-width:medium;"   |  65 || 40 ||  95 ||  27
+| style="border-left-width:medium;"   |  81 || 52 ||  41
+|-
+! style="text-align:left;"          | [[Dark pastel green]]
+| style="background-color:#03C03C;" |
+| style="font-family:monospace;"    | #03C03C
+| style="border-left-width:medium;"   | 3 || 192 || 60
+| style="border-left-width:medium;"   |   76 ||  0 ||  100 ||  0
+| style="border-left-width:medium;"   |  138 || 98 ||  75
+|-
+! style="text-align:left;"          | [[Dark peach (color)|Dark Peach]]
+| style="background-color:#FFDAB9;" |
+| style="font-family:monospace;"    | #FFDAB9
+| style="border-left-width:medium;"   | 255 || 218 || 185
+| style="border-left-width:medium;"   |   0 || 15 || 27 ||  0
+| style="border-left-width:medium;"   |  28 ||  27 || 100
+|-
+! style="text-align:left;"          | [[Dark pink]]
+| style="background-color:#E75480;" |
+| style="font-family:monospace;"    | #E75480
+| style="border-left-width:medium;"   | 231 || 84 || 128
+| style="border-left-width:medium;"   |   4 || 82 ||  26 ||  0
+| style="border-left-width:medium;"   | 342 || 64 ||  91
+|-
+! style="text-align:left;"          | [[Dark salmon]]
+| style="background-color:#E9967A;" |
+| style="font-family:monospace;"    | #E9967A
+| style="border-left-width:medium;"   | 233 || 150 || 122
+| style="border-left-width:medium;"   |   0 ||  36 ||  48 ||   9
+| style="border-left-width:medium;"   |  15 ||  48 ||  91
+|-
+! style="text-align:left;"          | [[Dark Scarlet]]
+| style="background-color:#560319;" |
+| style="font-family:monospace;"    | #560319
+| style="border-left-width:medium;"   |  86 ||   3 ||  25
+| style="border-left-width:medium;"   |   0 ||  97 ||  71 ||  66
+| style="border-left-width:medium;"   | 344 ||  97 ||  34
+|-
+! style="text-align:left;"          | [[Dark slate gray]]
+| style="background-color:#2F4F4F;" |
+| style="font-family:monospace;"    | #2F4F4F
+| style="border-left-width:medium;"   |  47 ||  79 ||  79
+| style="border-left-width:medium;"   |  41 ||   0 ||   0 ||  69
+| style="border-left-width:medium;"   | 180 ||  41 ||  31
+|-
+! style="text-align:left;"          | [[Dark spring green]]
+| style="background-color:#177245;" |
+| style="font-family:monospace;"    | #177245
+| style="border-left-width:medium;"   |  23 || 114 || 69
+| style="border-left-width:medium;"   |  87 ||  31 || 88 ||  20
+| style="border-left-width:medium;"   | 150 ||  80 || 45
+|-
+! style="text-align:left;"          | [[Dark tan]]
+| style="background-color:#918151;" |
+| style="font-family:monospace;"    | #918151
+| style="border-left-width:medium;"   | 145 || 129 || 81
+| style="border-left-width:medium;"   |  41 ||  41 || 77 ||  12
+| style="border-left-width:medium;"   |  45 ||  44 || 57
+|-
+! style="text-align:left;"          | [[Dark tangerine]]
+| style="background-color:#FFA812;" |
+| style="font-family:monospace;"    | #FFA812
+| style="border-left-width:medium;"   | 255 || 168 || 18
+| style="border-left-width:medium;"   |  0 || 39 || 99 || 0
+| style="border-left-width:medium;"   | 38 || 93 || 100
+|-
+! style="text-align:left;"          | [[Dark Tea Green]]
+| style="background-color:#BADBAD;" |
+| style="font-family:monospace;"    | #BADBAD
+| style="border-left-width:medium;"   | 186 || 219 || 173
+| style="border-left-width:medium;"   |  28 ||  1 ||  40 ||  0
+| style="border-left-width:medium;"   | 103 || 21 ||  86
+|-
+! style="text-align:left;"          | [[Terra cotta|Dark Terra cotta]]
+| style="background-color:#CC4E5C;" |
+| style="font-family:monospace;"    | #CC4E5C
+| style="border-left-width:medium;"   |  204 || 78 || 92
+| style="border-left-width:medium;"   |  0 ||  49 ||  44 ||  20
+| style="border-left-width:medium;"   |  354 || 55 ||  55
+|-
+|-
+! style="text-align:left;"          | [[Dark turquoise]]
+| style="background-color:#116062;" |
+| style="font-family:monospace;"    | #116062
+| style="border-left-width:medium;"   |  17 || 96 || 98
+| style="border-left-width:medium;"   |  89 ||  45 ||  55 ||  25
+| style="border-left-width:medium;"   |  181 || 83 ||  38
+|-
+! style="text-align:left;"          | [[Dark violet]]
+| style="background-color:#423189;" |
+| style="font-family:monospace;"    | #423189
+| style="border-left-width:medium;"   |  66 ||  49 || 137
+| style="border-left-width:medium;"   |  92 ||  98 ||  8 ||  1
+| style="border-left-width:medium;"   |  252 || 64 ||  54
+|-
+! style="text-align:left;"          | [[Denim (color)|Denim]]
+| style="background-color:#1560BD;" |
+| style="font-family:monospace;"    | #1560BD
+| style="border-left-width:medium;"   |  21 ||  96 || 189
+| style="border-left-width:medium;"   |  89 ||  49 ||   0 ||  26
+| style="border-left-width:medium;"   | 213 ||  89 ||  74
+|-
+! style="text-align:left;"          | [[Dodger blue]]
+| style="background-color:#1e90ff;" |
+| style="font-family:monospace;"    | #1E90FF
+| style="border-left-width:medium;"   |  30 || 144 || 255
+| style="border-left-width:medium;"   |  88 ||  44 ||   0 ||   0
+| style="border-left-width:medium;"   | 210 ||  88 || 100
+|}
+
+==E==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Emerald (color)|Emerald]]
+| style="background-color:#50c878;" |
+| style="font-family:monospace;"    | #50C878
+| style="border-left-width:medium;"   |  80 || 200 || 120
+| style="border-left-width:medium;"   |  60 ||   0 ||  40 ||  22
+| style="border-left-width:medium;"   | 140 ||  60 ||  78
+|-
+! style="text-align:left;"          | [[Eggplant (color)|Eggplant]]
+| style="background-color:#990066;" |
+| style="font-family:monospace;"    | #990066
+| style="border-left-width:medium;"   | 153 ||   0 || 102
+| style="border-left-width:medium;"   |   0 || 100 ||  33 ||  40
+| style="border-left-width:medium;"   | 320 || 100 ||  60
+|}
+
+==F==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Fern green]]
+| style="background-color:#4F7942;" |
+| style="font-family:monospace;"    | #4F7942
+| style="border-left-width:medium;"   | 79 || 121 || 66
+| style="border-left-width:medium;"   | 71 || 32 || 90 || 18
+| style="border-left-width:medium;"   | 106 || 45 || 47
+|-
+! style="text-align:left;"          | [[Flax (color)|Flax]]
+| style="background-color:#EEDC82;" |
+| style="font-family:monospace;"    | #EEDC82
+| style="border-left-width:medium;"   | 238 || 220 ||  130
+| style="border-left-width:medium;"   |  7 ||   8 || 60 ||   0
+| style="border-left-width:medium;"   | 50 || 45 || 93
+|-
+! style="text-align:left;"          | [[Fuchsia (color)|Fuchsia]]
+| style="background-color:#f400a1;" |
+| style="font-family:monospace;"    | #F400A1
+| style="border-left-width:medium;"   | 244 ||   0 || 161
+| style="border-left-width:medium;"   |   0 || 100 ||  34 ||   4
+| style="border-left-width:medium;"   | 320 || 100 ||  96
+|}
+
+==G==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Gamboge]]
+| style="background-color:#E49B0F;" |
+| style="font-family:monospace;"    | #E49B0F
+| style="border-left-width:medium;"   | 228 || 155 ||   15
+| style="border-left-width:medium;"   |   5 ||  48 || 97 ||   1
+| style="border-left-width:medium;"   |  26 || 210 || 114
+|-
+! style="text-align:left;"          | [[Gold (color)|Gold]]
+| style="background-color:#ffd700;" |
+| style="font-family:monospace;"    | #FFD700
+| style="border-left-width:medium;"   | 255 || 215 ||   0
+| style="border-left-width:medium;"   |   0 ||  16 || 100 ||   0
+| style="border-left-width:medium;"   |  51 || 100 || 100
+|-
+! style="text-align:left;"          | [[Goldenrod (color)|Goldenrod]]
+| style="background-color:#DAA520;" |
+| style="font-family:monospace;"    | #DAA520
+| style="border-left-width:medium;"   | 218 || 165 ||  32
+| style="border-left-width:medium;"   |   0 ||  24 ||  85 ||  15
+| style="border-left-width:medium;"   |  43 ||  85 ||  85
+|-
+! style="text-align:left;"          | [[Grey|Gray]]
+| style="background-color:#808080;" |
+| style="font-family:monospace;"    | #808080
+| style="border-left-width:medium;"   | 128 || 128 || 128
+| style="border-left-width:medium;"   |   0 ||   0 ||   0 ||  50
+| style="border-left-width:medium;"   |   0 ||   0 ||  50
+|-
+! style="text-align:left;"          | [[Gray-asparagus]]
+| style="background-color:#465945;" |
+| style="font-family:monospace;"    | #465945
+| style="border-left-width:medium;"   |  70 ||  89 ||  69
+| style="border-left-width:medium;"   |  21 ||   0 ||  22 ||  65
+| style="border-left-width:medium;"   | 117 ||  22 ||  35
+|-
+! style="text-align:left;"          | [[Gray-Tea Green]]
+| style="background-color:#CADABA;" |
+| style="font-family:monospace;"    | #CADABA
+| style="border-left-width:medium;"   | 202 || 218 || 186
+| style="border-left-width:medium;"   |   7 ||  0 ||  15 ||  15
+| style="border-left-width:medium;"   |  90 || 15 ||  85
+|-
+! style="text-align:left;"          | [[Green]]
+| style="background-color:#00ff00;" |
+| style="font-family:monospace;"    | #00FF00
+| style="border-left-width:medium;"   |   0 || 255 ||   0
+| style="border-left-width:medium;"   | 100 ||   0 || 100 ||   0
+| style="border-left-width:medium;"   | 120 || 100 || 100
+|-
+! style="text-align:left;"          | [[Green-yellow]]
+| style="background-color:#ADFF2F;" |
+| style="font-family:monospace;"    | #ADFF2F
+| style="border-left-width:medium;"   | 173 || 255 ||  47
+| style="border-left-width:medium;"   |  32 ||   0 ||  82 ||   0
+| style="border-left-width:medium;"   |  84 ||  82 || 100
+|}
+
+==H==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Heliotrope (color)|Heliotrope]]
+| style="background-color:#DF73FF;" |
+| style="font-family:monospace;"    | #DF73FF
+| style="border-left-width:medium;"   | 223 || 115 || 255
+| style="border-left-width:medium;"   |  13 ||  55 ||   0 ||   0
+| style="border-left-width:medium;"   | 286 ||  55 || 100
+|-
+! style="text-align:left;"          | [[Pink#Hot Pink| Hot pink]]
+| style="background-color:#FC0FC0;" |
+| style="font-family:monospace;"    | #FC0FC0
+| style="border-left-width:medium;"   | 252 ||  15 || 192
+| style="border-left-width:medium;"   |   0 ||  94 ||  24 ||   1
+| style="border-left-width:medium;"   | 315 ||  94 ||  99
+|}
+
+==I==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Indigo]]
+| style="background-color:#4B0082;" |
+| style="font-family:monospace;"    | #4B0082
+| style="border-left-width:medium;"   |  75 ||   0 || 130
+| style="border-left-width:medium;"   |  42 || 100 ||   0 ||  49
+| style="border-left-width:medium;"   | 275 || 100 ||  51
+|-
+! style="text-align:left;"          | [[International Klein Blue]]
+| style="background-color:#002FA7;" |
+| style="font-family:monospace;"    | #002FA7
+| style="border-left-width:medium;"   |   0 ||  47 || 167
+| style="border-left-width:medium;"   |  98 ||  84 ||   0 ||   0
+| style="border-left-width:medium;"   | 223 || 100 ||  65
+|-
+! style="text-align:left;"          | [[Safety orange#International orange|International orange]]
+| style="background-color:#FF4F00;" |
+| style="font-family:monospace;"    | #FF4F00
+| style="border-left-width:medium;"   | 255 ||  79 ||   0
+| style="border-left-width:medium;"   |   0 ||  69 || 100 ||   0
+| style="border-left-width:medium;"   |  19 || 100 || 100
+|}
+
+==J==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Jade (color)| Jade]]
+| style="background-color:#00A86B;" |
+| style="font-family:monospace;"    | #00A86B
+| style="border-left-width:medium;"   |   0 || 168 || 107
+| style="border-left-width:medium;"   | 100 ||   0 ||  36 ||  34
+| style="border-left-width:medium;"   | 158 || 100 ||  66
+|}
+
+==K==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Khaki (color) | Khaki]]
+| style="background-color:#C3B091;" |
+| style="font-family:monospace;"    | #C3B091
+| style="border-left-width:medium;"   | 195 || 176 || 145
+| style="border-left-width:medium;"   |   0 ||  10 ||  26 ||  24
+| style="border-left-width:medium;"   |  37 ||  26 ||  76
+|-
+! style="text-align:left;"          | [[Khaki (color) | Khaki (X11)]]
+| style="background-color:#F0E68C;" |
+| style="font-family:monospace;"    | #F0E68C
+| style="border-left-width:medium;"   | 240 || 230 || 140
+| style="border-left-width:medium;"   |   7 ||   4 ||  56 ||   0
+| style="border-left-width:medium;"   |  54 ||  41 ||  94
+|}
+
+==L==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Lavender (color)|Lavender]]
+| style="background-color:#BDBBD7;" |
+| style="font-family:monospace;"    | #BDBBD7
+| style="border-left-width:medium;"   | 189 || 187 || 215
+| style="border-left-width:medium;"   |  20 ||  20 ||   0 ||   5
+| style="border-left-width:medium;"   | 240 ||   8 ||  98
+|-
+! style="text-align:left;"          | [[Lavender Blush]]
+| style="background-color:#FFF0F5;" |
+| style="font-family:monospace;"    | #FFF0F5
+| style="border-left-width:medium;"   | 255 || 240 || 245
+| style="border-left-width:medium;"   |   0 ||  6 ||  4 ||  0
+| style="border-left-width:medium;"   |  340 || 6 ||  100
+|-
+! style="text-align:left;"          | [[Lemon (color)|Lemon]]
+| style="background-color:#FDE910;" |
+| style="font-family:monospace;"    | #FDE910
+| style="border-left-width:medium;"   | 253 || 233 ||  16
+| style="border-left-width:medium;"   |  0 ||   8 ||  94 ||   1
+| style="border-left-width:medium;"   |  55 ||  94 || 99	
+|-
+! style="text-align:left;"          | [[Lemon cream (color)|Lemon Cream]]
+| style="background-color:#FFFACD;" |
+| style="font-family:monospace;"    | #FFFACD
+| style="border-left-width:medium;"   | 255 || 250 || 205
+| style="border-left-width:medium;"   |   0 ||  2 ||  20 ||  0
+| style="border-left-width:medium;"   |  54 || 20 ||  100
+|-
+! style="text-align:left;"          | [[Light brown]]
+| style="background-color:#CD853F;" |
+| style="font-family:monospace;"    | #CD853F
+| style="border-left-width:medium;"   | 205 || 133 ||  63
+| style="border-left-width:medium;"   |   0 ||  35 ||  69 ||  20
+| style="border-left-width:medium;"   |  30 || 69   ||  80
+|-
+! style="text-align:left;"          | [[Lilac (color)|Lilac]]
+| style="background-color:#C8A2C8;" |
+| style="font-family:monospace;"    | #C8A2C8
+| style="border-left-width:medium;"   | 200 || 162 || 200
+| style="border-left-width:medium;"   |   0 ||  19 ||   0 ||  22
+| style="border-left-width:medium;"   | 300 ||  19 ||  78
+|-
+! style="text-align:left;"          | [[Lime (color)|Lime]]
+| style="background-color:#CCFF00;" |
+| style="font-family:monospace;"    | #CCFF00
+| style="border-left-width:medium;"   | 204 || 255 ||   0
+| style="border-left-width:medium;"   |  20 ||   0 || 100 ||   0
+| style="border-left-width:medium;"   |  72 || 100 || 100
+|-
+! style="text-align:left;"          | [[Linen (color)|Linen]]
+| style="background-color:#FAF0E6;" |
+| style="font-family:monospace;"    | #FAF0E6
+| style="border-left-width:medium;"   | 250 || 240 || 230
+| style="border-left-width:medium;"   |   0 ||  4 ||  8 ||  2
+| style="border-left-width:medium;"   |  30 ||  8 ||  98
+|}
+
+==M==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Magenta]]
+| style="background-color:#FF00FF;" |
+| style="font-family:monospace;"    | #FF00FF
+| style="border-left-width:medium;"   | 255 ||   0 || 255
+| style="border-left-width:medium;"   |   0 || 100 ||   0 ||   0
+| style="border-left-width:medium;"   | 300 || 100 || 100
+|-
+! style="text-align:left;"          | [[Malachite]]
+| style="background-color:#0BDA51;" |
+| style="font-family:monospace;"    | #0BDA51
+| style="border-left-width:medium;"   |  11 || 218 ||  81
+| style="border-left-width:medium;"   |  69 ||   0 ||  90 ||   0
+| style="border-left-width:medium;"   | 140 ||  95 ||  85
+|-
+! style="text-align:left;"          | [[Maroon (color)|Maroon]]
+| style="background-color:#800000;" |
+| style="font-family:monospace;"    | #800000
+| style="border-left-width:medium;"   | 128 ||   0 ||   0
+| style="border-left-width:medium;"   |   0 || 100 || 100 ||  50
+| style="border-left-width:medium;"   |   0 || 100 ||  50
+|-
+! style="text-align:left;"          | [[Mauve]]
+| style="background-color:#993366;" |
+| style="font-family:monospace;"    | #993366
+| style="border-left-width:medium;"   | 153 ||  51 || 102
+| style="border-left-width:medium;"   |   0 ||  67 ||  33 ||  40
+| style="border-left-width:medium;"   | 330 ||  67 ||  60
+|-
+! style="text-align:left;"          | [[Midnight Blue]]
+| style="background-color:#003366;" |
+| style="font-family:monospace;"    | #003366*
+| style="border-left-width:medium;"   |   0 ||  51 || 102
+| style="border-left-width:medium;"   |  95 ||  80 ||  41 ||  31
+| style="border-left-width:medium;"   | 148 || 100 ||  20
+|-
+! style="text-align:left;"          | [[Mint Green]]
+| style="background-color:#98FF98;" |
+| style="font-family:monospace;"    | #98FF98*
+| style="border-left-width:medium;"   | 152 || 255 || 152
+| style="border-left-width:medium;"   |   40 ||  0 ||  40 ||  0
+| style="border-left-width:medium;"   |  120 || 40 ||  100
+|-
+! style="text-align:left;"          | [[Moss green]]
+| style="background-color:#ADDFAD;" |
+| style="font-family:monospace;"    | #ADDFAD
+| style="border-left-width:medium;"   | 173 || 223 || 173
+| style="border-left-width:medium;"   |   20 || 0 ||  22 ||  13
+| style="border-left-width:medium;"   |  120 || 22 ||  87
+|-
+! style="text-align:left;"          | [[Mountbatten pink]]
+| style="background-color:#997A8D;" |
+| style="font-family:monospace;"    | #997A8D
+| style="border-left-width:medium;"   | 153 || 122 || 141
+| style="border-left-width:medium;"   |   0 ||  20 ||  8 ||  40
+| style="border-left-width:medium;"   | 323 || 20  ||  60
+|-
+! style="text-align:left;"          | [[Mustard (color)|Mustard]]
+| style="background-color:#FFDB58;" |
+| style="font-family:monospace;"    | #FFDB58
+| style="border-left-width:medium;"   | 255 || 219 ||  88
+| style="border-left-width:medium;"   |  1 ||   12 || 77 ||   0
+| style="border-left-width:medium;"   |  47 || 65 || 100
+|-
+|}
+
+==N==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Navajo white]]
+| style="background-color:#FFDEAD;" |
+| style="font-family:monospace;"    | #FFDEAD
+| style="border-left-width:medium;"   | 255 || 222 || 173
+| style="border-left-width:medium;"   |   0 ||  13 ||  22 ||  0
+| style="border-left-width:medium;"   |  36 ||  32 || 100
+|-
+! style="text-align:left;"          | [[Navy blue]]
+| style="background-color:#000080;" |
+| style="font-family:monospace;"    | #000080
+| style="border-left-width:medium;"   |   0 ||   0 || 128	
+| style="border-left-width:medium;"   | 100 || 100 ||   0 ||  50	
+| style="border-left-width:medium;"   | 240 || 100 ||  50
+|}
+
+==O==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Ochre]]
+| style="background-color:#CC7722;" |
+| style="font-family:monospace;"    | #CC7722
+| style="border-left-width:medium;"   | 204 || 119 ||  34
+| style="border-left-width:medium;"   |   0 ||  42 ||  83 ||  20
+| style="border-left-width:medium;"   |  30 ||  83 ||  80
+|-
+! style="text-align:left;"          | [[Old Gold]]
+| style="background-color:#CFB53B;" |
+| style="font-family:monospace;"    | #CFB53B
+| style="border-left-width:medium;"   | 207 || 181 ||  59
+| style="border-left-width:medium;"   |   0 ||  13 ||  71 ||  19
+| style="border-left-width:medium;"   |  49 ||  71 ||  81
+|-
+! style="text-align:left;"          | [[Olive (color)|Olive]]
+| style="background-color:#808000;" |
+| style="font-family:monospace;"    | #808000
+| style="border-left-width:medium;"   | 128 || 128 ||   0
+| style="border-left-width:medium;"   |   0 ||   0 || 100 ||  50
+| style="border-left-width:medium;"   |  60 || 100 ||  50
+|-
+! style="text-align:left;"          | [[Olive Drab]]
+| style="background-color:#6B8E23;" |
+| style="font-family:monospace;"    | #6B8E23
+| style="border-left-width:medium;"   | 107 || 142 ||  35
+| style="border-left-width:medium;"   |  25 ||   0 ||  75 ||  44
+| style="border-left-width:medium;"   |  80 ||  75 ||  56
+|-
+! style="text-align:left;"          | [[Orange (color)|Orange]]
+| style="background-color:#FFA500;" |
+| style="font-family:monospace;"    | #FFA500
+| style="border-left-width:medium;"   | 255 || 165 ||   0
+| style="border-left-width:medium;"   |   0 ||  35 || 100 ||   0
+| style="border-left-width:medium;"   |  39 || 100 || 100
+|-
+! style="text-align:left;"          | [[Orchid (color)|Orchid]]
+| style="background-color:#DA70D6;" |
+| style="font-family:monospace;"    | #DA70D6
+| style="border-left-width:medium;"   | 218 || 112 || 214
+| style="border-left-width:medium;"   |   0 ||  49 ||   2 ||  15
+| style="border-left-width:medium;"   | 302 ||  49 ||  85
+|}
+
+==P==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Pale Blue]]
+| style="background-color:#AFEEEE;" |
+| style="font-family:monospace;"    | #AFEEEE
+| style="border-left-width:medium;"   | 175 || 238 || 238
+| style="border-left-width:medium;"   |   26 ||  0 ||  0 ||  7
+| style="border-left-width:medium;"   |  180 || 26 || 93
+|-
+! style="text-align:left;"          | [[Pale brown]]
+| style="background-color:#987654;" |
+| style="font-family:monospace;"    | #987654
+| style="border-left-width:medium;"   | 152 || 118 || 84
+| style="border-left-width:medium;"   |   0 ||  22 ||  45 ||  40
+| style="border-left-width:medium;"   |  30 || 45 ||  60
+|-
+! style="text-align:left;"          | [[Pale carmine]]
+| style="background-color:#AF4035;" |
+| style="font-family:monospace;"    | #AF4035
+| style="border-left-width:medium;"   | 175 || 64 ||   53
+| style="border-left-width:medium;"   |  0 ||   63 || 69 ||   31
+| style="border-left-width:medium;"   | 5 || 69 || 68
+|-
+! style="text-align:left;"          | [[Pale chestnut]]
+| style="background-color:#DDADAF;" |
+| style="font-family:monospace;"    | #DDADAF
+| style="border-left-width:medium;"   | 221 || 173 || 175
+| style="border-left-width:medium;"   |   0 ||  22 ||  21 ||  13
+| style="border-left-width:medium;"   |  358 || 22 ||  87
+|-
+! style="text-align:left;"          | [[Pale cornflower blue]]
+| style="background-color:#ABCDEF;" |
+| style="font-family:monospace;"    | #ABCDEF
+| style="border-left-width:medium;"   | 171 || 205 || 239
+| style="border-left-width:medium;"   |  28 ||  14 ||  0 ||  6
+| style="border-left-width:medium;"   |  210 || 28 || 94
+|-
+! style="text-align:left;"          | [[Pale magenta]]
+| style="background-color:#F984E5;" |
+| style="font-family:monospace;"    | #F984E5
+| style="border-left-width:medium;"   | 249 || 132 || 229
+| style="border-left-width:medium;"   |   0 ||  47 ||   8 ||   2
+| style="border-left-width:medium;"   | 310 ||  47 ||  98
+|-
+! style="text-align:left;"          | [[Pale mauve]]
+| style="background-color:#996666;" |
+| style="font-family:monospace;"    | #996666
+| style="border-left-width:medium;"   | 153 || 102 || 102
+| style="border-left-width:medium;"   |   0 ||  33 ||  33 ||  40
+| style="border-left-width:medium;"   |   0 ||  33 ||  60
+|-
+! style="text-align:left;"          | [[Pale pink]]
+| style="background-color:#FADADD;" |
+| style="font-family:monospace;"    | #FADADD
+| style="border-left-width:medium;"   | 250 || 218 || 221
+| style="border-left-width:medium;"   |   0 ||  13 ||  12 ||   2
+| style="border-left-width:medium;"   | 354 ||  13 ||  98
+|-
+! style="text-align:left;"          | [[Pale red-violet]]
+| style="background-color:#DB7093;" |
+| style="font-family:monospace;"    | #DB7093
+| style="border-left-width:medium;"   | 219 || 112 || 147
+| style="border-left-width:medium;"   |   0 ||  49 ||  33 ||  14
+| style="border-left-width:medium;"   | 340 ||  49 ||  86
+|-
+! style="text-align:left;"          | [[Pale Sandy Brown]]
+| style="background-color:#DABDAB;" |
+| style="font-family:monospace;"    | #DABDAB
+| style="border-left-width:medium;"   | 218 || 189 || 171
+| style="border-left-width:medium;"   |   0 ||  13 ||  22 ||  15
+| style="border-left-width:medium;"   |  23 ||  22 ||  85
+|-
+! style="text-align:left;"          | [[Papaya whip (color)|Papaya whip]]
+| style="background-color:#FFEFD5;" |
+| style="font-family:monospace;"    | #FFEFD5
+| style="border-left-width:medium;"   | 255 || 239 || 213
+| style="border-left-width:medium;"   |   0 ||  6 || 16 ||  0
+| style="border-left-width:medium;"   |  37 ||  16 || 100
+|-
+! style="text-align:left;"          | [[Pastel green]]
+| style="background-color:#77DD77;" |
+| style="font-family:monospace;"    | #77DD77
+| style="border-left-width:medium;"   | 119 || 221 || 119
+| style="border-left-width:medium;"   |  46 ||   0 ||  46 ||  13
+| style="border-left-width:medium;"   | 120 ||  46 ||  87
+|-
+! style="text-align:left;"          | [[Pastel pink]]
+| style="background-color:#FFD1DC;" |
+| style="font-family:monospace;"    | #FFD1DC
+| style="border-left-width:medium;"   | 255 || 209 || 220
+| style="border-left-width:medium;"   |   0 ||  18 ||  14 ||   0
+| style="border-left-width:medium;"   | 346 ||  18 || 100
+|-
+! style="text-align:left;"          | [[Peach (color)|Peach]]
+| style="background-color:#FFE5B4;" |
+| style="font-family:monospace;"    | #FFE5B4
+| style="border-left-width:medium;"   | 255 || 229 || 180
+| style="border-left-width:medium;"   |   0 ||  10 ||  29 ||   0
+| style="border-left-width:medium;"   |  39 ||  29 || 100
+|-
+! style="text-align:left;"          | [[Peach-orange]]
+| style="background-color:#FFCC99;" |
+| style="font-family:monospace;"    | #FFCC99
+| style="border-left-width:medium;"   | 255 || 204 || 153
+| style="border-left-width:medium;"   |   0 ||  20 ||  40 ||   0
+| style="border-left-width:medium;"   |  30 ||  40 || 100
+|-
+! style="text-align:left;"          | [[Peach-yellow]]
+| style="background-color:#FADFAD;" |
+| style="font-family:monospace;"    | #FADFAD
+| style="border-left-width:medium;"   | 250 || 223 || 173
+| style="border-left-width:medium;"   |   0 ||  11 ||  31 ||   2
+| style="border-left-width:medium;"   |  39 ||  31 ||  98
+|-
+! style="text-align:left;"          | [[Pear (color)|Pear]]
+| style="background-color:#D1E231;" |
+| style="font-family:monospace;"    | #D1E231
+| style="border-left-width:medium;"   | 209 || 226 ||   49
+| style="border-left-width:medium;"   |  7 ||   0 || 78 ||   11
+| style="border-left-width:medium;"   | 65 || 78 || 88
+|-
+! style="text-align:left;"          | [[Periwinkle (color)|Periwinkle]]
+| style="background-color:#CCCCFF;" |
+| style="font-family:monospace;"    | #CCCCFF
+| style="border-left-width:medium;"   | 204 || 204 || 255
+| style="border-left-width:medium;"   |  20 ||  20 ||   0 ||   0
+| style="border-left-width:medium;"   | 240 ||  20 || 100
+|-
+! style="text-align:left;"          | [[Persian blue]]
+| style="background-color:#6600FF;" |
+| style="font-family:monospace;"    | #6600FF
+| style="border-left-width:medium;"   | 102 ||   0 || 255
+| style="border-left-width:medium;"   | 60 || 100 ||   0 ||   0
+| style="border-left-width:medium;"   | 264 || 100 || 100
+|-
+! style="text-align:left;"          | [[Pine Green]]
+| style="background-color:#01796F;" |
+| style="font-family:monospace;"    | #01796F
+| style="border-left-width:medium;"   |   1 || 121 || 111
+| style="border-left-width:medium;"   |  99 ||   0 ||   8 ||  53
+| style="border-left-width:medium;"   | 175 ||  99 ||  47
+|-
+! style="text-align:left;"          | [[Pink]]
+| style="background-color:#FFC0CB;" |
+| style="font-family:monospace;"    | #FFC0CB
+| style="border-left-width:medium;"   | 255 || 192 || 203
+| style="border-left-width:medium;"   |   0 ||  25 ||  20 ||   0
+| style="border-left-width:medium;"   | 350 ||  25 || 100
+|-
+! style="text-align:left;"          | [[Pink-orange]]
+| style="background-color:#FF9966;" |
+| style="font-family:monospace;"    | #FF9966
+| style="border-left-width:medium;"   | 255 || 153 || 102
+| style="border-left-width:medium;"   |   0 || 40 || 60 ||  0
+| style="border-left-width:medium;"   |  20 ||  60 || 100
+|-
+! style="text-align:left;"          | [[Plum (color)|Plum]]
+| style="background-color:#660066;" |
+| style="font-family:monospace;"    | #660066
+| style="border-left-width:medium;"   | 102 ||   0 || 102
+| style="border-left-width:medium;"   |   0 || 100 ||   0 ||  60
+| style="border-left-width:medium;"   | 300 || 100 ||  40
+|-
+! style="text-align:left;"          | [[Powder blue]]
+| style="background-color:#003399;" |
+| style="font-family:monospace;"    | #003399
+| style="border-left-width:medium;"   |   0 ||  51 || 153
+| style="border-left-width:medium;"   | 100 ||  67 ||   0 ||  40
+| style="border-left-width:medium;"   | 220 || 100 ||  60
+|-
+! style="text-align:left;"          | [[Puce]]
+| style="background-color:#CC8899;" |
+| style="font-family:monospace;"    | #CC8899
+| style="border-left-width:medium;"   | 204 || 136 || 153
+| style="border-left-width:medium;"   |   0 ||  33 ||  25 ||  20
+| style="border-left-width:medium;"   | 345 ||  33 ||  80
+|-
+! style="text-align:left;"          | [[Prussian blue]]
+| style="background-color:#003153;" |
+| style="font-family:monospace;"    | #003153
+| style="border-left-width:medium;"   | 0 || 49 || 83
+| style="border-left-width:medium;"   |   63 ||  35 ||  14 ||  72
+| style="border-left-width:medium;"   | 205 ||  100 ||  33
+|-
+! style="text-align:left;"          | [[Pumpkin (color)|Pumpkin]]
+| style="background-color:#FF7518;" |
+| style="font-family:monospace;"    | #FF7518
+| style="border-left-width:medium;"   | 255 || 117 ||   24
+| style="border-left-width:medium;"   |  0 ||   54 || 90 ||   0
+| style="border-left-width:medium;"   | 24 || 90 || 100
+|-
+! style="text-align:left;"          | [[Purple]]
+| style="background-color:#660099;" |
+| style="font-family:monospace;"    | #660099
+| style="border-left-width:medium;"   | 102 ||   0 || 153
+| style="border-left-width:medium;"   |  33 || 100 ||   0 ||  40
+| style="border-left-width:medium;"   | 280 || 100 ||  60
+|}
+
+==R==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Raw umber (color)|Raw umber]]
+| style="background-color:#734A12;" |
+| style="font-family:monospace;"    | #734A12
+| style="border-left-width:medium;"   | 115 || 74 ||   18
+| style="border-left-width:medium;"   |  0 ||   35 || 84 ||   54
+| style="border-left-width:medium;"   | 34 || 84 || 45
+|-
+! style="text-align:left;"          | [[Red]]
+
+| style="background-color:#FF0000;" |
+| style="font-family:monospace;"    | #FF0000
+| style="border-left-width:medium;"   | 255 ||   0 ||   0
+| style="border-left-width:medium;"   |   0 || 100 || 100 ||   0
+| style="border-left-width:medium;"   |   0 || 100 || 100
+|-
+! style="text-align:left;"          | [[Red-violet]]
+| style="background-color:#C71585;" |
+| style="font-family:monospace;"    | #C71585
+| style="border-left-width:medium;"   | 199 ||  21 || 133
+| style="border-left-width:medium;"   |   0 ||  89 ||  33 ||  22
+| style="border-left-width:medium;"   | 322 ||  89 ||  78
+|-
+! style="text-align:left;"          | [[Robin egg blue]]
+| style="background-color:#00CCCC;" |
+| style="font-family:monospace;"    | #00CCCC
+| style="border-left-width:medium;"   |   0 || 204 || 204
+| style="border-left-width:medium;"   | 100 ||   0 ||   0 ||  20
+| style="border-left-width:medium;"   | 180 || 100 ||  80
+|-
+! style="text-align:left;"          | [[Royal Blue]]
+| style="background-color:#4169E1;" |
+| style="font-family:monospace;"    | #4169E1
+| style="border-left-width:medium;"   |  65 || 105 || 225
+| style="border-left-width:medium;"   |  71 ||  53 ||  0 ||  12
+| style="border-left-width:medium;"   | 225 ||  71 ||  88
+|-
+! style="text-align:left;"          | [[Russet (color) | Russet]]
+| style="background-color:#80461B;" |
+| style="font-family:monospace;"    | #80461B
+| style="border-left-width:medium;"   |  128 || 70 || 27
+| style="border-left-width:medium;"   |  0 || 45 || 79 || 50
+| style="border-left-width:medium;"   | 25 ||  78 ||  50
+|-
+! style="text-align:left;"          | [[Rust (color) | Rust]]
+| style="background-color:#B7410E;" |
+| style="font-family:monospace;"    | #B7410E
+| style="border-left-width:medium;"   |  183 || 65 || 14
+| style="border-left-width:medium;"   |  22 ||  85 || 100 ||  13
+| style="border-left-width:medium;"   | 18  ||  92 ||  72
+|-
+|}
+
+==S==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Safety orange|Safety Orange (Blaze Orange)]]
+| style="background-color:#FF9900;" |
+| style="font-family:monospace;"    | #FF9900
+| style="border-left-width:medium;"   | 255 || 153 ||   0
+| style="border-left-width:medium;"   |   0 ||  40 || 100 ||   0
+| style="border-left-width:medium;"   |  36 || 100 || 100
+|-
+! style="text-align:left;"          | [[Saffron (color)|Saffron]]
+| style="background-color:#F4C430;" |
+| style="font-family:monospace;"    | #F4C430
+| style="border-left-width:medium;"   | 244 || 196 ||  48
+| style="border-left-width:medium;"   |   4 ||  23 ||  81 ||   4
+| style="border-left-width:medium;"   |  45 ||  80 ||  96
+|-
+! style="text-align:left;"          | [[Sapphire (color)|Sapphire]]
+| style="background-color:#082567;" |
+| style="font-family:monospace;"    | #082567
+| style="border-left-width:medium;"   |   8 || 37 || 103
+| style="border-left-width:medium;"   | 100 || 94 || 29  ||  23
+| style="border-left-width:medium;"   | 222 || 92 || 40
+|-
+! style="text-align:left;"          | [[Salmon (color)|Salmon]]
+| style="background-color:#FF8C69;" |
+| style="font-family:monospace;"    | #FF8C69*
+| style="border-left-width:medium;"   | 255 || 140 || 105
+| style="border-left-width:medium;"   |   0 ||  45 ||  59 ||   0
+| style="border-left-width:medium;"   |  14 ||  59 || 100
+|-
+! style="text-align:left;"          | [[Sandy brown]]
+| style="background-color:#F4A460;" |
+| style="font-family:monospace;"    | #F4A460
+| style="border-left-width:medium;"   | 244 || 164 ||  96
+| style="border-left-width:medium;"   |   2 ||  41 ||  69 ||  0
+| style="border-left-width:medium;"   |  28 || 61 ||  96
+|-
+! style="text-align:left;"          | [[Sangria (color)|Sangria]]
+| style="background-color:#92000A;" |
+| style="font-family:monospace;"    | #92000A
+| style="border-left-width:medium;"   | 146 || 0 ||  10
+| style="border-left-width:medium;"   |   17 ||  92 ||  99 ||  32
+| style="border-left-width:medium;"   |  356 || 100 ||  57
+|-
+! style="text-align:left;"          | [[Scarlet (color)|Scarlet]]
+| style="background-color:#FF2400;" |
+| style="font-family:monospace;"    | #FF2400
+| style="border-left-width:medium;"   | 255 ||  36 ||   0
+| style="border-left-width:medium;"   |   0 ||  86 || 100 ||   0
+| style="border-left-width:medium;"   |   8 || 100 || 100
+|-
+! style="text-align:left;"          | [[School bus yellow]]
+| style="background-color:#ffd800;" |
+| style="font-family:monospace;"    | #FFD800
+| style="border-left-width:medium;"   | 255 || 216 ||   0
+| style="border-left-width:medium;"   |   1 ||  12 || 100 ||   0
+| style="border-left-width:medium;"   |  36 || 100 ||  50
+|-
+! style="text-align:left;"          | [[Sea Green]]
+| style="background-color:#2E8B57;" |
+| style="font-family:monospace;"    | #2E8B57
+| style="border-left-width:medium;"   |  46 || 139 ||  87
+| style="border-left-width:medium;"   |  81 ||  23 ||  83 ||  7
+| style="border-left-width:medium;"   | 146 ||  67 ||  55
+|-
+! style="text-align:left;"          | [[Seashell (color)|Seashell]]
+| style="background-color:#FFF5EE;" |
+| style="font-family:monospace;"    | #FFF5EE
+| style="border-left-width:medium;"   | 255 || 245 || 238
+| style="border-left-width:medium;"   |   0 ||  3 ||  4 ||  0
+| style="border-left-width:medium;"   |  25 || 7 ||  100
+|-
+! style="text-align:left;"          | [[Selective yellow]]
+| style="background-color:#FFBA00;" |
+| style="font-family:monospace;"    | #FFBA00
+| style="border-left-width:medium;"   | 255 || 186 || 0
+| style="border-left-width:medium;"   |   0 ||  27 ||  100 ||  0
+| style="border-left-width:medium;"   |  44 || 100 ||  100
+|-
+! style="text-align:left;"          | [[Sepia (color)|Sepia]]
+| style="background-color:#704214;" |
+| style="font-family:monospace;"    | #704214
+| style="border-left-width:medium;"   | 112 ||  66 ||  20
+| style="border-left-width:medium;"   |   0 ||  41 ||  82 ||  56
+| style="border-left-width:medium;"   |  30 ||  82 ||  44
+|-
+! style="text-align:left;"          | [[Silver (color)|Silver]]
+| style="background-color:#C0C0C0;" |
+| style="font-family:monospace;"    | #C0C0C0
+| style="border-left-width:medium;"   | 192 || 192 || 192
+| style="border-left-width:medium;"   |   0 ||   0 ||   0 ||  25
+| style="border-left-width:medium;"   |   0 ||   0 ||  75
+|-
+! style="text-align:left;"          | [[Slate gray]]
+| style="background-color:#708090;" |
+| style="font-family:monospace;"    | #708090
+| style="border-left-width:medium;"   | 112 || 128 || 144
+| style="border-left-width:medium;"   |  60 ||  43 ||  34 ||  4
+| style="border-left-width:medium;"   | 210 || 22 ||  56
+|-
+! style="text-align:left;"          | [[Spring Green (color)|Spring Green]]
+| style="background-color:#00FF7F;" |
+| style="font-family:monospace;"    | #00FF7F
+| style="border-left-width:medium;"   |   0 || 255 || 127
+| style="border-left-width:medium;"   |  59 ||  0 ||  79 ||  0
+| style="border-left-width:medium;"   | 150 || 100 ||  100
+|-
+! style="text-align:left;"          | [[Steel blue]]
+| style="background-color:#4682B4;" |
+| style="font-family:monospace;"    | #4682B4
+| style="border-left-width:medium;"   | 70 || 130 || 180
+| style="border-left-width:medium;"   |  75 || 42 || 10 ||  0
+| style="border-left-width:medium;"   | 207 || 61 || 71
+|-
+! style="text-align:left;"          | [[Swamp green]]
+| style="background-color:#ACB78E;" |
+| style="font-family:monospace;"    | #ACB78E
+| style="border-left-width:medium;"   | 172 || 183 ||   142
+| style="border-left-width:medium;"   |  6 ||   0 || 22 ||   28
+| style="border-left-width:medium;"   | 76 || 22 || 71
+
+|}
+
+==T==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;" | [[Tan (color)|Tan]]
+| style="background-color:#D2B48C;" |
+| style="font-family:monospace;"    | #D2B48C
+| style="border-left-width:medium;"   | 210 || 180 || 140
+| style="border-left-width:medium;"   |   0 ||  14 ||  33 ||  18
+| style="border-left-width:medium;"   |  34 ||  33 ||  82
+|-
+! style="text-align:left;" | [[Taupe]]
+| style="background-color:#BC987E;" |
+| style="font-family:monospace;"    | #BC987E
+| style="border-left-width:medium;"   | 188 || 152 || 126
+| style="border-left-width:medium;"   |   0 ||  19 ||  33 ||  26
+| style="border-left-width:medium;"   |  25 ||  33 ||  74
+|-
+! style="text-align:left;" | [[Tawny | Tenné]]
+| style="background-color:#CD5700;" | 
+| style="font-family:monospace;"    | #CD5700*
+| style="border-left-width:medium;"   | 205 ||  87 ||   0
+| style="border-left-width:medium;"   |   11 ||   75 ||   100 ||   4
+| style="border-left-width:medium;"   |   25 ||   100 ||   80
+|-
+! style="text-align:left;"          | [[Tangerine (color)|Tangerine]]
+| style="background-color:#FFCC00;" |
+| style="font-family:monospace;"    | #FFCC00
+| style="border-left-width:medium;"   | 255 || 204 ||   0
+| style="border-left-width:medium;"   |   0 ||  25 ||  94 ||  ?
+| style="border-left-width:medium;"   |  33 || 100 ||  50
+|-
+! style="text-align:left;"          | [[Tea Green]]
+| style="background-color:#D0F0C0;" |
+| style="font-family:monospace;"    | #D0F0C0
+| style="border-left-width:medium;"   | 208 || 240 || 192
+| style="border-left-width:medium;"   |   20 ||  0 ||  30 ||  0
+| style="border-left-width:medium;"   |  100 || 20 || 94
+|-
+! style="text-align:left;"          | [[Teal (color)|Teal]]
+| style="background-color:#008080;" |
+| style="font-family:monospace;"    | #008080
+| style="border-left-width:medium;"   |   0 || 128 || 128
+| style="border-left-width:medium;"   | 100 ||   0 ||   0 ||  50
+| style="border-left-width:medium;"   | 180 || 100 ||  50
+|-
+! style="text-align:left;"          | [[Terra cotta]]
+| style="background-color:#E2725B;" |
+| style="font-family:monospace;"    | #E2725B
+| style="border-left-width:medium;"   | 226 || 114 || 91
+| style="border-left-width:medium;"   |   0 ||  44 ||  53 ||  11
+| style="border-left-width:medium;"   |  10 || 70 || 62
+|-
+! style="text-align:left;"          | [[Thistle (color)|Thistle]]
+| style="background-color:#D8BFD8;" |
+| style="font-family:monospace;"    | #D8BFD8
+| style="border-left-width:medium;"   | 216 || 191 || 216
+| style="border-left-width:medium;"   |   18 ||  27 ||  2 ||  1
+| style="border-left-width:medium;"   |  300 || 12 || 85
+|-
+! style="text-align:left;"          | [[Turquoise (color)|Turquoise]]
+| style="background-color:#30D5C8;" |
+| style="font-family:monospace;"    | #30D5C8
+| style="border-left-width:medium;"   |  48 || 213 || 200
+| style="border-left-width:medium;"   |  77 ||   0 ||   6 ||  16
+| style="border-left-width:medium;"   | 175 ||  77 ||  84
+|}
+
+==U==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Ultramarine]]
+| style="background-color:#120A8F;" |
+| style="font-family:monospace;"    | #120A8F
+| style="border-left-width:medium;"   |  18 || 10 || 143
+| style="border-left-width:medium;"   | 100 || 90 ||   4 ||   1
+| style="border-left-width:medium;"   | 244 || 93 ||  56
+|}
+
+==V==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Vermilion]]
+| style="background-color:#FF4D00;" |
+| style="font-family:monospace;"    | #FF4D00
+| style="border-left-width:medium;"   | 255 ||  77 ||   0
+| style="border-left-width:medium;"   |   0 ||  70 || 100 ||   0
+| style="border-left-width:medium;"   |  18 || 100 || 100
+|-
+! style="text-align:left;"          | [[Violet (color)|Violet]]
+| style="background-color:#8b00ff;" |
+| style="font-family:monospace;"    | #8B00FF
+| style="border-left-width:medium;"   | 139 ||   0 || 255
+| style="border-left-width:medium;"   |  45 || 100 ||   0 ||   0
+| style="border-left-width:medium;"   | 273 || 100 || 100
+|-
+! style="text-align:left;"          | [[Violet-eggplant]]
+| style="background-color:#991199;" |
+| style="font-family:monospace;"    | #991199
+| style="border-left-width:medium;"   | 153 || 17 || 153
+| style="border-left-width:medium;"   |   0 ||  88 ||  0 ||  39
+| style="border-left-width:medium;"   |  300 || 88 ||  60
+|-
+! style="text-align:left;"          | [[Viridian]]
+| style="background-color:#40826D;" |
+| style="font-family:monospace;"    | #40826D
+| style="border-left-width:medium;"   |  64 || 130 || 109
+| style="border-left-width:medium;"   |  51 ||   0 ||  16 ||  49
+| style="border-left-width:medium;"   | 161 ||  51 ||  51
+|}
+
+==W==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Wheat (color)|Wheat]]
+| style="background-color:#F5DEB3;" |
+| style="font-family:monospace;"    | #F5DEB3
+| style="border-left-width:medium;"   | 245 || 222 || 179
+| style="border-left-width:medium;"   |   0 ||  9 ||  26 ||  3
+| style="border-left-width:medium;"   |  39 ||  26 ||  96
+|-
+! style="text-align:left;"          | [[White]]
+| style="background-color:#ffffff;" |
+| style="font-family:monospace;"    | #FFFFFF
+| style="border-left-width:medium;"   | 255 || 255 || 255
+| style="border-left-width:medium;"   |   0 ||   0 ||   0 ||   0
+| style="border-left-width:medium;"   |   0 ||   0 || 100
+|-
+! style="text-align:left;"          | [[Wisteria (color)|Wisteria]]
+| style="background-color:#C9A0DC;" |
+| style="font-family:monospace;"    | #C9A0DC
+| style="border-left-width:medium;"   | 201 || 160 || 220
+| style="border-left-width:medium;"   |  16 ||   40 || 0 ||   0
+| style="border-left-width:medium;"   | 281 || 27 || 86
+|}
+
+==Y==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Yellow]]
+| style="background-color:#ffff00;" |
+| style="font-family:monospace;"    | #FFFF00
+| style="border-left-width:medium;"   | 255 || 255 ||   0
+| style="border-left-width:medium;"   |   0 ||   0 || 100 ||   0
+| style="border-left-width:medium;"   |  60 || 100 || 100
+|}
+
+==Z==
+{| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
+|- style="text-align:center;"
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
+!              | [[Hex triplet]]
+! colspan="3" style="border-left-width:medium;" | [[RGB]]
+! colspan="4" style="border-left-width:medium;" | [[CMYK]]
+! colspan="3" style="border-left-width:medium;" | [[HSV color space|HSV]]
+|-
+! style="text-align:left;"          | [[Zinnwaldite (color)|Zinnwaldite]]
+| style="background-color:#EBC2AF;" |
+| style="font-family:monospace;"    | #EBC2AF
+| style="border-left-width:medium;"   | 235 || 194 || 175
+| style="border-left-width:medium;"   |   0 ||  17 ||  25 ||   7
+| style="border-left-width:medium;"   |  19 ||  25 ||  92
+|}
+
+<nowiki>*</nowiki> შესაძლებელია ერთზე მეტი hex triplet-ის გამოყენება.
+
+==იხ. ასევე==
+
+* [[გამა კორექცია]]
+* [[Saffron]]
+* [[Color blindness]]
+* [[:კატეგორია:პიგმენტები|პიგმენტური ფერების სია]]
+* [[პალეტების სია]]
+* [[X11 color names]]
+* [[Crayola]]
+* [[ვებ-ფერები]]
+* [[Tincture (heraldry)]]
+
+== რესურსები ინტერნეტში ==
+* [http://www.color.org/ საერთაშორისო ფერთა კონსორციუმი]
+* [http://www.colr.org/ colr.org] - 20,000-ზე მეტი ფერთა სახელი
+* [http://xona.com/colorlist/ Color List] (Xona.com) - 2,000+ color list; demonstrates vast improvements [[gamma correction]] makes
+* [http://www.worldwidewords.org/articles/colour.htm The Colour of Words] - Article on Color Names
+* [http://www.december.com/html/spec/colorshades.html Article on color names and swatches]
+* [http://colorcharts.org Colorcharts.org] many commercial paint and color systems chip sets.
+* [http://www.colorschemer.com/online.html Color Schemer-Interactive site]
+* [http://www.colourlovers.com ColourLovers : Useful for designers]
+* [http://coloria.net/bonus/colornames.htm Coloria.net: Color names]
+* [http://www.tx4.us/moacolor.htm The mother of all HTML color charts] — contains many colors, including their RGB, CMYK, and HLS/HSL values, names, and sources (other link references at top, color pages at bottom).
+* [http://www.color-guide.com/e_index.htm Color-Guide.com] Japanese colors with English meanings
+* [http://pourpre.com Pourpre.com] in French with some English pages: chromograph: color manipulation, sequences and conversions; standard and imaginary color dictionary; chroma filter; box of colors 
+* [http://www.ssur.org/research/research.htm The Society For Sports Uniforms - Color Research (formerly Color Guides)]
+
+[[კატეგორია:ფერები]]
+
+[[ca:Llista de colors]]
+[[de:Liste der Farben im Farbkreis]]
+[[en:List of colors]]
+[[he:צבעים]]
+[[fa:فهرست رنگ‌ها]]
+[[fr:Liste de couleurs]]
+[[id:Daftar warna]]
+[[it:Lista dei colori]]
+[[ja:日本の色の一覧]]
+[[mi:Rārangi kano]]
+[[pt:Lista de cores]]
+[[ru:Список цветов]]
+[[simple:List of colors]]
+[[sk:Zoznam farieb]]
+[[sr:Списак боја]]
+[[vi:Danh s?ch m?u]]
+[[zh:颜色列表]]
