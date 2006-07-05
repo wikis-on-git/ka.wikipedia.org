@@ -76,8 +76,8 @@ The actual color values below are correct, but some argue that the actual sample
 ==B==
 {| class="prettytable" border="1" cellpadding="2" cellspacing="1" style="text-align:right;"
 |- style="text-align:center;"
-! style="text-align:left;width:200px" | Name
-!              | Sample
+! style="text-align:left;width:200px" | სახელი
+!              | ნიმუში
 !              | [[Hex triplet]]
 ! colspan="3" style="border-left-width:medium;" | [[RGB]]
 ! colspan="4" style="border-left-width:medium;" | [[CMYK]]
