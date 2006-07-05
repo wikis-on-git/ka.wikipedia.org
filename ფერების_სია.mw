@@ -2,7 +2,6 @@
 
 ყურადღება მიაქციეთ, რომ [[CMYK]] სიდიდეები ნომინალურია, და რომ არ არსებობს ფიქსირებული კონვერსია RGB-დან CMYK-ზე. ნუ გამოიყენებთ ამ მნიშვნელობებს თუ ბეჭდვისას მაღალი ხარისხის ფერთა დამთხვევა გჭირდებათ.
 
-The actual color values below are correct, but some argue that the actual sample colors displayed are incorrect due to lack of [[gamma correction]].  White shows as white, and black shows as black, but colors in between, especially dark colors, are shown incorrectly[http://xona.com/colorlist/].  For example, 50% gray (half-way between white and black) should be 50% as bright as white, but without gamma correction, it is only 18% the brightness of white on a gamma 2.5 display (0.5<sup>2.5</sup> = ~0.1768), which is the standard gamma value for most CRTs and LCD displays.  (LCDs actually emulated a gamma 2.5, to correlate with more popular CRT displays, as they do not natively have that value.) However, if the purpose of the colors is to show how these color values look on displays rather than in a gamma corrected world, this argument does not apply.
 
 {{ინგინდექსი}}
 ==A==
